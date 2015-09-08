@@ -1,0 +1,1 @@
+Turksat'a demo kapsamýnda geliþtirilmiþ olup log yapýsý kuruma özeldir. Baþka bir kurumda kullanýlmamamktadýr.

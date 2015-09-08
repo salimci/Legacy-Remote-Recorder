@@ -1,0 +1,1 @@
+Meteoroloji Ýþleri GM için geliþtirilmiþtir. Log yapýsý kuruma özel olup baþka bir kurumda kullanýlmamaktadýr.

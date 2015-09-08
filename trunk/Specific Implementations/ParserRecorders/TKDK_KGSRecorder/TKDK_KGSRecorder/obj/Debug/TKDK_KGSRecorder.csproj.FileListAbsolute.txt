@@ -1,0 +1,8 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\bin\Debug\TKDK_KGSRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\bin\Debug\TKDK_KGSRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\obj\Debug\TKDK_KGSRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\TKDK_KGSRecorder\TKDK_KGSRecorder\obj\Debug\TKDK_KGSRecorder.pdb

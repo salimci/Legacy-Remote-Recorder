@@ -1,0 +1,10 @@
+2014-02-06	Serkan ALIMCI	serkan.alimci@natek.com.tr
+
+* Class1.cs is renamed as Nt2008EventLogFileV_2Recorder.cs
+
+* Nt2008EventLogFileV_2Recorder.cs (SetConfigData) : if CustomVar1 contains
+L=<Numeric Lang Id> (e.g. L=1033) langId is set to this number. Previous
+attempt was to split CustomVar1 with '=' and convert second part to langId
+which mostly cause exception
+
+* Nt2008EventLogFileV_2Recorder.cs : RecordSent event is added

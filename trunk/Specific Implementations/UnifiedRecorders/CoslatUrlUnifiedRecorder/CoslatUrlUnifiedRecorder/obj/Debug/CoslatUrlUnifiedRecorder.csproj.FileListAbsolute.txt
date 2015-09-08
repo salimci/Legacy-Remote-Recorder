@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\CoslatUrlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\CoslatUrlUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\obj\Debug\CoslatUrlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\obj\Debug\CoslatUrlUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\obj\Debug\CoslatUrlUnifiedRecorder.csprojResolveAssemblyReference.cache

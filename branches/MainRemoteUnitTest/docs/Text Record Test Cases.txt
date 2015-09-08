@@ -1,0 +1,36 @@
+Text Record Unit Test Cases
+--------------------------------------------------------------------
+        /// Method Name : ToString
+        ///
+        ///Method Description : Return given string to string
+        ///
+        ///Test Scenario : Return RecordText
+        ///
+        ///Known Input :
+        ///
+        ///Expected Output :
+        ///	    *  RecordText = "lorem ipsum"
+--------------------------------------------------------------------
+        /// Method Name : SetValue
+        ///
+        ///Method Description : Set RecordText's value with given paramaeter
+        ///
+        ///Test Scenario : If value is null
+        ///
+        ///Known Input :
+        ///     * value = null
+        ///Expected Output :
+        ///	    *  RecordText = null
+--------------------------------------------------------------------
+        /// Method Name : SetValue
+        ///
+        ///Method Description : Set RecordText's value with given paramaeter
+        ///
+        ///Test Scenario : Check RecordText is equal given parameter
+        ///
+        ///Known Input :
+        ///     * value = "lorem ipsum"
+        ///Expected Output :
+        ///	    *  RecordText = "lorem ipsum"
+--------------------------------------------------------------------
+

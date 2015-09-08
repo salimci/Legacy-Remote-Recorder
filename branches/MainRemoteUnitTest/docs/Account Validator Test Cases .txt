@@ -1,0 +1,106 @@
+Account Validator Unit Test Cases
+--------------------------------------------------------------------------------
+        /// Method Name : ValidateAccount
+        ///
+        ///Method Description : The method validate the account according to the username and password
+        ///
+        ///Test Scenario : Without domain incorrectect userName and Password
+        ///
+        ///Known Input :
+        ///      *  username = "test"
+        ///      *  password = "test"
+        ///      *  error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should null
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name : ValidateAccount
+        ///
+        ///Method Description : The method validate the account according to the username and password
+        ///
+        ///Test Scenario : Method parameter username and password null or empty 
+        ///
+        ///Known Input :
+        ///     * error = null
+        ///     * username = "" or username = null
+        ///     * password = "" or password = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should null
+--------------------------------------------------------------------------------
+        /// Method Name : SplitUserDomain
+        ///
+        ///Method Description :The method split the user domain for "//" 
+        ///
+        ///Test Scenario : User name with empty domain
+        ///
+        ///Known Input :
+        ///     *  username = "TESTDOMAIN\\testUser"
+        ///     *  domain = string.Empty
+        ///
+        ///Expected Output :
+        ///	    * Return domain name
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name : SplitUserDomain
+        ///
+        ///Method Description : The method split the user domain for "//" 
+        ///
+        ///Test Scenario : User name with empty domain
+        ///
+        ///Known Input :
+        ///     *   username = "TESTDOMAIN\\testUser"
+        ///     *   domain = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * Return username
+--------------------------------------------------------------------------------
+        /// Method Name : SplitUserDomain
+        ///
+        ///Method Description : The method split the user domain for "//" 
+        ///
+        ///Test Scenario : Domain name exist but no user name
+        ///
+        ///Known Input :
+        ///     * username = "TESTDOMAIN\\" 
+        ///     * domain = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * Return exception with message "Domain found but no user:[TESTDOMAIN\\"
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name : Decrypt Password
+        ///
+        ///Method Description : The method decrypt the password
+        ///
+        ///Test Scenario : Password and key are empty
+        ///
+        ///Known Input :
+        ///     * password = string.Empty
+        ///     * key = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * Return empty password
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name : Decrypt Password
+        ///
+        ///Method Description : The method decrypt the password
+        ///
+        ///Test Scenario : Password is not nul but key is empty
+        ///
+        ///Known Input :
+        ///     * password = "lorem";
+        ///     * key = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * Return empty password
+        /// 
+--------------------------------------------------------------------------------
+
+
+
+
+
+

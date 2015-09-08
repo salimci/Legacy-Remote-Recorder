@@ -1,0 +1,1 @@
+NtEventLogFile recorder Baþbakanlýk YÖK için geliþtirilmiþ olup ancak dosya okuma hýzýnda iyileþtirmeler yapýlýp Nt2008EventLogFileV_1Recorder ile replace edilmiþtir.

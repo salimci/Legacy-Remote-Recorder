@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\LinuxHistoryRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\LinuxHistoryRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\obj\Release\LinuxHistoryRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\obj\Release\LinuxHistoryRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\obj\Release\LinuxHistoryRecorder.pdb

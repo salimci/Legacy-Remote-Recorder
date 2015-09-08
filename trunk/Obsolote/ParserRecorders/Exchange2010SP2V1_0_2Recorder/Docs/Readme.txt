@@ -1,0 +1,2 @@
+Exchange2010SP2V1_0_3Recorder ile replace edilmiþtir. log okuma ve sýralama fonksiyonlarý 
+Timer kullanýlarak geliþtirilmiþtir ayrýca parse fonksiyonu düzenlenmiþtir. Parser base olarak kullanýlan recorderlarda dosya sonu ve next dosyaya geçmede sorunlar yaþanmaktadýr.

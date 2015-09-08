@@ -1,0 +1,1 @@
+Hacettepe Üniversitesi için geliþtirilmiþ olup log yapýsý üniversiteye özeldir. Baþka bir kurumda kullanýlmamamktadýr.

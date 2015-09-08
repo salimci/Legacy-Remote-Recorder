@@ -1,0 +1,30 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\ApacheAccessUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\ApacheAccessUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Debug\ApacheAccessUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Debug\ApacheAccessUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Debug\ApacheAccessUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\ApacheAccessUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\ApacheAccessUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Debug\ApacheAccessUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Debug\ApacheAccessUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Debug\ApacheAccessUnifiedRecorder.pdb

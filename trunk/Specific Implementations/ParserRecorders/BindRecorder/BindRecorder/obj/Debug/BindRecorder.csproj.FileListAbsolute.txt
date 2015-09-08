@@ -1,0 +1,26 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\BindRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\BindRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\obj\Debug\BindRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\obj\Debug\BindRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\BindRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\BindRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\obj\Debug\BindRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\ParserRecorders\BindRecorder\BindRecorder\obj\Debug\BindRecorder.pdb

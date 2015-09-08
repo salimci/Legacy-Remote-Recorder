@@ -1,0 +1,13 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\Nt2008EventLogFileV_2Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\obj\Release\Nt2008EventLogFileV_2Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\obj\Release\Nt2008EventLogFileV_2Recorder.csprojResolveAssemblyReference.cache

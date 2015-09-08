@@ -1,0 +1,27 @@
+DisposablePattern Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : Dispose
+
+Method Description : Dispose
+
+Test Scenario : If disposing is true
+
+Known Input : 
+	
+Expected Output :
+	
+--------------------------------------------------------------------------------
+
+Method Name : Dispose
+
+Method Description : Dispose
+
+Test Scenario : If disposing is false
+
+Known Input : 
+	
+Expected Output :
+	
+--------------------------------------------------------------------------------

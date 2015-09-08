@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\OracleUnifiedRecorder.dll.config
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\OracleUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\OracleUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\obj\Release\OracleUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\obj\Release\OracleUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\obj\Release\OracleUnifiedRecorder.pdb

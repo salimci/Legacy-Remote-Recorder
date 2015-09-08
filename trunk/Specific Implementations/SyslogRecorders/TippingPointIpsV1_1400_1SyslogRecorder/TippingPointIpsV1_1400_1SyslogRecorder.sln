@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TippingPointIpsV1_1400_1SyslogRecorder", "TippingPointIpsV1_1400_1SyslogRecorder\TippingPointIpsV1_1400_1SyslogRecorder.csproj", "{BE93BBB1-8F22-4B3E-B98E-9BE1A7EE25AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE93BBB1-8F22-4B3E-B98E-9BE1A7EE25AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE93BBB1-8F22-4B3E-B98E-9BE1A7EE25AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE93BBB1-8F22-4B3E-B98E-9BE1A7EE25AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE93BBB1-8F22-4B3E-B98E-9BE1A7EE25AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

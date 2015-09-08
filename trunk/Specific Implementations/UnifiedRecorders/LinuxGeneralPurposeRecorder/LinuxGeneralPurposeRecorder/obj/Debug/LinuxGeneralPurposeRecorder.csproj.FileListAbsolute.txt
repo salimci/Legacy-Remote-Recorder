@@ -1,0 +1,33 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\LinuxGeneralPurposeRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\LinuxGeneralPurposeRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Debug\LinuxGeneralPurposeRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Debug\LinuxGeneralPurposeRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Debug\LinuxGeneralPurposeRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\LinuxGeneralPurposeRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\LinuxGeneralPurposeRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Debug\LinuxGeneralPurposeRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Debug\LinuxGeneralPurposeRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Debug\LinuxGeneralPurposeRecorder.csprojResolveAssemblyReference.cache

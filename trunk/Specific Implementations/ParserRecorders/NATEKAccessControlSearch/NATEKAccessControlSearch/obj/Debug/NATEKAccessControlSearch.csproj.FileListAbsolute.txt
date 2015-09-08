@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\NATEKAccessControlOS_SearchRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\NATEKAccessControlOS_SearchRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\obj\Debug\NATEKAccessControlOS_SearchRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\obj\Debug\NATEKAccessControlOS_SearchRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NATEKAccessControlSearch\NATEKAccessControlSearch\obj\Debug\NATEKAccessControlSearch.csprojResolveAssemblyReference.cache

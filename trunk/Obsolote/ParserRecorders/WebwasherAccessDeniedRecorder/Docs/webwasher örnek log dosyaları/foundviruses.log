@@ -1,0 +1,5 @@
+#src_ip - src_host - auth_user - time_stamp - - "virus_name" - "file_name" - "media_type" - infected_status
+192.168.20.62 - 192.168.20.62 - eucfcu\sgurbuz - [29/Dec/2010:11:09:47 +0200] - - "McAfee: EICAR test file" - "http://www.eicar.org/download/eicar.com" - "application/x-msdos-program" - 403
+192.168.20.62 - 192.168.20.62 - eucfcu\sgurbuz - [29/Dec/2010:11:09:54 +0200] - - "McAfee: EICAR test file" - "http://www.eicar.org/download/eicar_com.zip/eicar.com" - "-" - 403
+192.168.20.62 - 192.168.20.62 - eucfcu\sgurbuz - [29/Dec/2010:11:09:58 +0200] - - "McAfee: EICAR test file" - "http://www.eicar.org/download/eicarcom2.zip/eicar_com.zip/eicar.com" - "-" - 403
+192.168.20.67 - cardexpress.eucfcu.local - EUCFCU\sgurbuz - [29/Dec/2010:11:11:39 +0200] - - "McAfee: EICAR test file" - "http://www.eicar.org/download/eicar.com.txt" - "text/plain" - 403

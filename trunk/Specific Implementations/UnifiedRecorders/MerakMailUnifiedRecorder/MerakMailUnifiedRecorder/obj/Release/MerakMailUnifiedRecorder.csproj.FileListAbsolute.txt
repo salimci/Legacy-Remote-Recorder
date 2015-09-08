@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\MerakMailUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\MerakMailUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\obj\Release\MerakMailUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\obj\Release\MerakMailUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\obj\Release\MerakMailUnifiedRecorder.pdb

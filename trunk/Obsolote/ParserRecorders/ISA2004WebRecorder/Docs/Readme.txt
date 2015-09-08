@@ -1,0 +1,2 @@
+ISA2004WebRecorder, recorder Mamak Bel. geliþtirilmiþ ancak Parser base olarak kullanýlarak geliþtirilmiþ olup dosya sonu ve next dosyaya geçme sýrasýnda 
+sorunlar oluþtuðundan Timer kullanýlarak ISA2004WebV_1_0_0Recorder geliþtirilmiþ ve replace edilmiþtir. Parse yapýsý aynen kalmýþtýr.

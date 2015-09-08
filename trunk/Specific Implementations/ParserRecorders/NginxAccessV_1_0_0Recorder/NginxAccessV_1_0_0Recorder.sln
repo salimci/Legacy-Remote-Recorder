@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NginxAccessV_1_0_0Recorder", "NginxAccessV_1_0_0Recorder\NginxAccessV_1_0_0Recorder.csproj", "{3DA8258B-3E6E-412D-AD1E-5C9D72C7F55E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DA8258B-3E6E-412D-AD1E-5C9D72C7F55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA8258B-3E6E-412D-AD1E-5C9D72C7F55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA8258B-3E6E-412D-AD1E-5C9D72C7F55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA8258B-3E6E-412D-AD1E-5C9D72C7F55E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

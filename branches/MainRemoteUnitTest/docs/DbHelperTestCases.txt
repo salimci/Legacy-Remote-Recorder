@@ -1,0 +1,161 @@
+Db Helper Unit Test Fixture
+---------------------------------------------------------------------------
+        /// Method Name : BeginTransaction
+        ///
+        ///Method Description : The method start the database connection
+        ///
+        ///Test Scenario : If dbconnection and dirty is null
+        ///
+        ///Known Input :
+        ///    * int dirty = null
+        ///    * _con = null
+        ///
+        ///Expected Output :
+        ///    * BeginTransaction() should return
+---------------------------------------------------------------------------
+        /// Method Name : BeginTransaction
+        ///
+        ///Method Description :  The method start the database connection
+        ///
+        ///Test Scenario :  If dbconnection and dirty is not null
+        ///
+        ///Known Input :
+        ///    * int dirty = 10
+        ///    * _con = new SqlConnection("localhost")
+        ///
+        ///Expected Output :
+        ///    * BeginTransaction() should return
+---------------------------------------------------------------------------
+        /// Method Name : GetField
+        ///
+        ///Method Description : The method get the field in data reader
+        ///
+        ///Test Scenario : If all parameters is null
+        ///
+        ///Known Input :
+        ///    *  DbDataReader reader = null;
+        ///    *  const int index = 0;
+        ///    *  object T = string.Empty;
+        ///
+        ///Expected Output :
+        ///    * Null should return
+---------------------------------------------------------------------------
+        /// Method Name : IfDBNull
+        ///
+        ///Method Description : The method check the database is nul or not
+        ///
+        ///Test Scenario : If nullcompare and valu are null
+        ///
+        ///Known Input :
+        ///    *  object nullcompare = null;
+        ///    * object value = "";
+        ///
+        ///Expected Output :
+        ///    * string.Empty should return
+---------------------------------------------------------------------------
+        /// Method Name : IfDBNull
+        ///
+        ///Method Description :  The method check the database is nul or not
+        ///
+        ///Test Scenario : If nullcompare is null and value has a data
+        ///
+        ///Known Input :
+        ///       * object nullcompare = null;
+        ///       * object value = "lorem ipsum";
+        ///
+        ///Expected Output :
+        ///    * lorem ipsum should return
+---------------------------------------------------------------------------
+        /// Method Name : IfDBNull
+        ///
+        ///Method Description :  The method check the database is nul or not
+        ///
+        ///Test Scenario : If nullcompare is null and value has a integer data
+        ///
+        ///Known Input :
+        ///    * nullcompare = null;
+        ///    * value = 10
+        ///
+        ///Expected Output :
+        ///    * 10 should return
+---------------------------------------------------------------------------
+        /// Method Name : IfDBNull
+        ///
+        ///Method Description :  The method check the database is nul or not
+        ///
+        ///Test Scenario : If nullcompare is null and value has a long data
+        ///
+        ///Known Input :
+        ///    * nullcompare = null;
+        ///    * value = 10000000000000000
+        ///
+        ///Expected Output :
+        ///    * 10000000000000000 should return
+---------------------------------------------------------------------------
+        /// Method Name : IfDBNull
+        ///
+        ///Method Description :  The method check the database is nul or not
+        ///
+        ///Test Scenario :  If nullcompare is null and value has a data
+        ///
+        ///Known Input :
+        ///     * object nullcompare = null;
+        ///     * object value = "lorem ipsum";
+        ///
+        ///Expected Output :
+        ///    * "lorem ipsum" should return
+---------------------------------------------------------------------------
+        /// Method Name : IfDBNull
+        ///
+        ///Method Description :  The method check the database is nul or not
+        ///
+        ///Test Scenario : If value is string.Empty
+        ///
+        ///Known Input :
+        ///    * object value = string.Empty;
+        ///
+        ///Expected Output :
+        ///    * string.Empty should return
+---------------------------------------------------------------------------
+        /// Method Name : IfDBNull
+        ///
+        ///Method Description :  The method check the database is nul or not
+        ///
+        ///Test Scenario : If value is string data
+        ///
+        ///Known Input :
+        ///    * object value = "lorem ipsum";
+        ///
+        ///Expected Output :
+        ///    * lorem ipsum should return
+---------------------------------------------------------------------------
+        /// Method Name : AddParameter
+        ///
+        ///Method Description : The methos set the parameters values
+        ///
+        ///Test Scenario : If all parameters is null
+        ///
+        ///Known Input :
+        ///     * DbCommand cmd = null;
+        ///     * string name = null;
+        ///     * const DbType type = DbType.Boolean;
+        ///     * const ParameterDirection direction = ParameterDirection.Input;
+        ///
+        ///Expected Output :
+        ///    * null should return
+---------------------------------------------------------------------------
+        /// Method Name : AddParameter
+        ///
+        ///Method Description : The methos set the parameters values
+        ///
+        ///Test Scenario : If command has data and other parameters are null
+        ///
+        ///Known Input :
+        ///     * DbCommand cmd = new OdbcCommand("lorem");
+        ///     * string name = null;
+        ///     * const DbType type = DbType.Boolean;
+        ///     * const ParameterDirection direction = ParameterDirection.Input; 
+        ///
+        ///Expected Output :
+        ///    * Not null should return
+---------------------------------------------------------------------------

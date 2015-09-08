@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\WindowsShareLogUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\WindowsShareLogUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\obj\Debug\WindowsShareLogUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\obj\Debug\WindowsShareLogUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\obj\Debug\WindowsShareLogUnifiedRecorder.pdb

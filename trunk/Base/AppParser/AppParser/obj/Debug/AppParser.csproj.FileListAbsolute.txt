@@ -1,0 +1,24 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\obj\Debug\AppParser.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\obj\Debug\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\obj\Debug\AppParser.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\AppParser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\obj\Debug\AppParser.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\obj\Debug\AppParser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\AppParser\AppParser\obj\Debug\AppParser.pdb

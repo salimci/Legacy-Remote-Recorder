@@ -1,0 +1,38 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\McafeeGatewayUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\McafeeGatewayUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\obj\Debug\McafeeGatewayUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\obj\Debug\McafeeGatewayUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\obj\Debug\McafeeGatewayUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\McafeeGatewayUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\McafeeGatewayUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\obj\Debug\McafeeGatewayUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\obj\Debug\McafeeGatewayUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\obj\Debug\McafeeGatewayUnifiedRecorder.csprojResolveAssemblyReference.cache

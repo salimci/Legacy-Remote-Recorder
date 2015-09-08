@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IBekciFWRecorder">
+</Property><Property Name="Solution File" Value="D:\Recorders_26122012\ParserRecorder\IBekciFWRecorder\IBekciFWRecorder.sln">
+</Property><Property Name="User Options File" Value="D:\Recorders_26122012\ParserRecorder\IBekciFWRecorder\IBekciFWRecorder.suo">
+</Property><Property Name="Date" Value="29 Ağustos 2013 Perşembe">
+</Property><Property Name="Time" Value="11:28">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="IBekciFWRecorder.sln" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciFWRecorder\Backup\IBekciFWRecorder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="IBekciFWRecorder.suo" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciFWRecorder\Backup\IBekciFWRecorder.suo">
+</Event><Event ErrorLevel="0" Project="IBekciFWRecorder" Source="IBekciFWRecorder\IBekciFWRecorder.csproj" Description="Project file successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciFWRecorder\Backup\IBekciFWRecorder\IBekciFWRecorder.csproj">
+</Event><Event ErrorLevel="0" Project="IBekciFWRecorder" Source="IBekciFWRecorder\IBekciFWRecorder.cs" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciFWRecorder\Backup\IBekciFWRecorder\IBekciFWRecorder.cs">
+</Event><Event ErrorLevel="0" Project="IBekciFWRecorder" Source="IBekciFWRecorder\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciFWRecorder\Backup\IBekciFWRecorder\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="IBekciFWRecorder" Source="IBekciFWRecorder\IBekciFWRecorder.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IBekciFWRecorder" Source="IBekciFWRecorder\IBekciFWRecorder.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="IBekciFWRecorder.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="IBekciFWRecorder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IBekciFWRecorder" Source="IBekciFWRecorder\IBekciFWRecorder.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

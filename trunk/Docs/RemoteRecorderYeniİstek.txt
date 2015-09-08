@@ -1,0 +1,178 @@
+YENÝ REMOTERECORDER ÝSTENDÝÐÝNDE AR-GE TARAFINDAN YAPILMASI GEREKENLER.
+========================================================================							
+
+1. Öncelikli olarak RemoteRecorder Geliþtirme Formunun 
+eksiksiz olarak doldurulup Ar-Ge'ye SD yada mail yoluyla 
+ulaþtýrýlmasý gerekmektedir. RecorderGeliþtirme Formu 
+olmayan ve mail yada SD kaydý açýlmamýþ olan recorder 
+istekleri dikkate alýnmamalýdýr.
+
+2. RemoteRecorder isteðinde Recorder tipi mutlaka 
+belirtilmek zorundadýr. Recorder'ýn tipine göre, 
+	i.	Eðer DataBase recorder 
+ise ve müþterinin izni doðrultusunda Database yada 
+tablo scriptleri ayrýca istenmelidir. 10.6.3.56 makinesi 
+üzerindeki SQL server üzerinde gerekli test 	iþlemleri 
+gerçekleþtirilebilir.
+	ii.	Eðer File recorder ise 
+Recorder istek formunun yanýnda mutlaka okunacak loglardan 
+uygun boyutta olan örnek log dosyalarý istenmelidir. 
+Yine 10.6.3.56 makinesinde C:\LOGS\ dizini altýnda 
+uygun isimle klasörlenip recorder tamamlandýktan sonra 
+test yapýlabilir.
+	iii.Eðer Syslog recorder ise örnek 
+log, SyslogRecorder ile Description alanýndan saðlanabilir. 
+
+3. RemoteRecorder yazýlýrken uygun karakter encodingi 
+seçilmelidir. Eðer mümkün ise dýþarýdan parametre 
+alabilecek bir yapýda olmasý gerekmektedir.
+
+TEST SÜRECÝ
+===========
+
+1. FileRecorder için.
+RemoteRecorder yazýlýrken dosyalarýn hem lokal hemde remote 
+makineden okunabilecek þekilde tasarlanýp recorderýn yazýlmasý 
+gerekmektedir. Bu durumda testi yaparken örnek dosya 
+hem 10.6.3.56 makinesi üzerine hemde 10.6.3.200 makinesi 
+üzerine konulup loglara eriþimin olduðu test edilmelidir. 
+Bu aþamadan sonra dosyalarýn doðru olarak sýralandýðýnýn 
+test edilmesi gerekmektedir. Dosyalar doðru olarak 
+sýralandýktan sonra örnek loglarýn RemoteRecorder 
+istek formundaki tabloya göre doðru bir þekilde ilgili 
+kolonlara map edilip edilmediðinin, kontrolu hem loglardan 
+hemde test tablosundaki datalar incelenerek saðlanmalýdýr. 
+En son olarak recorder dosya atlayýp atlamadýðý, belli 
+bir dosyayý okurken servis restart edilip dosya okuma 
+iþlemine kaldýðý pozisyondan devam edip etmediði kontrol 
+edilmelidir. Ayrýca RemoteRecorder tablosundaki lastline, 
+lastposition, lastkeywords, lastRecDate ve lastFile'ýn 
+doðru olarak update edilip edilmediði kontrol edilmelidir. 
+(Bazý durumlarda herþey doðru olmasýna raðmen lastposition 
+ve lastrecdate gibi alanlar update edilmemektedir. 
+Bu durumda servis yetkilisi ile irtibata geçip kurulan 
+servslerin kontrolunün yapýlmasý gerekmektedir.) Ayrýca 
+RemoteRecorder servis logunun ve Event Viewer'ýn kontrol 
+edilmesi gerekmektedir. 
+
+ÖZETLE 
+======
+
+a. Dosyalar lokal ve remote olarak okunabiliyor mu?
+b. Dosyalar istenildiði gibi sýralanmýþ mý?
+c. Loglar 
+ilgili kolonlara istenildiði gibi map edilmiþmi?
+d. Recorder Logu ve Recorderýn insert ettiði datalar 
+istenildiði gibi mi?
+e. Recorder dosya atlayabiliyor mu?
+f. Recorder servisi restart edildiðinde ve servis 
+task manager'dan kill edildiðinde recorder kaldýðý 
+yerden devam edebiliyor mu?
+g. RemoteRecorder tablosundaki 
+alanlar gerektiði gibi update oluyor mu?
+h. RemoteRecorder servis ve Event Viewer loglarý 
+kontrol edildi mi?
+
+Bu aþamadan sonra recorder RemoteRecorder isteðinde bulunan 
+servis yetkilisine gönderilebilir.
+
+2. Database Recorder için.
+
+Database Recorder yazýlmadan önce 
+eðer Oracle Databaseinden log alýnacaksa Oracle'a 
+uygun bir OracleClient'in (32, 64Bit ve 10g yada 11g 
+için uyugun olan Oracle Client) yüklenmesi gerekir. 
+Bu kurulum Servis yetkilisi tarafýndan yapýlmalýdýr. 
+Gerekli döküman SVN'de mevcuttur.
+Database recorder 
+yazýlmadan önce(eðer mümkün ise) müþteri tarafýndan 
+gelen database yada tablo scriptleri 10.6.3.56 makinesindeki 
+SQL server üzerinde oluþturulup tablolardaki örnek 
+datalar oluþturulan database yada tablolara insert 
+edilmelidir. Database recorderda genellikle tek tablo 
+üzerinden log takibi yapýlmaktadýr. Bu durumda örnek 
+data, tablo ve database
+scriptlerine çok gerek olmayabilir. 
+Ancak bazý durumlarda birden fazla tablo yada database 
+üzerinden log takip etmek gerekebilir, böyle durumlarda 
+týpký file iþler gibi tablolar da iþlenmeli sonrasýnda 
+ise eðer gerekiyorsa bir sonraki database'e geçip 
+logun iþlenmesine devam edilmelidir. Bu gibi durumlarda 
+örnek data, tablo yada database scriptlerine ihtiyaç 
+vardýr. Database Recorder yazýlýrken yukarýdaki hususlara 
+dikkat etmek gereklidir. Ayrýca RemoteRecorder istek 
+formunda belirtilmemiþ ise bile tablonun truncate 
+edilmesi yada belirli periyotlarda tablodan kayýtlarýn 
+silinmesi gibi durumlarýn oluþup oluþmadýðýnýn bilgisi 
+servis yetkilisi tarafýndan istenmelidir. Recorder 
+tamamlandýktan sonra önce lokal database üzerindeki 
+testler gerçelþtirilmeli sonra da ayný test database'i 
+farklý uzak bir host'a eklenip test edilmelidir. Database 
+recorder'da dikkat edilmesi gereken bir diðer husus 
+ise mutlaka log takibi yapýlacak olan tablonun benzersiz 
+bir kolona sahip olmasý gerekir. Bu bir id yada tarih 
+kolonu olabilir ve loglarýn o kolona göre takip edilemsi 
+ve o id yada tarih deðerinin LastPosition olarak RemoteRecorder 
+tablosuna update edilmesi gerekmektedir. 
+Ayrýca 
+yine ayný þekilde test sürecinde servis restart edildikten 
+sonra en son iþlenen kayýttan devam edip edilmediði 
+kontrol edilmelidir. 
+
+ÖZETLE 
+======
+
+a. Database'e lokal yada remote olarak eriþilebiliyor mu?
+b. Tablodan kayýtlar doðru olarak id takibi yapýlabiliyor mu?
+c. Loglar ilgili kolonlara istenildiði gibi map edilmiþmi?
+d. Recorder Logu ve Recorderýn insert ettiði datalar 
+istenildiði gibi mi?
+e. Eðer ihtyiyaç var ise recorder 
+sýradaki tablo yada database'e geçebiliyor mu?
+f. Recorder servisi restart edildiðinde ve servis task 
+manager'dan kill edildiðinde recorder kaldýðý yerden 
+devam edebiliyor mu?
+g. RemoteRecorder tablosundaki 
+alanlar gerektiði gibi update oluyor mu?
+h. RemoteRecorder 
+servis ve Event Viewer loglarý kontrol edildi mi?
+
+Bu aþamadan sonra recorder RemoteRecorder isteðinde bulunan 
+servis yetkilisine gönderilebilir.
+
+3. SyslogRecorder için
+
+Syslog recorder diðer recorder tiplerinden farklý 
+olarak herhangi bir file yada database takibi yapmamaktadýr. 
+Bu recorder da önemli olan tek þey dinlenen porttan 
+datalarýn Türkçe karakter encodingine dikkat edilerek 
+çekilmesi RemoteRecorder Ýstek formundaki tabloya 
+göre ilgili kolonlara istenildiði gibi map edilip 
+edilmemesidir. SyslogRecorder.dll dinlenilen porttan 
+gelen datalarý hiçbirþey yapmadan istenilen tablodaki 
+DESCRIPTION kolonuna insert eder. Servis yetkilisinden 
+bu þekilde log almasý ve alýnan loglarý bir Excel 
+dokümaný olarak Ar-Ge'ye iletmesi istenebilir. Böylece 
+genel ham loglar 10.6.3.56 makinesine istenilen herhangi 
+bir porttan gönderilip test edilebilir. Ayrýca "https://10.6.2.15:8443/svn/Recorders2011/trunk/Dev" 
+altýndaki "SendSyslogUdpPacket" uygulamasý ile servis 
+yetkilisinden alýnan ham log örneði 10.6.3.56 makinesine 
+UDP portundan data gönderilmesini saðlar. Uygulama 
+ile sýrasýyla gönderilecek olan ham log dosyasý, logun 
+gönderileceði makinenin ip bilgisi ve portu belirtilir 
+ve eðer istenirse her logdan sonra belli bir süre 
+bekletilmek istenirse SleepTime deðeri girilebilir. 
+Bu þekilde Syslog recorder'ý test edebilecek bir ortam 
+simule edilmiþ olur.
+
+ÖZETLE
+======
+
+a. Dinlenen portdan gelen datalarýn formatý istenildiði gibi mi?
+b. Loglar ilgili kolonlara istenildiði gibi map edilmiþmi?
+c. Recorder Logu ve Recorderýn insert ettiði datalar 
+istenildiði gibi mi?
+d. RemoteRecorder tablosundaki 
+alanlar gerektiði gibi update oluyor mu?
+e. RemoteRecorder 
+servis ve Event Viewer loglarý kontrol edildi mi?

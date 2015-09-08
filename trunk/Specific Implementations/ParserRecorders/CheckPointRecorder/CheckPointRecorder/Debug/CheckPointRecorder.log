@@ -1,0 +1,84 @@
+﻿Build started 12/16/2014 6:38:25 PM.
+     1>Project "O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\CheckPointRecorder\CheckPointRecorder\CheckPointRecorder.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\CheckPointRecorder.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\CheckPointRecorder.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D OPSEC_DLL_IMPORT /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CheckPointRecorder.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /wd4248 /FU"O:\Projects\Dev\Remote Recorders\trunk\Libraries\Base\CustomTools.dll" /FU"O:\Projects\Dev\Remote Recorders\trunk\Libraries\Base\Database.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceProcess.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(203): warning C4101: 'ex' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(866): warning C4101: 'ue' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1554): warning C4101: 're' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1561): warning C4101: 'e1' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1583): warning C4101: 're' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1590): warning C4101: 'e1' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1614): warning C4101: 're' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1620): warning C4101: 'e1' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1628): warning C4101: 'te' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(1742): warning C4101: 'ae' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2036): warning C4101: 'we' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2053): warning C4101: 'wlen' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2064): warning C4101: 'we' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2073): warning C4101: 'fe' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2085): warning C4101: 'swe' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2112): warning C4101: 'we' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2119): warning C4101: 'ce' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2201): warning C4101: 'accountFileId' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2384): warning C4101: 'filename_ex' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2386): warning C4101: 'filename_buff' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2385): warning C4101: 'actual_filenameLen' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2591): warning C4101: 'se' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2596): warning C4101: 'ce' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2603): warning C4101: 'se' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2609): warning C4101: 'ee' : unreferenced local variable
+     1>o:\projects\dev\remote recorders\trunk\specific implementations\parserrecorders\checkpointrecorder\checkpointrecorder\CheckPointRecorder.h(2866): warning C4101: 'le' : unreferenced local variable
+     1>stdafx.cpp(25): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(245) : see declaration of 'strcmpi'
+     1>stdafx.cpp(31): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277) : see declaration of 'gets'
+     1>stdafx.cpp(32): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(245) : see declaration of 'strcmpi'
+     1>stdafx.cpp(35): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277) : see declaration of 'gets'
+     1>stdafx.cpp(38): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277) : see declaration of 'gets'
+     1>stdafx.cpp(40): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(245) : see declaration of 'strcmpi'
+     1>stdafx.cpp(42): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(245) : see declaration of 'strcmpi'
+     1>stdafx.cpp(44): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>stdafx.cpp(52): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D OPSEC_DLL_IMPORT /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CheckPointRecorder.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /wd4248 /FU"O:\Projects\Dev\Remote Recorders\trunk\Libraries\Base\CustomTools.dll" /FU"O:\Projects\Dev\Remote Recorders\trunk\Libraries\Base\Database.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceProcess.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp CheckPointRecorder.cpp Lea2RecField.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         CheckPointRecorder.cpp
+         Lea2RecField.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D OPSEC_DLL_IMPORT /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /wd4248 /analyze- /errorReport:prompt "C:\Users\serkan.alimci\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\CheckPointRecorder\Debug\CheckPointRecorder.exe) does not match the Linker's OutputFile property value (O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\CheckPointRecorder\CheckPointRecorder\bin\Debug\CheckPointRecorder.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\CheckPointRecorder.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:lib\release.static "lib\debug.dynamic\*.lib" wsock32.lib advapi32.lib ole32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CheckPointRecorder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\CheckPointRecorder\Debug\CheckPointRecorder.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\CheckPointRecorder.obj
+         Debug\Lea2RecField.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\CheckPointRecorder\CheckPointRecorder\CheckPointRecorder.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.83

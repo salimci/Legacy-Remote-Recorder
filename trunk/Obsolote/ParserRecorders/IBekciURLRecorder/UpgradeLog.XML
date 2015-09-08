@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IBekciURLRecorder">
+</Property><Property Name="Solution File" Value="D:\Recorders_26122012\ParserRecorder\IBekciURLRecorder\IBekciURLRecorder.sln">
+</Property><Property Name="User Options File" Value="D:\Recorders_26122012\ParserRecorder\IBekciURLRecorder\IBekciURLRecorder.suo">
+</Property><Property Name="Date" Value="17 Şubat 2013 Pazar">
+</Property><Property Name="Time" Value="13:17">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="IBekciURLRecorder.sln" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciURLRecorder\Backup\IBekciURLRecorder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="IBekciURLRecorder.suo" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciURLRecorder\Backup\IBekciURLRecorder.suo">
+</Event><Event ErrorLevel="0" Project="IBekciURLRecorder" Source="IBekciURLRecorder\IBekciURLRecorder.csproj" Description="Project file successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciURLRecorder\Backup\IBekciURLRecorder\IBekciURLRecorder.csproj">
+</Event><Event ErrorLevel="0" Project="IBekciURLRecorder" Source="IBekciURLRecorder\IBekciURLRecorder.cs" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciURLRecorder\Backup\IBekciURLRecorder\IBekciURLRecorder.cs">
+</Event><Event ErrorLevel="0" Project="IBekciURLRecorder" Source="IBekciURLRecorder\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Recorders_26122012\ParserRecorder\IBekciURLRecorder\Backup\IBekciURLRecorder\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="IBekciURLRecorder" Source="IBekciURLRecorder\IBekciURLRecorder.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IBekciURLRecorder" Source="IBekciURLRecorder\IBekciURLRecorder.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="IBekciURLRecorder.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="IBekciURLRecorder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IBekciURLRecorder" Source="IBekciURLRecorder\IBekciURLRecorder.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,357 @@
+Linux History Unified Recorder Unit Test Cases
+----------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = null 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+----------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is not null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = 2014-09-08 14:33:58
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * Input date have been converted
+----------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is string.empty
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = string.empty 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return should string.empty 
+----------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        ///
+        ///Method Description : Convert to the input date 
+        ///
+        ///Test Scenario : If date format is wrong
+        ///
+        ///Known Input :
+        ///     * rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {"09/09/14 2:55:PM"} 
+        ///		* data = null
+        ///
+        ///Expected Output :
+        ///     * return String Empty
+----------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is not the given format
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {"2014 09 10", "14:33:58"} 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+----------------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : The method check is there a header
+        ///
+        ///Test Scenario : If context.HeaderInfo is null
+        ///
+        ///Known Input :
+        ///    * TerminalRecorderContext context = null
+        ///    * error = null
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+----------------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : The method check is there a header
+        ///
+        ///Test Scenario : If context is not null
+        ///
+        ///Known Input :
+        ///    * context.HeaderInfo = DataMappingInfo
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+----------------------------------------------------------------------------
+        /// Method Name : GetHeaderText
+        ///
+        ///Method Description : The method get the header text
+        ///
+        ///Test Scenario : If context is null
+        ///
+        ///Known Input :
+        ///    *  TerminalRecorderContext context = null
+        ///
+        ///Expected Output :
+        ///    * null should return
+----------------------------------------------------------------------------
+        /// Method Name : PrepareKeywords
+        ///
+        ///Method Description : The method set the keyword
+        ///
+        ///Test Scenario : If context is null
+        ///
+        ///Known Input :
+        ///    * (syslogContext)context = null
+        ///    * buffer = null
+        ///
+        ///Expected Output :
+        ///    * null should return
+----------------------------------------------------------------------------
+        /// Method Name : PrepareKeywords
+        ///
+        ///Method Description : The method set the keyword
+        ///
+        ///Test Scenario : If buffer is not null
+        ///
+        ///Known Input :
+        ///    *  TerminalRecorderContext context = null
+        ///    * buffer = "lorem ipsum"
+        ///
+        ///Expected Output :
+        ///    * null should return
+----------------------------------------------------------------------------
+        /// Method Name : OnBeforeSetData
+        ///
+        ///Method Description : The method set the value record in context
+        ///
+        ///Test Scenario : If context is null
+        ///
+        ///Known Input :
+        ///    * (TerminalRecorderContext)context = null
+        ///
+        ///Expected Output :
+        ///    * null should return
+----------------------------------------------------------------------------
+        /// Method Name : OnBeforeSetData
+        ///
+        ///Method Description : The method set the value record in context
+        ///
+        ///Test Scenario : If context is not null
+        ///
+        ///Known Input :
+        ///    * TerminalRecorderContext context = null
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : The method set input text type
+        ///
+        ///Test Scenario : If context is null
+        ///
+        ///Known Input :
+        ///    * TerminalRecorderContext context = null;
+        ///    * Exception e = null;
+        ///
+        ///Expected Output :
+        ///    * RecortInputType.Error should return
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : The method set input text type
+        ///
+        ///Test Scenario : If context is not null
+        ///
+        ///Known Input :
+        ///    * TerminalRecorderContext context 
+        ///    * Exception e = null;
+        ///
+        ///Expected Output :
+        ///    * RecortInputType.Error should return
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : The method set input text type
+        ///
+        ///Test Scenario : If the context.waitbegin is true, Error is null
+        ///
+        ///Known Input :
+        ///    * LinuxHistoryContext context 
+        ///    * Exception e = null;
+        ///
+        ///Expected Output :
+        ///    * RecortInputType.Comment should return
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : The method set input text type
+        ///
+        ///Test Scenario : If the context.waitbegin is false, Error is null
+        ///
+        ///Known Input :
+        ///    * LinuxHistoryContext context 
+        ///    * Exception e = null;
+        ///
+        ///Expected Output :
+        ///    * RecortInputType.Comment should return
+----------------------------------------------------------------------------
+
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : The method set input text type
+        ///
+        ///Test Scenario : If the context.InpurRecord has a string value,Context.WaitBegin false, Error is null
+        ///
+        ///Known Input :
+        ///    * LinuxHistoryContext context 
+        ///    * Exception e = null;
+        ///
+        ///Expected Output :
+        ///    * RecortInputType.Record should return
+----------------------------------------------------------------------------
+
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : The method set input text type
+        ///
+        ///Test Scenario : If the context.InpurRecord has a integer value,Context.WaitBegin true, Error is null
+        ///
+        ///Known Input :
+        ///    * LinuxHistoryContext context 
+        ///    * Exception e = null;
+        ///
+        ///Expected Output :
+        ///    * RecortInputType.Comment should return
+----------------------------------------------------------------------------
+
+        /// Method Name : GetInputName
+        ///
+        ///Method Description : The method get input name
+        ///
+        ///Test Scenario : If the context is null 
+        ///
+        ///Known Input :
+        ///    * LinuxHistoryContext context = null
+        ///
+        ///Expected Output :
+        ///    * LinuxHistory should return
+
+----------------------------------------------------------------------------
+
+        /// Method Name : GetInputName
+        ///
+        ///Method Description : The method get input name
+        ///
+        ///Test Scenario : If the context is not null 
+        ///
+        ///Known Input :
+        ///    * LinuxHistoryContext context 
+        ///
+        ///Expected Output :
+        ///    * LinuxHistory should return
+
+----------------------------------------------------------------------------
+
+        /// Method Name : OnArgParsed
+        ///
+        ///Method Description : The method parsed according to the keyword
+        ///
+        ///Test Scenario :  Given  different value to keyword
+        ///
+        ///Known Input :
+        ///           * string keyword,
+        ///           * bool quotedKeyword,
+        ///           * string value,
+        ///           * bool quotedValue,
+        ///           * int touchCount,
+        ///           * Exception error
+        ///
+        ///Expected Output :
+        ///     * return true
+
+----------------------------------------------------------------------------
+
+        /// Method Name : Text2Header
+        ///
+        ///Method Description : The method convert text to header
+        ///
+        ///Test Scenario : If the context is null 
+        ///
+        ///Known Input :
+        ///    * RecorderContext ctxFile
+        ///    * string headerTex = null
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+
+----------------------------------------------------------------------------
+
+        /// Method Name : Text2Header
+        ///
+        ///Method Description : The method convert text to header
+        ///
+        ///Test Scenario : If the context is not null 
+        ///
+        ///Known Input :
+        ///    * RecorderContext ctxFile = new LinuxHistoryContext()
+        ///    * string headerTex = null
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+
+----------------------------------------------------------------------------
+
+        /// Method Name : InputText2RecordField
+        ///
+        ///Method Description : The method convert input text to record field
+        ///
+        ///Test Scenario : If the context is null 
+        ///
+        ///Known Input :
+        ///    * RecorderContext context = null
+        ///    * string[] fields = null
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Skip should return
+
+----------------------------------------------------------------------------
+
+        /// Method Name : InputText2RecordField
+        ///
+        ///Method Description : The method convert input text to record field
+        ///
+        ///Test Scenario : If the context is not null 
+        ///
+        ///Known Input :
+        ///    * RecorderContext ctxFile = new LinuxHistoryContext()
+        ///    * string[] fields = null
+        ///
+        ///Expected Output :
+        ///    *  throw Exception "Context is not LinuxHistoryContext or null" should return
+
+----------------------------------------------------------------------------
+
+

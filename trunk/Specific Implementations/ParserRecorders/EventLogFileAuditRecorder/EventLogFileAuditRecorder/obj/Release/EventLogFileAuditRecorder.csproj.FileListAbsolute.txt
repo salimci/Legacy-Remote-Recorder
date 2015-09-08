@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\EventLogFileAuditRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\obj\Release\EventLogFileAuditRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\obj\Release\EventLogFileAuditRecorder.dll

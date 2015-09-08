@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30216F69-8F90-47B7-BC9A-E086EF12E0B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Natek.Recorders.Remote.Test</RootNamespace>
+    <AssemblyName>RecorderUnitTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\trunk\Libraries\Base\CustomTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\trunk\Libraries\Base\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="AccountValidatorUnitTestFixture.cs" />
+    <Compile Include="ArrayHelperUnitTestFixture.cs" />
+    <Compile Include="BufferedLineReaderUnitTestFixture.cs" />
+    <Compile Include="BufferedSteamReaderUnitTestFixture.cs" />
+    <Compile Include="ConfigHelperUnitTestFixture.cs" />
+    <Compile Include="CyberroamUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="DateCompareHelperUnitTestFixture.cs" />
+    <Compile Include="ExchangeUnifiedRecorderUnitTest.cs" />
+    <Compile Include="Ftp2012UnifiedRecorderUnitTest.cs" />
+    <Compile Include="HttpHelperUnitTestFixture.cs" />
+    <Compile Include="IisFtpUnifiedRecorderUnitTest.cs" />
+    <Compile Include="IisUnifiedRecorderUnitTest.cs" />
+    <Compile Include="IisUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="JuniperSslVpnUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="JuniperSyslogV6UnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="MappedDataHelperUnitTestFixture.cs" />
+    <Compile Include="McafeeIpsUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="MsFirewallUnifiedRecorderUnitTest.cs" />
+    <Compile Include="MssqlErrorUnifiedRecorderUnitTest.cs" />
+    <Compile Include="NatekAccessControlUnifiedRecorderUnitTest.cs" />
+    <Compile Include="NetscalerUnifiedRecorderUnitTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConstraintCollectionUnitTestFixture.cs" />
+    <Compile Include="RecWrapperUnitTestFixture.cs" />
+    <Compile Include="SquidSyslogUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="StreamExpectUnitTestFixture.cs" />
+    <Compile Include="TimestampProviderUnitTestFixture.cs" />
+    <Compile Include="TippingPointIpsRecorderUnitTestFixture.cs" />
+    <Compile Include="TrendMicroSafeSyncUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="WatchGuardFirewallUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="WatchGuardUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="WebsenseDlpUnifiedRecorderUnitTestFixture.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\trunk\Base\AppParser\AppParser\AppParser.csproj">
+      <Project>{3a5301df-54f2-4256-8a7c-19145774fd8f}</Project>
+      <Name>AppParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Base\Helpers\Helpers\Helpers.csproj">
+      <Project>{98b9acd5-1ca2-4a5a-8f78-bf9d846b11f0}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Base\RecorderBase\RecorderBase\RecorderBase.csproj">
+      <Project>{ed8840d6-1f00-4c0f-af29-7bfe2eff027b}</Project>
+      <Name>RecorderBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\FortigateSyslogRecorder.csproj">
+      <Project>{8e185685-e5ed-4cc8-b709-963ba4005d82}</Project>
+      <Name>FortigateSyslogRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder.csproj">
+      <Project>{ef120641-7bc4-4a33-a30c-52d33f91534c}</Project>
+      <Name>FortigateUnifiedSyslogRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder.csproj">
+      <Project>{e4eea3e1-d5ed-4e9a-aa29-6f2d9506feaf}</Project>
+      <Name>ApacheAccessUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder\CoslatUrlUnifiedRecorder.csproj">
+      <Project>{44a7902f-960e-4ad3-9fb9-2a60dc6ead64}</Project>
+      <Name>CoslatUrlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder.csproj">
+      <Project>{01e6e7dd-7748-423f-ae07-02127da0f9bf}</Project>
+      <Name>CryptTechUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\CyberroamUnifiedRecorder\CyberroamUnifiedRecorder\CyberroamUnifiedRecorder.csproj">
+      <Project>{dedfa17e-1af9-4d0d-83bd-809cfabbef05}</Project>
+      <Name>CyberroamUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\DhcpUnifiedRecorder\DhcpUnifiedRecorder\DhcpUnifiedRecorder.csproj">
+      <Project>{12c56d1b-69a6-4240-889a-620078393196}</Project>
+      <Name>DhcpUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder.csproj">
+      <Project>{04090255-cda1-4abb-a1e0-e1cd9bea8e3e}</Project>
+      <Name>EmcStorageRepUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder.csproj">
+      <Project>{a1e32dad-b98a-4873-bd86-2d2de96b5873}</Project>
+      <Name>ExchangeUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\FTP2012UnifiedRecorder\Ftp2012UnifiedRecorder\Ftp2012UnifiedRecorder.csproj">
+      <Project>{9e17261d-c315-4fe3-8951-62540df195ab}</Project>
+      <Name>Ftp2012UnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder.csproj">
+      <Project>{c9b3ad3e-4e82-44ab-951c-088f4b07af4e}</Project>
+      <Name>IisFtpUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\IisUnifiedRecorder\IisUnifiedRecorder\IisUnifiedRecorder.csproj">
+      <Project>{eb4e3cd3-e98c-4b7d-8a71-425bcd86e7b8}</Project>
+      <Name>IisUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder.csproj">
+      <Project>{7cf554a0-d0fb-4505-ab39-4bd792cc2b70}</Project>
+      <Name>JuniperSslVpnUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder.csproj">
+      <Project>{f1df5a48-8ae5-4300-8b0f-931ebf4342fb}</Project>
+      <Name>JuniperSyslogV6UnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LabrisAdministrativeUnifiedRecorder\LabrisAdministrativeUnifiedRecorder\LabrisAdministrativeUnifiedRecorder.csproj">
+      <Project>{d9846595-f1af-478b-b1e7-42ec930fb918}</Project>
+      <Name>LabrisAdministrativeUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder.csproj">
+      <Project>{5ae55966-9a22-4a1b-afed-720d75c9c113}</Project>
+      <Name>LinuxGeneralPurposeRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LinuxHistoryRecorder\LinuxHistoryRecorder\LinuxHistoryRecorder.csproj">
+      <Project>{6ab1867a-132b-40b9-864d-4a814ae5422e}</Project>
+      <Name>LinuxHistoryRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder.csproj">
+      <Project>{5abe3841-72b4-4a15-b23c-6050fdc57a1c}</Project>
+      <Name>McAfeeIpsUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder\MerakMailUnifiedRecorder.csproj">
+      <Project>{d5f48cb4-4d29-4b90-873c-4296315efd40}</Project>
+      <Name>MerakMailUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\MsfirewallUnifiedRecorder\MsfirewallUnifiedRecorder\MsfirewallUnifiedRecorder.csproj">
+      <Project>{1bdcbc8c-1a7b-43b9-8b0e-2de3fde0dce3}</Project>
+      <Name>MsfirewallUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder.csproj">
+      <Project>{a99c518c-1612-445e-bb74-2ca330d6da2c}</Project>
+      <Name>MssqlErrorUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder.csproj">
+      <Project>{b01e4861-3bab-4a9e-8bd6-71873ee4527e}</Project>
+      <Name>MsSqlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\MysqlUnifiedRecorder\MysqlUnifiedRecorder\MysqlUnifiedRecorder.csproj">
+      <Project>{fc315568-2df2-46d0-aa5f-6bdffd6bb0c0}</Project>
+      <Name>MysqlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\NatekAccessControlUnifiedRecorder\NatekAccessControlUnifiedRecorder\NatekAccessControlUnifiedRecorder.csproj">
+      <Project>{5bd294dd-992b-4ebc-b85a-80b8b90057ae}</Project>
+      <Name>NatekAccessControlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder.csproj">
+      <Project>{6c51207c-70ed-43ec-8307-5121f37c3a17}</Project>
+      <Name>NetscalerUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\NginxAccessUnifiedRecorder\NginxAccessUnifiedRecorder\NginxAccessUnifiedRecorder.csproj">
+      <Project>{6e4a3fbd-95c6-431e-8947-357dc8d40fc1}</Project>
+      <Name>NginxAccessUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder.csproj">
+      <Project>{8c77e177-c0a2-43bb-a683-80d753180d68}</Project>
+      <Name>NginxErrorUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\OracleUnifiedRecorder.csproj">
+      <Project>{e6349734-0a0e-4adf-9c29-d5a72e13d982}</Project>
+      <Name>OracleUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder.csproj">
+      <Project>{beb38dfc-3cbb-4ea9-aa37-4db9463709ba}</Project>
+      <Name>PostgreSqlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder.csproj">
+      <Project>{10960259-58f7-4bab-ae3c-4530b4476f62}</Project>
+      <Name>SquidSyslogUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\SymantecBrightmailUnifiedRecorder\SymantecBrightmailUnifiedRecorder\SymantecBrightmailUnifiedRecorder.csproj">
+      <Project>{c87f79f0-87b8-47dc-a23f-2dfb2523977c}</Project>
+      <Name>SymantecBrightmailUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\TippingPointIPSRecorder.csproj">
+      <Project>{2fdefbdd-456b-412c-9562-89467980dfb6}</Project>
+      <Name>TippingPointIPSRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\TrendMicroSafeSyncUnifiedRecorder\TrendMicroSafeSyncUnifiedRecorder\TrendMicroSafeSyncUnifiedRecorder.csproj">
+      <Project>{a9ab285b-eb4b-4c26-b50a-adfe3363469e}</Project>
+      <Name>TrendMicroSafeSyncUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder.csproj">
+      <Project>{b4d184d4-3fde-4be2-afc9-d13267326f92}</Project>
+      <Name>TrendMicroUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUrlUnifiedRecorder\TrendMicroUrlUnifiedRecorder\TrendMicroUrlUnifiedRecorder.csproj">
+      <Project>{18481434-796e-4965-b756-77dfa0e78497}</Project>
+      <Name>TrendMicroUrlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\WamppServerErrorUnifiedRecorder\WamppServerErrorUnifiedRecorder\WamppServerErrorUnifiedRecorder.csproj">
+      <Project>{be43d183-dc8c-4263-852b-541cc5e54fa8}</Project>
+      <Name>WamppServerErrorUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\WampServerUnifiedRecorder.csproj">
+      <Project>{1828e358-0e45-429e-8760-8aa892a2c32f}</Project>
+      <Name>WampServerUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\WatchGuardFirewallUnifiedRecorder\WatchGuardFirewallUnifiedRecorder\WatchGuardFirewallUnifiedRecorder.csproj">
+      <Project>{01adf704-b5db-46f5-ae67-79fd96f3aecf}</Project>
+      <Name>WatchGuardFirewallUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder.csproj">
+      <Project>{ff8d0bdb-62dc-4ab2-a784-353b5d6ec21e}</Project>
+      <Name>WatchGuardUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder.csproj">
+      <Project>{060d9685-8b3f-4d23-bf89-b31b6f07fdf8}</Project>
+      <Name>WebsenseDlpUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder.csproj">
+      <Project>{f7f67a47-b05c-458f-a76b-32e07988e5d6}</Project>
+      <Name>WebwasherAuditUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder\WindowsShareLogUnifiedRecorder.csproj">
+      <Project>{9fd8558a-0c58-470f-b233-38158ccacaf3}</Project>
+      <Name>WindowsShareLogUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RemoteRecorderTest\RemoteRecorderTest.csproj">
+      <Project>{0a65bf0c-e646-478a-93a3-ed1aa3bfe422}</Project>
+      <Name>RemoteRecorderTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitTestHelpers\UnitTestHelpers.csproj">
+      <Project>{c7a06750-0773-4d65-a550-2222a13d383a}</Project>
+      <Name>UnitTestHelpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Release\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\AppParser\AppParser\obj\Release\AppParser.dll

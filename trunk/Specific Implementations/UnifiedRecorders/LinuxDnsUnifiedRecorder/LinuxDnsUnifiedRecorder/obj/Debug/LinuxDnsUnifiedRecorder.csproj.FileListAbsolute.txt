@@ -1,0 +1,76 @@
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\CustomTools.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Database.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\SharpSSH.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LogMgr.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\MySql.Data.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Vertica.Data.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\DiffieHellman.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.pdb
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.pdb
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.pdb
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.csprojResolveAssemblyReference.cache
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.dll
+C:\Users\ezgi.tekeli\Desktop\REC\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.pdb
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Database.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\obj\Debug\LinuxDnsUnifiedRecorder.pdb

@@ -1,0 +1,36 @@
+Recorder File System Info Local Unit Test Cases
+--------------------------------------------------------------------
+        /// Method Name : Refresh
+        ///
+        ///Method Description : Refresh instance
+        ///
+        ///Test Scenario : If instance is null
+        ///
+        ///Known Input :
+        ///     * instance = null
+        ///Expected Output :
+        ///	    * NullReferenceException should return
+--------------------------------------------------------------------
+        /// Method Name : GetFileSystemInfos
+        ///
+        ///Method Description : Get file system infos directory or file
+        ///
+        ///Test Scenario : If system is file
+        ///
+        ///Known Input :
+        ///     * instance = FileSystemInfo
+        ///Expected Output :
+        ///	    * null should return
+--------------------------------------------------------------------
+        /// Method Name : GetFileSystemInfos
+        ///
+        ///Method Description : Get file system infos directory or file
+        ///
+        ///Test Scenario : If system is directory
+        ///
+        ///Known Input :
+        ///     * instance = DirectoryInfo
+        ///Expected Output :
+        ///	    * notnull should return
+--------------------------------------------------------------------
+

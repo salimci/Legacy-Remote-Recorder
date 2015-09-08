@@ -1,0 +1,45 @@
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SophosUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SophosUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\CustomTools.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Helpers.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\RecorderBase.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Database.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SharpSSH.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\LogMgr.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\MySql.Data.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Vertica.Data.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\DiffieHellman.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.csprojResolveAssemblyReference.cache
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.pdb
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SophosUnifiedRecorder.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SophosUnifiedRecorder.pdb
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\CustomTools.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Helpers.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\RecorderBase.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Database.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SharpSSH.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\LogMgr.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\MySql.Data.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Vertica.Data.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\DiffieHellman.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.csprojResolveAssemblyReference.cache
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.dll
+C:\recorder\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SophosUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SophosUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Debug\SophosUnifiedRecorder.pdb

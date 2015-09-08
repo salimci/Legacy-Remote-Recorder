@@ -1,0 +1,89 @@
+Natek SC Remote Recorder Sýfýrdan kurulumu sýrasýnda
+uygulanacak adýmlar.
+=======================================================
+
+
+1. V5 klasöründe bulunan NATEK SC Server Setup.exe ile kuruluma 
+baþlanýr.
+2. "Username" ve "Password" eðer uygun ise sa kullanýcýsý 
+ile kurulumun tamamlanmasý önerilir. "Database File Path" 
+olarak uygun olan bir path seçilir ve "Create Database", 
+"SQL Enterprise Edition" seçenekleri týklanarak bir sonraki 
+adýma geçilir.
+3. Install týklanarak Server Setup kurulumu tamamlanýr.
+=======================================================
+4. Bir sonraki adýmda NATEK SC Remote Recorder Setup.exe 
+kurulur. 
+5. Bu adýmda username yine bir önceki kurulumda 
+kullanýlan "sa" kullanýcýsý ile devam edilmelidir.
+6. Ardýndan Istall týklanarak kurulum tamamlanýr. 
+
+
+Bu adýmdan sonra RemoteRecorder servisi çalýþacak duruma gelmiþ olur. 
+
+
+Lisanslama Adýmlarý.
+====================
+
+
+RemoteRecorder kurulduktan sonra belirlenen hostdaki SQL Server 
+üzerinde Natekdb oluþmuþ olur bu DB'deki "LICENSE_MACHINEID" 
+tablosundaki "ORGANIZATION_NAME" kolonuna bir isim yazýlýr ve 
+Execute edildikten sonra bir "LICENSEREQUESTID" oluþur. 
+Bu id ile deneme süresi olan 31 gün baþlamýþ olur. Bu süre 
+içerisinde Necati ERTUÐRUL yada Timuçin ERPOLAT'a bu id 
+gönderilir ve lisans istenir. Gelen lisans key'i "LICENSE_MANAGEMENT" 
+tablosundaki "LICENSE_KEY" kolonuna insertlenir. Bu adýmdan sonra 
+RemoteRecorder server lisanslanmýþ ve çalýþýr duruma gelmiþ olur.
+
+
+NatekAPP Kurulumu
+=================
+
+
+V5 klasöründe bulunan "NatekAppSetup.exe" kurulumu yapýlmasý gereklidir. 
+RemoteRecorder kurulduktan sonra test edilecek yeni bir RemoteRecorder'ýn yada 
+halihazýrda bulunan bir recorder'ýn çalýþtýrýlmasý için bazý ayarlamalar ve 
+tanýmlamarýn yapýlmasý gereklidir. BU ayar ve tanýmlarýn yapýlmasý için 
+NatekAPP GUI'sine ihtiyaç vardýr.
+
+1. "NatekAppSetup.exe" çalýþtýrýlýr. Bu adýmdan sonra gelecek olan 
+ekrandan "Natek Securtiy Manager" seçilir.
+2. Database NATEKCMDB'dir. Host, port, username ve password 
+alanlarý da uygun olarak doldurulduktan sonra eðer kurulu bir 
+NATEKCMDB yok ise aþaðýdaki alandan "Create Database" 
+týklanýr ve uygun olan psth belirtilir. 
+3. Buraya kadar olan ayarlar CMDB DataBase ile ilgili olanlardýr. 
+Bir sonraki adýmda Security Manager Database bilgileridir. 
+4. Security Manager Database alanlarý da uygun bir þekilde 
+belirtildikten sonra "NatekAPP" nin kurulacaðý uygun 
+path belirtilir ve kurulum tamamlanmýþ olur.
+5. Kurulum tamamlandýktan sonra tarayýcýdan 
+localhost\natekapp ile uygulama açýlýr, kullanýcý 
+adý ve þifre bilgileri girilir.
+
+
+RemoteRecorder Tanýmýnýn Yapýlmasý
+===================================
+
+
+1. Üstteki menüden 
+"Configuration Management" ->"RemoteLoggingSettings"->"RemoteRecorder" 
+týklanýr.
+2. Açýlan ekran tanýmlanmýþ olan RemoteRecorderlarýn 
+listesini verir. Aþaðýdaki menüden "Add" týklanarak yeni 
+bir RemoteRecorder tanýmlamasý yapýlýr. 
+3. Açýlan ekrandan sýrasýyla "Enable" týklanýr bu sayede 
+RemoteRecorder aktif olacaktýr. Dahasonra "ServiceName", 
+"RecorderName", "Location", "FromEnd", "Max RecordSend", 
+"UserName", "Password", "RemoteHost", "SleepTime", 
+"VirtualHost", "Reload", "DAL" seçilerek RemoteRecorder 
+tanýmý yapýlmýþ olur. 
+4. Burada VirtualHost ...
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\ExchangeUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\ExchangeUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\obj\Release\ExchangeUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\obj\Release\ExchangeUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\obj\Release\ExchangeUnifiedRecorder.csprojResolveAssemblyReference.cache

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATEKAccessControlSearch", "NATEKAccessControlSearch\NATEKAccessControlSearch.csproj", "{C14F7CE9-43CD-4944-9564-4F520DE0D459}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E7AFE32-8863-4E37-A626-27A50DAE1A6F}"
+	ProjectSection(SolutionItems) = preProject
+		..\NATEKAccessControlOS_SearchRecorder.cs = ..\NATEKAccessControlOS_SearchRecorder.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C14F7CE9-43CD-4944-9564-4F520DE0D459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14F7CE9-43CD-4944-9564-4F520DE0D459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14F7CE9-43CD-4944-9564-4F520DE0D459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14F7CE9-43CD-4944-9564-4F520DE0D459}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

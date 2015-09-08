@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PfsenseV_1_2_3_1Recorder", "PfsenseV_1_2_3_1Recorder\PfsenseV_1_2_3_1Recorder.csproj", "{BFCAD638-22EA-4AEC-AD7F-C6A255089F3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCAD638-22EA-4AEC-AD7F-C6A255089F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCAD638-22EA-4AEC-AD7F-C6A255089F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCAD638-22EA-4AEC-AD7F-C6A255089F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCAD638-22EA-4AEC-AD7F-C6A255089F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

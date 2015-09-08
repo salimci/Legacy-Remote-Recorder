@@ -1,0 +1,794 @@
+IisUnifiedRecorder Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context is null
+
+Known Input :
+	* context = null
+	* error = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord
+	* error = null
+
+Expected Output :
+	* RecordInputType.Unknown should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord.RecordText is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord.RecordText
+	* error = null
+
+Expected Output :
+	* RecordInputType.Unknown should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord.RecordText.Length == 0
+
+Known Input :
+	* context = RecorderContext with InputRecord.RecordText that initiate with 
+	empty string
+	* error = null
+
+Expected Output :
+	* RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputText start with '#'
+
+Known Input :
+	* context = RecorderContext with InputRecord that initiate with string 
+
+		string = "#---"
+
+	* error = null
+
+Expected Output :
+	* RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputText string begin with "#Fields:" 
+
+Known Input :
+	* context = RecorderContext with InputRecord that initiate with string 
+
+		string = "#Fields ---------"
+
+	* error = null
+
+Expected Output :
+	* RecordInputType.Header should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If not context.InputText string begin with "#Fields:", "#" and 
+not null and string is not empty  
+
+Known Input :
+	* context = RecorderContext with InputRecord that initiate with string 
+
+		string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+
+	* error = null
+
+Expected Output :
+	* RecordInputType.Record should return
+
+-------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters 
+
+Test Scenario : If context is null
+
+Known Input : 
+	* context = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters 
+
+Test Scenario : If context.InputReader is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters
+
+Test Scenario : If context.InputReader.Length() < 8
+		string = "field"
+Known Input :
+
+Expected Output :
+	* ArgumentOutOfRangeException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters
+
+Test Scenario : If all cases is true
+		string = "#Fields: ---"
+Known Input : RecorderContext with InputRecord that initiate
+
+Expected Output :
+	* " ---" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario : If regex is wrong for header
+		
+Known Input : 
+	regex = "^([^\s]+)\s*$"
+
+Expected Output :
+	* expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario : If regex is true for header
+		
+Known Input : Expected regex
+
+Expected Output :
+	* return expected regex
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create field separator with regex
+
+Test Scenario : If regex is wrong for field
+		
+Known Input : 
+	regex = "^([^\s]+)\s*$"
+
+Expected Output :
+	* expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create field separator with regex
+
+Test Scenario : If regex is true for field
+		
+Known Input : Expected regex
+
+Expected Output :
+	* return expected regex
+
+--------------------------------------------------------------------------------
+
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario : If context is null
+		
+Known Input : 
+	* context = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario : If context is not null and context.Record.ComputerName is empty
+		
+Known Input : 
+	* context = RecorderContext with empty context.Record.ComputerName
+
+Expected Output :
+	* NextInstruction.Do should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario : If context is not null and context.Record.ComputerName is not empty
+		
+Known Input : 
+	* context = RecorderContext with full context.Record.ComputerName
+	* context.Record.ComputerName = "ComputerName"
+
+Expected Output :
+	* NextInstruction.Do should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario : If context is not null and context.Record.CustomStr10c is empty
+		
+Known Input : 
+	* context = RecorderContext with empty context.Record.CustomStr10
+
+Expected Output :
+	* NextInstruction.Do should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario : If context is not null and context.Record.CustomStr10 is not empty
+		
+Known Input : 
+	* context = RecorderContext with full context.Record.CustomStr10
+	* context.Record.CustomStr10 = "CustomStr10"
+
+Expected Output :
+	* NextInstruction.Do should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnArgParsed
+
+Method Description : Arguman can parsable
+
+Test Scenario : If keyword is not 'T'
+		
+Known Input : 
+	* keyword = 'F'
+	* quotedKeyword = False
+	* value = String.Empty
+	* quotedValue = False
+	* touchCount = 0
+	* exception = null
+
+Expected Output :
+	* True should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnArgParsed
+
+Method Description : Arguman can parsable
+
+Test Scenario : If keyword is 'T'
+		
+Known Input : 
+	* keyword = 'T'
+	* quotedKeyword = False
+	* value = String.Empty
+	* quotedValue = False
+	* touchCount = 0
+	* exception = null
+
+Expected Output :
+	* True should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr5Splitter
+
+Method Description : Return CustomStr5's 900 bytes
+
+Test Scenario : If values is null
+		
+Known Input : 
+	* record = RecWrapper
+	* field = String.Empty
+	* values = null
+	* data = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr5Splitter
+
+Method Description : Return CustomStr5's 900 bytes
+
+Test Scenario : If values.length() is smaller than 900 bytes
+		
+Known Input : 
+	* record = RecWrapper
+	* field = String.Empty
+	* values = "Lorem ipsum dolor sit amet", "consectetur adipisicing elit"
+	* data = null
+
+Expected Output :
+	* return values[0]
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr5Splitter
+
+Method Description : Return CustomStr5's 900 bytes
+
+Test Scenario : If values.length() is bigger than 900 bytes
+		
+Known Input : 
+	* record = RecWrapper
+	* field = String.Empty
+	* values = "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem 
+	ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+	consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisi
+	cing elitLorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum
+	dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet 
+	consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+	adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+	Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor 
+	sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur
+	adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit
+	Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor 
+	sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur
+	adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit
+	Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor
+	sit amet consectetur adipisicing elit"
+	* data = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If data is null
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+	*  NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If values string array has one item
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = "2014-09-09"
+    * data = IisUnifiedRecorder;
+
+Expected Output :
+	*  IndexOutOfRangeException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is "yyyy-M-d H:m:s", return "yyyy/MM/dd HH:mm:ss"
+this date format
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = String.Empty
+    * values = "2014-09-09", "08:54:15"
+    * data = IisUnifiedRecorder;
+
+Expected Output :
+	*  Return 2014/09/09 08:54:15
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is "y-M-d H:m:s", return "yyyy/MM/dd HH:mm:ss"
+this date format
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = String.Empty
+    * values = "2014-09-09", "08:54:15"
+    * data = IisUnifiedRecorder;
+
+Expected Output :
+	*  Return 2014/09/09 08:54:15
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is not expected, return String.Empty
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = "2014/09/09", "08:54:15"
+    * data = IisUnifiedRecorder;
+
+Expected Output :
+	*  Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If recorder is null, return string.Empty
+		
+Known Input : 
+	* rec = null
+    * field = null
+    * values = "2014/09/09", "08:54:15"
+    * data = null;
+
+Expected Output :
+	*  Return string.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : VersionConcat
+
+Method Description : Return given version informations concaniate and convert urldecode
+
+Test Scenario : If values is null
+		
+Known Input : 
+	* record = null
+    * field = String.Empty
+    * values = null
+    * data = null;
+
+Expected Output :
+	*  NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : VersionConcat
+
+Method Description : Return given version informations concaniate and convert urldecode
+
+Test Scenario : If values[0] is empty and values[1] is null
+		
+Known Input : 
+	* record = null
+    * field = null
+    * values = String.Empty,null
+    * data = null;
+
+Expected Output :
+	*  Null should return
+
+--------------------------------------------------------------------------------
+
+Method Name : VersionConcat
+
+Method Description : Return given version informations concaniate and convert urldecode
+
+Test Scenario : If values[0] is empty and values[1] is not null
+		
+Known Input : 
+	* record = null
+    * field = null
+    * values = String.Empty,"Mozilla/5.0+"
+    * data = null;
+
+Expected Output :
+	*  HttpHelper.UrlDecode(values[1]) should return
+
+--------------------------------------------------------------------------------
+
+Method Name : VersionConcat
+
+Method Description : Return given version informations concaniate and convert urldecode
+
+Test Scenario : If values[1] is empty and values[0] is not null
+		
+Known Input : 
+	* record = null
+    * field = "null
+    * values = "Mozilla/5.0+", String.Empty
+    * data = null;
+
+Expected Output :
+	*  HttpHelper.UrlDecode(values[0]) should return
+
+--------------------------------------------------------------------------------
+
+Method Name : VersionConcat
+
+Method Description : Return given version informations concaniate and convert urldecode
+
+Test Scenario : If values[0] and values[1] are is not empty or null
+		
+Known Input : 
+	* record = null
+    * field = null
+    * values = "HTTP/1.1","Mozilla/5.0+"
+    * data = null;
+
+Expected Output :
+	*  HttpHelper.UrlDecode(values[0] + " " + values[1] ) should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return CustomStr1's 900 bytes
+
+Test Scenario : If values[0] is null
+		
+Known Input : 
+	* record = null
+    * field = null
+    * values = null
+    * data = null;
+
+Expected Output :
+	*  NullReferenceException should occurence
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return CustomStr1's 900 bytes
+
+Test Scenario : If values[0] is empty
+		
+Known Input : 
+	* record = null
+    * field = null
+    * values = String.Empty
+    * data = null;
+
+Expected Output :
+	*  String.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return CustomStr1's 900 bytes
+
+Test Scenario : If values[0] is not empty
+		
+Known Input : 
+	* record = null
+    * field = null
+    * values = "/nsmgui"
+    * data = null;
+
+Expected Output :
+	*  HttpHelper.UrlDecode(values[0]) should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return CustomStr1's 900 bytes
+
+Test Scenario : If values[0].length is bigger than 1800 bytes
+		
+Known Input : 
+	* record = RecWrapper
+    * field = null
+    * values = "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor
+    sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit "
+    * data = null;
+
+Expected Output :
+	*   "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor
+	sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+	adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+	Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+	sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetu
+	adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit
+	Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolo
+	r sit amet consectetur adipisicing elit Lorem ipsum dolor sitamet consec
+	tetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing 
+	elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum 
+	dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+	consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+	adipisicingelit Lorem O" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return CustomStr1's 900 bytes
+
+Test Scenario : If values[0].length is bigger than 900 bytes
+		
+Known Input : 
+	* record = RecWrapper
+    * field = null
+    * values = "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit "
+    * data = null;
+
+Expected Output :
+	*  HttpHelper.UrlDecode(values[0].Substring(900, uriStr.Length - 900)) 
+	should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Split given description according to comma separator
+
+Test Scenario : If values[0] is null
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null;
+
+Expected Output :
+	*  string.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Split given description according to comma separator
+
+Test Scenario : If values[0] is empty
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = string.Empty
+    * data = null;
+
+Expected Output :
+	*  string.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Split given description according to comma separator
+
+Test Scenario : If values[0] is not empty or null, split given description
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = {"Lorem; ipsum; dolor"}
+    * data = null;
+
+Expected Output :
+	*  Lorem should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Split given description according to comma separator
+
+Test Scenario : If values[0] is not empty or null, split given description
+		
+Known Input : 
+	* rec =RecWrapper
+    * field = null
+    * values = {"Lorem ipsum dolor"}
+    * data = null;
+
+Expected Output :
+	*  Lorem ipsum dolor should return
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+﻿2014-02-06	Serkan ALIMCI	serkan.alimci@natek.com.tr
+
+* FortigateUnifiedSyslogRecorder (slog_SyslogEvent) : status field of a log
+is mapped to CustomStr2. Request has been come from Nihat Yuceyurek by mail.
+
+
+2014-02-04	Serkan ALIMCI	serkan.alimci@natek.com.tr
+
+* FortigateUnifiedSyslogRecorder : New recorder from scratch has been
+prepared according to mapping in Docs\FortigateSyslog recorder geliştirme.docx
+The request has been came from Nihat Yuceyurek for site TCDD (ServiceDesk #413)

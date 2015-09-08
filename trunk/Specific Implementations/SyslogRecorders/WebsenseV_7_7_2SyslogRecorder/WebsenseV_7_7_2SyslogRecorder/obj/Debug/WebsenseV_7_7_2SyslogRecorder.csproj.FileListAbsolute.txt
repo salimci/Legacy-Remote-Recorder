@@ -1,0 +1,28 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\WebsenseV_7_7_2SyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\WebsenseV_7_7_2SyslogRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\obj\Debug\WebsenseV_7_7_2SyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\obj\Debug\WebsenseV_7_7_2SyslogRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\WebsenseV_7_7_2SyslogRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\WebsenseV_7_7_2SyslogRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\obj\Debug\WebsenseV_7_7_2SyslogRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\WebsenseV_7_7_2SyslogRecorder\WebsenseV_7_7_2SyslogRecorder\obj\Debug\WebsenseV_7_7_2SyslogRecorder.pdb

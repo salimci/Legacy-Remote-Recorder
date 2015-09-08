@@ -1,0 +1,16 @@
+Timestamp Provider Unit Test Cases
+------------------------------------------------------------------------------------
+        /// Method Name : Next
+        ///
+        ///Method Description : The method save time by typing
+        ///
+        ///Test Scenario : Get two random value
+        ///
+        ///Known Input :
+        ///     * timestamp1 = TimestampProvider.Next
+        ///     * timestamp2 = TimestampProvider.Next
+
+        ///Expected Output :
+        ///	    * Return check if these are different
+------------------------------------------------------------------------------------
+

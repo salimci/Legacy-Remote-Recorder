@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\MsSqlUnifiedRecorder.dll.config
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\MsSqlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\MsSqlUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Release\MsSqlUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Release\MsSqlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Release\MsSqlUnifiedRecorder.pdb

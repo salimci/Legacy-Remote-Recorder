@@ -1,0 +1,11 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\obj\Debug\SyslogRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\SyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\SyslogRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\obj\Debug\SyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\SyslogRecorder\SyslogRecorder\obj\Debug\SyslogRecorder.pdb

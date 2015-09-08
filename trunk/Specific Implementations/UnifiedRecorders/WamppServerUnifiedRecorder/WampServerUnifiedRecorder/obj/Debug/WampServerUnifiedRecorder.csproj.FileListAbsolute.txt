@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\WampServerUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\WampServerUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\obj\Debug\WampServerUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\obj\Debug\WampServerUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WamppServerUnifiedRecorder\WampServerUnifiedRecorder\obj\Debug\WampServerUnifiedRecorder.csprojResolveAssemblyReference.cache

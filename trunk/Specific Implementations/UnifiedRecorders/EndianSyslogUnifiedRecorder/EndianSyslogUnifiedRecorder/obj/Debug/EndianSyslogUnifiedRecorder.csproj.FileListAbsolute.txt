@@ -1,0 +1,36 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\EndianSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\EndianSyslogUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\obj\Debug\EndianSyslogUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\obj\Debug\EndianSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\obj\Debug\EndianSyslogUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\EndianSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\EndianSyslogUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\obj\Debug\EndianSyslogUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\obj\Debug\EndianSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\EndianSyslogUnifiedRecorder\EndianSyslogUnifiedRecorder\obj\Debug\EndianSyslogUnifiedRecorder.pdb

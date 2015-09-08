@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OracleAlertRecorder">
+</Property><Property Name="Solution File" Value="M:\RecordersTrunk\Base\ParserRecorders\OracleAlertRecorder\OracleAlertRecorder.sln">
+</Property><Property Name="User Options File" Value="M:\RecordersTrunk\Base\ParserRecorders\OracleAlertRecorder\OracleAlertRecorder.suo">
+</Property><Property Name="Date" Value="30 Ekim 2013 Çarşamba">
+</Property><Property Name="Time" Value="16:02">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="OracleAlertRecorder.sln" Description="File successfully backed up as M:\RecordersTrunk\Base\ParserRecorders\OracleAlertRecorder\Backup\OracleAlertRecorder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="OracleAlertRecorder.suo" Description="File successfully backed up as M:\RecordersTrunk\Base\ParserRecorders\OracleAlertRecorder\Backup\OracleAlertRecorder.suo">
+</Event><Event ErrorLevel="0" Project="OracleAlertRecorder" Source="OracleAlertRecorder\OracleAlertRecorder.csproj" Description="Project file successfully backed up as M:\RecordersTrunk\Base\ParserRecorders\OracleAlertRecorder\Backup\OracleAlertRecorder\OracleAlertRecorder.csproj">
+</Event><Event ErrorLevel="0" Project="OracleAlertRecorder" Source="OracleAlertRecorder\OracleAlertRecorder.cs" Description="File successfully backed up as M:\RecordersTrunk\Base\ParserRecorders\OracleAlertRecorder\Backup\OracleAlertRecorder\OracleAlertRecorder.cs">
+</Event><Event ErrorLevel="0" Project="OracleAlertRecorder" Source="OracleAlertRecorder\Properties\AssemblyInfo.cs" Description="File successfully backed up as M:\RecordersTrunk\Base\ParserRecorders\OracleAlertRecorder\Backup\OracleAlertRecorder\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="OracleAlertRecorder" Source="OracleAlertRecorder\OracleAlertRecorder.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="OracleAlertRecorder" Source="OracleAlertRecorder\OracleAlertRecorder.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OracleAlertRecorder.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="OracleAlertRecorder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="OracleAlertRecorder" Source="OracleAlertRecorder\OracleAlertRecorder.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,5 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\obj\Release\Helpers.dll

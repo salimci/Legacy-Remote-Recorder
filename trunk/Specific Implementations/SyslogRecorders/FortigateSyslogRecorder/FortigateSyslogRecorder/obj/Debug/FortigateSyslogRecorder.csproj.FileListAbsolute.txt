@@ -1,0 +1,8 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Debug\FortigateSyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Debug\FortigateSyslogRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\obj\Debug\FortigateSyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\obj\Debug\FortigateSyslogRecorder.pdb

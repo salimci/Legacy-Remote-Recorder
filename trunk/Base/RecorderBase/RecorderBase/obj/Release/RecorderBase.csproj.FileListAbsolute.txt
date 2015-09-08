@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\obj\Release\RecorderBase.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\obj\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\obj\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\RecorderBase\RecorderBase\bin\Release\Vertica.Data.dll

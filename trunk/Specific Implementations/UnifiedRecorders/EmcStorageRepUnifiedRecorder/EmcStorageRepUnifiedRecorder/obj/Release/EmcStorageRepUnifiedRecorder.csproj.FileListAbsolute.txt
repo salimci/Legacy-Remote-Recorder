@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\EmcStorageRepUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\EmcStorageRepUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\obj\Release\EmcStorageRepUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\obj\Release\EmcStorageRepUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\EmcStorageRepUnifiedRecorder\EmcStorageRepUnifiedRecorder\obj\Release\EmcStorageRepUnifiedRecorder.pdb

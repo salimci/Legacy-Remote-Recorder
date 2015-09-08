@@ -1,0 +1,92 @@
+Constraint Collection Unit Test Cases
+----------------------------------------------------------------------
+        /// Method Name : RemoveConstraint
+        ///
+        ///Method Description : The method remove constraits
+        ///
+        ///Test Scenario : If constraints not contain constrait
+        ///
+        ///Known Input :
+        ///     * constraint = new TextSizeConstraint
+        /// 
+        ///Expected Output :
+        ///	* Return should null
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : RemoveConstraint
+        ///
+        ///Method Description : The method remove constraits
+        ///
+        ///Test Scenario : If constraints contain constrait
+        ///
+        ///Known Input :
+        ///     * Constraint constraint = new TextSizeConstraint { Property = new TextProperty() };
+        ///     * _constraintCollection.AddConstraint(constraint)
+        /// 
+        ///Expected Output :
+        ///	    * Return should constraint
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : Apply
+        ///
+        ///Method Description : The method check the constrait if constrait is not null call the apply method
+        ///
+        ///Test Scenario : If constraints is null
+        ///
+        ///Known Input :
+        ///     *  FieldTestHelper.SetInstanceFieldValue("Constraints", _constraintCollection, null)
+        ///     *  recWrapper = new RecWrapper()
+        ///     *  context = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should next instruction do
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : Apply
+        ///
+        ///Method Description : The method check the constrait if constrait is not null call the apply method
+        ///
+        ///Test Scenario : If target is null
+        ///
+        ///Known Input :
+        ///     * RecWrapper target = null
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should next instruction do
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : Apply
+        ///
+        ///Method Description : The method check the constrait if constrait is not null call the apply method
+        ///
+        ///Test Scenario : If constraints are empty
+        ///
+        ///Known Input :
+        ///     * target = new RecWrapper()
+        ///     * context = null
+        /// 
+        /// 
+        ///Expected Output :
+        ///	    * Return should next instruction do
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : Apply
+        ///
+        ///Method Description : The method check the constrait if constrait is not null call the apply method
+        ///
+        ///Test Scenario : If T type target is not null and object is null
+        ///
+        ///Known Input :
+        ///     * var target = new RecWrapper()
+        ///     * context = null
+        ///     * constraint = new TextSizeConstraint{ Property = new TextProperty() { PropertyInfo = target.GetType().GetProperty("ComputerName", BindingFlags.Public | BindingFlags.Instance) } }
+        ///     * constraint.Property.SetValue(target, context, "value")
+        ///     * _constraintCollection.AddConstraint(constraint)
+        /// 
+        ///Expected Output :
+        ///	    * Return should next instruction do
+        /// 
+----------------------------------------------------------------------
+
+

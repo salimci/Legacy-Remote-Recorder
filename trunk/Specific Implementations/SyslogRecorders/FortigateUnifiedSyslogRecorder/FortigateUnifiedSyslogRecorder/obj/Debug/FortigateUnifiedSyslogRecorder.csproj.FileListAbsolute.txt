@@ -1,0 +1,13 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\FortigateUnifiedSyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\FortigateUnifiedSyslogRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\obj\Debug\FortigateUnifiedSyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\obj\Debug\FortigateUnifiedSyslogRecorder.pdb

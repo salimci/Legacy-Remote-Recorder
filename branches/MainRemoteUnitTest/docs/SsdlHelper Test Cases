@@ -1,0 +1,96 @@
+SsdlHelper Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : DecodeSsdl
+
+Method Description : Decoded ssdl codes
+
+Test Scenario : If ssdl code is empty
+
+Known Input : 
+	* ssdlStr = String.Empty
+    * decodeBuffer = null
+    * domainBuffer = null
+    * usernameBuffer = null
+    * formatted = 0
+
+Expected Output :
+	* String.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DecodeSsdl
+
+Method Description : Decoded ssdl codes
+
+Test Scenario : If ssdl code is not empty and has valid value, other parameters 
+are null
+
+Known Input : 
+	* ssdlStr = O:BAG:SYD:(D;;0xf0007;;;AN)(D;;0xf0007;;;BG)(A;;0xf0005;;;SY)
+	(A;;0x5;;;BA)
+    * decodeBuffer = null
+    * domainBuffer = null
+    * usernameBuffer = null
+    * formatted = 0
+
+Expected Output :
+	* O:BAG:SYD:(D;;0xf0007;;;AN)(D;;0xf0007;;;BG)(A;;0xf0005;;;SY)(A;;0x5;;;BA)
+	 should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DecodeSsdl
+
+Method Description : Decoded ssdl codes
+
+Test Scenario : If decodebuffer parameter is not null
+
+Known Input : 
+	* ssdlStr = O:BAG:SYD:(D;;0xf0007;;;AN)(D;;0xf0007;;;BG)(A;;0xf0005;;;SY)(A;;0x5;;;BA)
+    * decodeBuffer = new StringBuilder()
+    * domainBuffer = null
+    * usernameBuffer = null
+    * formatted = 0
+
+Expected Output :
+	* ControlFlags=DiscretionaryAclPresent, SelfRelative; ResourceManagerControl
+	Bits=0; Group=S-1-5-18; Owner=S-1-5-32-544; DiscretionaryAcl(AceType=AccessDenied
+	; AceFlags=None; AuditFlags=None; InheritnaceFlags=None; IsInherited=False; 
+	PropagationFlags=None; User=S-1-5-7); DiscretionaryAcl(AceType=AccessDenied;
+	 AceFlags=None; AuditFlags=None; InheritnaceFlags=None; IsInherited=False; 
+	 PropagationFlags=None; User=S-1-5-32-546); DiscretionaryAcl(AceType=
+	 AccessAllowed; AceFlags=None; AuditFlags=None; InheritnaceFlags=None; 
+	 IsInherited=False; PropagationFlags=None; User=S-1-5-18); DiscretionaryAcl
+	 (AceType=AccessAllowed; AceFlags=None; AuditFlags=None; InheritnaceFlags=None
+	 ; IsInherited=False; PropagationFlags=None; User=S-1-5-32-544)
+
+--------------------------------------------------------------------------------
+
+Method Name : DecodeSsdl
+
+Method Description : Decoded ssdl codes
+
+Test Scenario :  If domainBuffer parameter is not null
+
+Known Input : 
+	* ssdlStr = O:BAG:SYD:(D;;0xf0007;;;AN)(D;;0xf0007;;;BG)(A;;0xf0005;;;SY)(A;;0x5;;;BA)
+    * decodeBuffer = new StringBuilder()
+    * domainBuffer = new StringBuilder()
+    * usernameBuffer = null
+    * formatted = 0
+
+Expected Output :
+	* ControlFlags=DiscretionaryAclPresent, SelfRelative; ResourceManagerControl
+	Bits=0; Group=S-1-5-18; Owner=S-1-5-32-544; DiscretionaryAcl(AceType=AccessDenied
+	; AceFlags=None; AuditFlags=None; InheritnaceFlags=None; IsInherited=False; 
+	PropagationFlags=None; User=S-1-5-7); DiscretionaryAcl(AceType=AccessDenied;
+	 AceFlags=None; AuditFlags=None; InheritnaceFlags=None; IsInherited=False; 
+	 PropagationFlags=None; User=S-1-5-32-546); DiscretionaryAcl(AceType=
+	 AccessAllowed; AceFlags=None; AuditFlags=None; InheritnaceFlags=None; 
+	 IsInherited=False; PropagationFlags=None; User=S-1-5-18); DiscretionaryAcl
+	 (AceType=AccessAllowed; AceFlags=None; AuditFlags=None; InheritnaceFlags=None
+	 ; IsInherited=False; PropagationFlags=None; User=S-1-5-32-544)
+
+--------------------------------------------------------------------------------

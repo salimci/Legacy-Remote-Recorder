@@ -1,0 +1,32 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MsSqlUnifiedRecorder.dll.config
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MsSqlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MsSqlUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Debug\MsSqlUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Debug\MsSqlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Debug\MsSqlUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MsSqlUnifiedRecorder.dll.config
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MsSqlUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MsSqlUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Debug\MsSqlUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Debug\MsSqlUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\obj\Debug\MsSqlUnifiedRecorder.pdb

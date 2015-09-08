@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{628EE781-4E96-456F-86CD-111E76B531F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Natek.Recorders.Remote.Unified.ArubaWifiControllerV2UnifiedRecorder</RootNamespace>
+    <AssemblyName>ArubaWifiControllerV2UnifiedRecorder</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomTools">
+      <HintPath>..\..\..\..\Libraries\Base\CustomTools.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArubaWifiControllerV2UnifiedRecorder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Base\AppParser\AppParser\AppParser.csproj">
+      <Project>{3a5301df-54f2-4256-8a7c-19145774fd8f}</Project>
+      <Name>AppParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Base\Helpers\Helpers\Helpers.csproj">
+      <Project>{98b9acd5-1ca2-4a5a-8f78-bf9d846b11f0}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Base\RecorderBase\RecorderBase\RecorderBase.csproj">
+      <Project>{ed8840d6-1f00-4c0f-af29-7bfe2eff027b}</Project>
+      <Name>RecorderBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>pushd ..\..\..\..\..\..\Libraries\"Specific Implementations\
+set COPY_DIR=%25CD%25
+popd
+copy "$(TargetPath)" "%25COPY_DIR%25"
+if "$(ConfigurationName)" NEQ "Release" goto NotRelease
+pushd ..\..\..\..\..\..\..\"Latest DLL\Specific Implementations\"
+set COPY_DIR=%25CD%25
+copy "$(TargetPath)" "%25COPY_DIR%25"
+svn add --force "$(TargetFileName)"
+svn commit -m "svn Auto Commit Operation $(TargetFileName)"
+:NotRelease
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

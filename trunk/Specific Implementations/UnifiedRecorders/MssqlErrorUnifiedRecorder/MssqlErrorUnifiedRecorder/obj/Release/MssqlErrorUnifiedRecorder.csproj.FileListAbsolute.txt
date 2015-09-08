@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\MssqlErrorUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\MssqlErrorUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\obj\Release\MssqlErrorUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\obj\Release\MssqlErrorUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\MssqlErrorUnifiedRecorder\MssqlErrorUnifiedRecorder\obj\Release\MssqlErrorUnifiedRecorder.csprojResolveAssemblyReference.cache

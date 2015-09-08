@@ -1,0 +1,1 @@
+EventLogRecorder RemoteRecorder paketi. Bu recorder en son LogonType value CustomInt3'e map edilmiþtir.

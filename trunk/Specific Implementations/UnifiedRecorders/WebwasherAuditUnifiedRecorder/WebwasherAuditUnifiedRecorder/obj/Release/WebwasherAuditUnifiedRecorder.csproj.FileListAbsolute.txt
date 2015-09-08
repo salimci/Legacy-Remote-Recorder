@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\WebwasherAuditUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\WebwasherAuditUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\obj\Release\WebwasherAuditUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\obj\Release\WebwasherAuditUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebwasherAuditUnifiedRecorder\WebwasherAuditUnifiedRecorder\obj\Release\WebwasherAuditUnifiedRecorder.csprojResolveAssemblyReference.cache

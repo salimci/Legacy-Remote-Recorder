@@ -1,0 +1,29 @@
+
+1. Programda öncelikli olarak bir kurum adýnýn girilebileceði 
+bir textbox ve hatayý kýsaca özetleyen bir textarea konulacak 
+buradan alýnacak deðerler ile bir XML çýktýsý oluþturulacak. 
+2. Program Remote Recorder Registry'sini kontrol edip 
+RemoteRecorder servisi ve varsa RemoteRecorderlar ile ilgili olan 
+registry keyleri alacak. 
+3. Programda bir checklistbox bulunacak ve bu listbox'a 
+çalýþan RemoteRecorderlar gelecek. 
+4. Burada listedeki recorderlar için all yada none 
+seçimleri konulacak. Bu sayede tüm recorderlar seçilebilecek 
+yada tek tek birden fazla seçim yapýlabilecek. 
+5. Bu seçimler yapýldýktan sonra seçilen RemoteRecorder yada 
+RemoteRecorderlar için TraceLevel deðerini ve 
+status'unu kontrol edecek. Eðer traceLevel' 4 deðilse yada status'u 1 deðilse 
+program kullanýcýyý status'unu 1 TraceLevel'ini 4 yani 
+Debug modda olmasý için uyarýp kapanacak ??.
+6. Eðer seçilen recorderlar için status ve tracelevel deðerleri uygun ise seçilen 
+RemoteRecorder yada RemoteRecorderlar'a ait olan log dosyalarýný, RemoteRecorder ve 
+Reloader'ý eðer ihtiyaç duyulursa server klasörü altýndaki filter loglarýný 
+belirtilen bir klasöre kopyalayacak. Filter logu isteðe baðlý olarak 
+istenebilir bunun için bir ekranda bir CheckBox konulabilir. 
+7. Bütün iþlemler bittikten sonra tüm dosyalar tek bir 
+zip dosyasý haline getirilebilir. 
+8. Oluþturulan bu zip dosyasý kullanýcý bilgilerini aldýktan sonra
+isteðe baðlý olarak mail atabilir.
+
+
+

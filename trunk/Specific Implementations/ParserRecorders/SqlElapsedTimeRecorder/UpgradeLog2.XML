@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SqlElapsedTimeRecorder">
+</Property><Property Name="Solution File" Value="M:\RecordersTrunk\Specific Implementations\SyslogRecorders\SqlElapsedTimeRecorder\SqlElapsedTimeRecorder.sln">
+</Property><Property Name="User Options File" Value="M:\RecordersTrunk\Specific Implementations\SyslogRecorders\SqlElapsedTimeRecorder\SqlElapsedTimeRecorder.suo">
+</Property><Property Name="Date" Value="30 Ekim 2013 Çarşamba">
+</Property><Property Name="Time" Value="15:40">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SqlElapsedTimeRecorder.sln" Description="File successfully backed up as M:\RecordersTrunk\Specific Implementations\SyslogRecorders\SqlElapsedTimeRecorder\Backup1\SqlElapsedTimeRecorder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SqlElapsedTimeRecorder.suo" Description="File successfully backed up as M:\RecordersTrunk\Specific Implementations\SyslogRecorders\SqlElapsedTimeRecorder\Backup1\SqlElapsedTimeRecorder.suo">
+</Event><Event ErrorLevel="0" Project="SqlElapsedTimeRecorder" Source="SqlElapsedTimeRecorder\SqlElapsedTimeRecorder.csproj" Description="Project file successfully backed up as M:\RecordersTrunk\Specific Implementations\SyslogRecorders\SqlElapsedTimeRecorder\Backup1\SqlElapsedTimeRecorder\SqlElapsedTimeRecorder.csproj">
+</Event><Event ErrorLevel="0" Project="SqlElapsedTimeRecorder" Source="SqlElapsedTimeRecorder\Class1.cs" Description="File successfully backed up as M:\RecordersTrunk\Specific Implementations\SyslogRecorders\SqlElapsedTimeRecorder\Backup1\SqlElapsedTimeRecorder\Class1.cs">
+</Event><Event ErrorLevel="0" Project="SqlElapsedTimeRecorder" Source="SqlElapsedTimeRecorder\Properties\AssemblyInfo.cs" Description="File successfully backed up as M:\RecordersTrunk\Specific Implementations\SyslogRecorders\SqlElapsedTimeRecorder\Backup1\SqlElapsedTimeRecorder\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SqlElapsedTimeRecorder" Source="SqlElapsedTimeRecorder\SqlElapsedTimeRecorder.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SqlElapsedTimeRecorder" Source="SqlElapsedTimeRecorder\SqlElapsedTimeRecorder.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SqlElapsedTimeRecorder.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SqlElapsedTimeRecorder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SqlElapsedTimeRecorder" Source="SqlElapsedTimeRecorder\SqlElapsedTimeRecorder.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

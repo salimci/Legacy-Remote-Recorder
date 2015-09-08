@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\obj\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Helpers\Helpers\obj\Debug\Helpers.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\obj\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Base\Helpers\Helpers\obj\Debug\Helpers.pdb

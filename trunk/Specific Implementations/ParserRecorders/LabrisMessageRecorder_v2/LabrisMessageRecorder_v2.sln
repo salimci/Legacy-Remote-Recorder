@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabrisMessageRecorder_v2", "LabrisMessageRecorder_v2\LabrisMessageRecorder_v2.csproj", "{ADD8FB96-2A38-47DC-A8A6-03E858E6D92A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD8FB96-2A38-47DC-A8A6-03E858E6D92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD8FB96-2A38-47DC-A8A6-03E858E6D92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD8FB96-2A38-47DC-A8A6-03E858E6D92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD8FB96-2A38-47DC-A8A6-03E858E6D92A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+ExceptionHelper Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : Catch
+
+Method Description : Catch exceptions
+
+Test Scenario : If actual method is null
+
+Known Input : 
+	* actualMethod = actualIsNull
+    * cathscenario = nullS
+
+Expected Output :
+	* null should return
+
+--------------------------------------------------------------------------------
+
+Method Name : Catch
+
+Method Description : Catch exceptions
+
+Test Scenario : If actual method is not null
+
+Known Input : 
+	* actualMethod = actualIsNotNull
+    * cathscenario = null
+
+Expected Output :
+	* "lorem ipsum" should return
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\ApacheAccessUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\ApacheAccessUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Release\ApacheAccessUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Release\ApacheAccessUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\obj\Release\ApacheAccessUnifiedRecorder.pdb

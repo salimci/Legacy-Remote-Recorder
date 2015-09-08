@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\NtEventLog2008TRV1_1_1_Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\NtEventLog2008TRV1_1_1_Recorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\obj\Debug\NtEventLog2008TRV1_1_1_Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\NtEventLog2008TRV1_1_1_Recorder\NtEventLog2008TRV1_1_1_Recorder\obj\Debug\NtEventLog2008TRV1_1_1_Recorder.pdb

@@ -1,0 +1,173 @@
+Config Helper Unit Test Cases
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If Keyword is null
+        ///
+        ///Known Input :
+        ///     * keywords = null
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should true
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If keyword is empty
+        ///
+        ///Known Input :
+        ///     * keywords = string.Empty
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should true
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If regex not match and last index less then keyword length and on keyword value is null
+        ///
+        ///Known Input :
+        ///     * keywords = "Lorem"
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should false
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If regex match and last index less then keyword length and on keyword value is null
+        ///
+        ///Known Input :
+        ///     *  keywords = "Lorem=ipsum;Lorem=ipsum;"
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should false
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If regex match and last index less then keyword length
+        ///
+        ///Known Input :
+        ///     * keywords = "Lorem=ipsum;Lorem=ipsum;"
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should false
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If regex not match and last index less then keyword length
+        ///
+        ///Known Input :
+        ///     *  keywords = "Lorem;"
+        ///     *  error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should false
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If regex not match and last index less then keyword length false on whitespace
+        ///
+        ///Known Input :
+        ///     * keywords = "Lorem;"
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should false
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If regex match and last index less then keyword length negative
+        ///
+        ///Known Input :
+        ///     * keywords = "Lorem=ipsum;Lorem=ipsum;"
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should false
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : ParseKeywords
+        ///
+        ///Method Description : The method parsed keywords
+        ///
+        ///Test Scenario : If regex not match and last index less then keyword length negative
+        ///
+        ///Known Input :
+        ///     * keywords = "Lorem;"
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should false
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : Unescape
+        ///
+        ///Method Description : The method unescape to given data
+        ///
+        ///Test Scenario : If input string is empty
+        ///
+        ///Known Input :
+        ///     * inputString = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * Return should input string
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : Unescape
+        ///
+        ///Method Description : The method unescape to given data
+        ///
+        ///Test Scenario :  If input string is null
+        ///
+        ///Known Input :
+        ///     * inputString = null
+        /// 
+        ///Expected Output :
+        ///	    * Return should input string
+        /// 
+----------------------------------------------------------------------
+        /// Method Name : Unescape
+        ///
+        ///Method Description : The method unescape to given data
+        ///
+        ///Test Scenario : Unescape Slash T, Unescape Slash T, Unescape Slash N, Unescape Slash R
+        ///
+        ///Known Input :
+        ///     * lorem\\t
+        ///     * lorem\\b
+        ///     * lorem\\n
+        ///     * lorem\\r
+        /// 
+        ///Expected Output :
+        ///     * lorem\\t
+        ///     * lorem\\b
+        ///     * lorem\\n
+        ///     * lorem\\r
+        /// 
+----------------------------------------------------------------------
+

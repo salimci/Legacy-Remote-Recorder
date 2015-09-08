@@ -1,0 +1,336 @@
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe.config
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.exe
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CustomTools.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Database.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSslVpnV2UnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSyslogV7UnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LogMgr.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MySql.Data.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficVersion2UnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Parser.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SharpSSH.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Vertica.Data.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Helpers.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DiffieHellman.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Org.Mentalis.Security.dll
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficVersion2UnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSslVpnV2UnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSyslogV7UnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.pdb
+N:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.csprojResolveAssemblyReference.cache
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe.config
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CoslatSyslogUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CustomTools.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Database.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeMailboxUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerVersion2UnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSslVpnV2UnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSyslogV7UnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\KerioMailUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxJobsUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LogMgr.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeMailGatewayUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MySql.Data.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MysqlUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetSafeUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NginxErrorUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficVersion2UnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Parser.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PfSenseUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFpmUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFtpUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SambaUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SharpSSH.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosFirewallUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\TestUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Vertica.Data.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Helpers.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DiffieHellman.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Org.Mentalis.Security.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CoslatSyslogUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeMailboxUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerVersion2UnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSslVpnV2UnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSyslogV7UnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\KerioMailUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxJobsUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeMailGatewayUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MysqlUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetSafeUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NginxErrorUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficVersion2UnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PfSenseUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFpmUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFtpUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SambaUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosFirewallUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\TestUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.csprojResolveAssemblyReference.cache
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.exe
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.pdb
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperPendikUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperPendikUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe.config
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.exe
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CoslatSyslogUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CustomTools.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Database.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeMailboxUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerVersion2UnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperPendikUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSslVpnV2UnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSyslogV7UnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\KerioMailUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxJobsUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LogMgr.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeMailGatewayUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MySql.Data.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MysqlUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetSafeUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NginxErrorUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficVersion2UnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Parser.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PfSenseUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFpmUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFtpUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SambaUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SharpSSH.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosFirewallUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\TestUnifiedRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Vertica.Data.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Helpers.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DiffieHellman.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Org.Mentalis.Security.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CoslatSyslogUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeMailboxUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerVersion2UnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperPendikUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSslVpnV2UnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperSyslogV7UnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\KerioMailUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxJobsUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeMailGatewayUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MysqlUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetSafeUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NginxErrorUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficVersion2UnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PfSenseUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFpmUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFtpUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SambaUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosFirewallUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\TestUnifiedRecorder.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.pdb
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.csprojResolveAssemblyReference.cache
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficUnifiedSyslogRecorder.dll
+D:\recorderWorkSpace\Legacy\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoTrafficUnifiedSyslogRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe.config
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.exe
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RemoteRecorderTest.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerVersion2UnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperPendikUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\KerioMailUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxJobsUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MysqlUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NginxErrorUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoUrlUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Parser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PfSenseUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFpmUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFtpUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SambaUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\Nt2008EventLogFileV_2Recorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\EventLogFileAuditRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheAccessUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheErrorUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ApacheSyslogUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\DhcpUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\ExchangeUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\F5LoadBalancerVersion2UnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\IisUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\JuniperPendikUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\KerioMailUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisAccessUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LabrisNetworkSyslogUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxDnsUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxGeneralPurposeUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\LinuxJobsUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\McafeeGatewayUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MsSqlUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\MysqlUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NetsafeFirewallUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\NginxErrorUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoUrlUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PfSenseUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFpmUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PhpFtpUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\RadiusUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SambaUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\SophosUnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.exe
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\obj\x86\Debug\RemoteRecorderTest.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoUnifiedSyslogRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoUnifiedSyslogRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoUnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\branches\RemoteRecorderTest\RemoteRecorderTest\bin\Debug\PaloAltoUnifiedRecorder.pdb

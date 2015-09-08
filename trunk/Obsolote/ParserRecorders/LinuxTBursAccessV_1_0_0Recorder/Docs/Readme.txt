@@ -1,0 +1,1 @@
+Yurt dýþý Türkler için geliþtirilmiþ olup ancak hiç denenmemiþ ve kullanýlmamýþtýr. NginxAccessV_1_0_0Recorder bu recorderýn yerine geliþtirilmiþ ve kullanýlmaktadýr.

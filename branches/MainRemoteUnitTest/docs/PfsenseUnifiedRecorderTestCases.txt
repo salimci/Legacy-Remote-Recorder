@@ -1,0 +1,160 @@
+PfSense Unified Recorder Unit Test Cases
+---------------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = null 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+---------------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is not null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = 2014 SEP 08 14:33:58 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * Input date have been converted
+---------------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is string.empty
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = string.empty 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return should string.empty 
+---------------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        ///
+        ///Method Description : Convert to the input date 
+        ///
+        ///Test Scenario : If date format is wrong
+        ///
+        ///Known Input :
+        ///     * rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {"09/09/14 2:55:PM"} 
+        ///		* data = null
+        ///
+        ///Expected Output :
+        ///     * return String Empty
+---------------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is not the given format
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {"2014 09 10", "14:33:58"} 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+---------------------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        ///
+        ///Method Description : The method check is there a header
+        ///
+        ///Test Scenario : If context.HeaderInfo is null
+        ///
+        ///Known Input :
+        ///    * context.HeaderInfo = null
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        ///
+        ///Method Description : The method check is there a header
+        ///
+        ///Test Scenario : If context.HeaderInfo is not null
+        ///
+        ///Known Input :
+        ///    * context.HeaderInfo = DataMappingInfo
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is not success
+        ///
+        ///Known Input :
+        ///    * match = !success
+        ///    * field = null
+        ///    * context = syslogcontext
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Skip should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is success
+        ///
+        ///Known Input :
+        ///    * match = at the moment pattern
+        ///    * field = null
+        ///    * context = syslogcontext
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Return should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If match is null for input
+        ///
+        ///Known Input :
+        ///    * match = null
+        ///    * field = null
+        ///    * context = syslogcontext
+        ///Expected Output :
+        ///    * NextInstruction.Skip should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If match is null for pattern
+        ///
+        ///Known Input :
+        ///    * match = null
+        ///    * field = null
+        ///    * context = syslogcontext
+        /// 
+        ///Expected Output :
+        ///    * NextInstruction.Skip should return
+---------------------------------------------------------------------------------------

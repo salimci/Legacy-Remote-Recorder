@@ -1,0 +1,15 @@
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\SophosUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\SophosUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\CustomTools.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\Helpers.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\RecorderBase.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\Database.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\SharpSSH.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\LogMgr.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\MySql.Data.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\Vertica.Data.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\DiffieHellman.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Release\SophosUnifiedRecorder.dll
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Release\SophosUnifiedRecorder.pdb
+M:\recorderWorkSpace\Legacy\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\obj\Release\SophosUnifiedRecorder.csprojResolveAssemblyReference.cache

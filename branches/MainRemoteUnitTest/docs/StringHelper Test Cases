@@ -1,0 +1,187 @@
+StringHelper Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : MakeSureLength
+
+Method Description : Check string length is expected
+
+Test Scenario : If s is null
+
+Known Input : 
+	* s = null
+    * maxLen = 0
+
+Expected Output :
+	* null should return
+
+--------------------------------------------------------------------------------
+
+Method Name : MakeSureLength
+
+Method Description : Check string length is expected
+
+Test Scenario : If s is empty
+
+Known Input : 
+	* s = string.Empty
+    * maxLen = 0
+
+Expected Output :
+	* string.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : MakeSureLength
+
+Method Description : Check string length is expected
+
+Test Scenario : If maxLen is negative
+
+Known Input : 
+	* s = lorem ipsum
+    * maxLen = -1
+
+Expected Output :
+	* "lorem ipsum" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : MakeSureLength
+
+Method Description : Check string length is expected
+
+Test Scenario : If S.length is smaller than maxLen
+
+Known Input : 
+	* s = lorem ipsum
+    * maxLen = 25
+
+Expected Output :
+	* "lorem ipsum" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : MakeSureLength
+
+Method Description : Check string length is expected
+
+Test Scenario : If S.length is bigger than maxLen
+
+Known Input : 
+	* s = lorem ipsum
+    * maxLen = 5
+
+Expected Output :
+	* "lorem" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : Equals
+
+Method Description : Check the given strings are same
+
+Test Scenario : If the given strings are equals 
+
+Known Input : 
+	* x = lorem ipsum
+    * y = lorem ipsum
+
+Expected Output :
+	* true should return
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHashCode
+
+Method Description : Get given string's hash code
+
+Test Scenario : Get given string's hash code
+
+Known Input : 
+	* obj = lorem ipsum
+
+Expected Output :
+	* 10 should return
+
+--------------------------------------------------------------------------------
+
+Method Name : NullEmptyEquals
+
+Method Description : Check null or empty equality given strings
+
+Test Scenario : If first and second parameters are null 
+
+Known Input : 
+	* l = null
+    * r = null
+    * stringComparison =  new StringComparison()
+
+Expected Output :
+	* true should return
+
+--------------------------------------------------------------------------------
+
+Method Name : NullEmptyEquals
+
+Method Description : Check null or empty equality given strings
+
+Test Scenario : If first parameter is null, second parameter is empty
+
+Known Input : 
+	* l = null
+    * r = String.Empty
+    * stringComparison =  new StringComparison()
+
+Expected Output :
+	* true should return
+
+--------------------------------------------------------------------------------
+
+Method Name : NullEmptyEquals
+
+Method Description : Check null or empty equality given strings
+
+Test Scenario :  If second parameter is null, first parameter is empty
+
+Known Input : 
+	* l = String.Empty
+    * r = null
+    * stringComparison =  new StringComparison()
+
+Expected Output :
+	* true should return
+
+--------------------------------------------------------------------------------
+
+Method Name : NullEmptyEquals
+
+Method Description : Check null or empty equality given strings
+
+Test Scenario : If second parameter is null, first parameter is not empty
+
+Known Input : 
+	* l = lorem ipsum
+    * r = null
+    * stringComparison =  new StringComparison()
+
+Expected Output :
+	* false should return
+
+--------------------------------------------------------------------------------
+
+Method Name : NullEmptyEquals
+
+Method Description : Check null or empty equality given strings
+
+Test Scenario : If first and second parameters are not null or empty
+
+Known Input : 
+	* l = lorem ipsum
+    * r = lorem ipsum
+    * stringComparison =  new StringComparison()
+
+Expected Output :
+	* true should return
+
+--------------------------------------------------------------------------------

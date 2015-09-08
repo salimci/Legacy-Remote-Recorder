@@ -1,0 +1,1 @@
+ATO için OracleAudit loglarýný okuyabilmek için geliþtirilmiþtir. Oracle tablo yapýsý kuruma özeldir ve baþka bir kurumda kullanýlmamaktadýr.

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A65BF0C-E646-478A-93A3-ED1AA3BFE422}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RemoteRecorderTest</RootNamespace>
+    <AssemblyName>RemoteRecorderTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomTools">
+      <HintPath>..\..\..\trunk\Libraries\Base\CustomTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Database">
+      <HintPath>..\..\..\trunk\Libraries\Base\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="LogMgr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\trunk\Libraries\Base\LogMgr.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\trunk\Libraries\Base\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Parser">
+      <HintPath>..\..\..\trunk\Libraries\Base\Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpSSH">
+      <HintPath>..\..\..\trunk\Libraries\Base\SharpSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Vertica.Data">
+      <HintPath>..\..\..\trunk\Libraries\Base\Vertica.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataCenter.cs" />
+    <Compile Include="TestInputMode.cs" />
+    <Compile Include="TestOutputMode.cs" />
+    <Compile Include="MockSecurityManagerRemoteRecorder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecorderArgs.cs" />
+    <Compile Include="SqlQueries.cs" />
+    <Compile Include="TestConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\trunk\Base\AppParser\AppParser\AppParser.csproj">
+      <Project>{3A5301DF-54F2-4256-8A7C-19145774FD8F}</Project>
+      <Name>AppParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Base\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder\Nt2008EventLogFileV_2Recorder.csproj">
+      <Project>{fd6ff666-dad7-4803-9a9c-f2e7fc286ca6}</Project>
+      <Name>Nt2008EventLogFileV_2Recorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Base\RecorderBase\RecorderBase\RecorderBase.csproj">
+      <Project>{ed8840d6-1f00-4c0f-af29-7bfe2eff027b}</Project>
+      <Name>RecorderBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\ParserRecorders\EventLogFileAuditRecorder\EventLogFileAuditRecorder\EventLogFileAuditRecorder.csproj">
+      <Project>{1BF6752D-3DEC-49A8-A859-CB643DEAA213}</Project>
+      <Name>EventLogFileAuditRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder\ApacheAccessUnifiedRecorder.csproj">
+      <Project>{e4eea3e1-d5ed-4e9a-aa29-6f2d9506feaf}</Project>
+      <Name>ApacheAccessUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\ApacheErrorUnifiedRecorder\ApacheErrorUnifiedRecorder\ApacheErrorUnifiedRecorder.csproj">
+      <Project>{54438570-917a-4258-9107-18be7aab2666}</Project>
+      <Name>ApacheErrorUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\ApacheSyslogUnifiedRecorder\ApacheSyslogUnifiedRecorder\ApacheSyslogUnifiedRecorder.csproj">
+      <Project>{145d1d7a-6742-4025-b4f1-b9ced0c462d0}</Project>
+      <Name>ApacheSyslogUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\DhcpUnifiedRecorder\DhcpUnifiedRecorder\DhcpUnifiedRecorder.csproj">
+      <Project>{12c56d1b-69a6-4240-889a-620078393196}</Project>
+      <Name>DhcpUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder\ExchangeUnifiedRecorder.csproj">
+      <Project>{a1e32dad-b98a-4873-bd86-2d2de96b5873}</Project>
+      <Name>ExchangeUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\F5LoadBalancerUnifiedRecorder\F5LoadBalancerUnifiedRecorder\F5LoadBalancerUnifiedRecorder.csproj">
+      <Project>{97e7fb47-bf1e-48c8-9069-c37f6fde0099}</Project>
+      <Name>F5LoadBalancerUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\F5LoadBalancerVersion2UnifiedRecorder\F5LoadBalancerVersion2UnifiedRecorder\F5LoadBalancerVersion2UnifiedRecorder.csproj">
+      <Project>{43b73fb7-c565-4d49-8638-982cbae09838}</Project>
+      <Name>F5LoadBalancerVersion2UnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\IisUnifiedRecorder\IisUnifiedRecorder\IisUnifiedRecorder.csproj">
+      <Project>{eb4e3cd3-e98c-4b7d-8a71-425bcd86e7b8}</Project>
+      <Name>IisUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\JuniperPendikUnifiedRecorder\JuniperPendikUnifiedRecorder\JuniperPendikUnifiedRecorder.csproj">
+      <Project>{3b96fa10-4b00-4931-83af-67b4b85efc9a}</Project>
+      <Name>JuniperPendikUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\KerioMailUnifiedRecorder\KerioMailUnifiedRecorder\KerioMailUnifiedRecorder.csproj">
+      <Project>{8751e7bb-3b52-49f5-8107-20e51b9289f2}</Project>
+      <Name>KerioMailUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LabrisAccessUnifiedRecorder\LabrisAccessUnifiedRecorder\LabrisAccessUnifiedRecorder.csproj">
+      <Project>{d6e9a715-da44-4eba-ae71-790016ccb0ec}</Project>
+      <Name>LabrisAccessUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LabrisNetworkSyslogUnifiedRecorder\LabrisNetworkSyslogUnifiedRecorder\LabrisNetworkSyslogUnifiedRecorder.csproj">
+      <Project>{682b245b-1805-447c-adcf-a1888d71a01f}</Project>
+      <Name>LabrisNetworkSyslogUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder\LinuxDnsUnifiedRecorder.csproj">
+      <Project>{6ffccc34-1f28-4f98-9d12-7cb68027f6a4}</Project>
+      <Name>LinuxDnsUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeUnifiedRecorder\LinuxGeneralPurposeUnifiedRecorder\LinuxGeneralPurposeUnifiedRecorder.csproj">
+      <Project>{750811af-139e-46a7-81ae-3ab34ae6bbad}</Project>
+      <Name>LinuxGeneralPurposeUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\LinuxJobsUnifiedRecorder\LinuxJobsUnifiedRecorder\LinuxJobsUnifiedRecorder.csproj">
+      <Project>{bfb5bbbb-3861-40f6-a48f-d0f5361aa795}</Project>
+      <Name>LinuxJobsUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder\McafeeGatewayUnifiedRecorder.csproj">
+      <Project>{69636a87-3d91-4639-aff4-9777e464282c}</Project>
+      <Name>McafeeGatewayUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder\MsSqlUnifiedRecorder.csproj">
+      <Project>{b01e4861-3bab-4a9e-8bd6-71873ee4527e}</Project>
+      <Name>MsSqlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\MysqlUnifiedRecorder\MysqlUnifiedRecorder\MysqlUnifiedRecorder.csproj">
+      <Project>{fc315568-2df2-46d0-aa5f-6bdffd6bb0c0}</Project>
+      <Name>MysqlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\NetsafeFirewallUnifiedRecorder\NetsafeFirewallUnifiedRecorder\NetsafeFirewallUnifiedRecorder.csproj">
+      <Project>{18f01186-d378-4b89-bbde-a439fa88c9a1}</Project>
+      <Name>NetsafeFirewallUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder.csproj">
+      <Project>{8c77e177-c0a2-43bb-a683-80d753180d68}</Project>
+      <Name>NginxErrorUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\PaloAltoUnifiedSyslogRecorder\PaloAltoUnifiedSyslogRecorder\PaloAltoUnifiedSyslogRecorder.csproj">
+      <Project>{d02c6bce-b9eb-4d39-8079-ec58eff987a4}</Project>
+      <Name>PaloAltoUnifiedSyslogRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\PaloAltoUrlUnifiedRecorder\PaloAltoUrlUnifiedRecorder\PaloAltoUrlUnifiedRecorder.csproj">
+      <Project>{aa4e426f-8911-44cb-82da-604eeb6a6e13}</Project>
+      <Name>PaloAltoUrlUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\PfSenseUnifiedRecorder\PfSenseUnifiedRecorder\PfSenseUnifiedRecorder\PfSenseUnifiedRecorder.csproj">
+      <Project>{3a0e7fd1-de06-418e-a9f2-1f6b4c1b0f10}</Project>
+      <Name>PfSenseUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\PhpFpmUnifiedRecorder\PhpFpmUnifiedRecorder\PhpFpmUnifiedRecorder.csproj">
+      <Project>{2cc64dff-6eb0-4e1b-b555-9da8e04c263a}</Project>
+      <Name>PhpFpmUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\PhpFtpUnifiedRecorder\PhpFtpUnifiedRecorder\PhpFtpUnifiedRecorder.csproj">
+      <Project>{279ba676-04c3-4d9a-a003-577d98aa9582}</Project>
+      <Name>PhpFtpUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\RadiusUnifiedRecorder\RadiusUnifiedRecorder\RadiusUnifiedRecorder.csproj">
+      <Project>{41501572-a8a7-4f39-bcdd-24269d354776}</Project>
+      <Name>RadiusUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\SambaUnifiedRecorder\SambaUnifiedRecorder\SambaUnifiedRecorder.csproj">
+      <Project>{79bdb123-d4ab-4fc3-8f52-8d80e94c414d}</Project>
+      <Name>SambaUnifiedRecorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\trunk\Specific Implementations\UnifiedRecorders\SophosUnifiedRecorder\SophosUnifiedRecorder\SophosUnifiedRecorder.csproj">
+      <Project>{403a4569-8b33-42d3-901b-c7ee03c7fc0e}</Project>
+      <Name>SophosUnifiedRecorder</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,148 @@
+Windows Share Log Unified Recorder Unit Test Cases
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        /// 
+        /// Method Desciption : Determined the input record type
+        /// 
+        /// Test Scenerio : If context is null
+        /// 
+        /// Known Input :
+        ///     * context = null
+        ///     * error = null
+        /// 
+        /// Expected Output : 
+        ///     * NullReferenceException should occure
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : Determined the input record type
+        ///
+        ///Test Scenario : If context.InputRecord is null
+        ///
+        ///Known Input :
+        ///    * context = RecorderContext with null InputRecord
+        ///    * error = null
+        ///
+        ///Expected Output :
+        ///    * RecordInputType.Comment should return
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : Determined the input record type
+        ///
+        ///Test Scenario : If context.InputRecord.RecordText is null
+        ///
+        ///Known Input :
+        ///    * context = RecorderContext with null InputRecord.RecordText
+        ///    * error = null
+        ///
+        ///Expected Output :
+        ///    * RecordInputType.comment should return
+----------------------------------------------------------------------------
+        /// Method Name : InputTextType
+        ///
+        ///Method Description : Determined the input record type
+        ///
+        ///Test Scenario : If context is true
+        ///
+        ///Known Input :
+        ///    * context = RecorderContext with InputRecord that initiate
+        ///    * error = null
+        ///
+        ///Expected Output :
+        ///    * RecordInputType.Record should return
+----------------------------------------------------------------------------
+        /// Method Name : GetHeaderText
+        ///
+        ///Method Description : Return string.Empty
+        ///
+        ///Test Scenario : If context is null
+        ///
+        ///Known Input :
+        ///    * context = null
+        ///
+        ///Expected Output :
+        ///    * string.Empty should return
+----------------------------------------------------------------------------
+        /// Method Name : GetHeaderText
+        ///
+        ///Method Description : Return string.Empty
+        ///
+        ///Test Scenario : If context is not null
+        ///
+        ///Known Input :
+        ///    * context = FileLineRecorderContext(_ftp2012UnifiedRecorder)
+        ///Expected Output :
+        ///    * string.Empty should return
+----------------------------------------------------------------------------
+        /// Method Name : ExtractUsername
+        ///
+        ///Method Description : Split the user name from input
+        ///
+        ///Test Scenario : If all parameters are null
+        ///
+        ///Known Input :
+        ///       *  RecWrapper rec = null;
+        ///       *  string field = null;
+        ///       *  string[] values = null;
+        ///       *  object data = null;
+        /// 
+        ///Expected Output :
+        ///    * string.Empty should return
+----------------------------------------------------------------------------
+        /// Method Name : ExtractUsername
+        ///
+        ///Method Description : Split the user name from input
+        ///
+        ///Test Scenario : If all parameters are null
+        ///
+        ///Known Input :
+        ///       *  RecWrapper rec = null;
+        ///       *  string field = null;
+        ///       *  string[] values = null;
+        ///       *  object data = null;
+        /// 
+        ///Expected Output :
+        ///    * string.Empty should return
+----------------------------------------------------------------------------
+        /// Method Name : OnBeforeSetData
+        ///
+        ///Method Description : Determined the input record type
+        ///
+        ///Test Scenario : If context is not null
+        ///
+        ///Known Input :
+        ///    * context = RecorderContext with InputRecord that initiate
+        ///    
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+----------------------------------------------------------------------------
+        /// Method Name : GetLastProcessedFile
+        ///
+        ///Method Description : Get last process file
+        ///
+        ///Test Scenario : If context is null
+        ///
+        ///Known Input :
+        ///    * FileLineRecorderContext context = null;
+        ///    
+        ///
+        ///Expected Output :
+        ///    * false should return
+----------------------------------------------------------------------------
+        /// Method Name : GetLastProcessedFile
+        ///
+        ///Method Description : Get last process file
+        ///
+        ///Test Scenario : If context is not null
+        ///
+        ///Known Input :
+        ///    * FileLineRecorderContext context = null;
+        ///    
+        ///
+        ///Expected Output :
+        ///    * true should return
+----------------------------------------------------------------------------
+
+

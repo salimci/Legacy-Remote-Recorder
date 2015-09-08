@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\JuniperSslVpnUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\JuniperSslVpnUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\obj\Release\JuniperSslVpnUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\obj\Release\JuniperSslVpnUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSslVpnUnifiedRecorder\JuniperSslVpnUnifiedRecorder\obj\Release\JuniperSslVpnUnifiedRecorder.pdb

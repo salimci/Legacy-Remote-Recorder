@@ -1,0 +1,129 @@
+Mcafee Ips Unified Recorder Unit Test Cases
+-----------------------------------------------------------------------------
+        /// Method Name : Concatinate
+        /// 
+        /// Method Desciption : Integration to fieldvalues string array data
+        /// 
+        /// Test Scenerio : If fieldvalues is null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = null 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+-----------------------------------------------------------------------------
+        /// Method Name : Concatinate
+        /// 
+        /// Method Desciption : Integration to fieldvalues string array data
+        /// 
+        /// Test Scenerio : If fieldvalues is empty
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {string.empty} 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+-----------------------------------------------------------------------------
+        /// Method Name : Concatinate
+        /// 
+        /// Method Desciption : Integration to fieldvalues string array data
+        /// 
+        /// Test Scenerio : If fieldvalues is not null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {"ali!","ayse?"} 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return ali!ayse?
+-----------------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        /// 
+        /// Method Desciption : Is there a header info in context
+        /// 
+        /// Test Scenerio : If MappingInfos is not null
+        /// 
+        /// Known Input : 
+        ///     * context = syslogcontext
+        ///     * error = null 
+        /// 
+        /// Expected Output : 
+        ///     * return NextInstruction.Do
+-----------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        /// 
+        /// Method Desciption : If header info is exist goto next instruction than return base context else only return base context
+        /// 
+        /// Test Scenerio : If Context.HeaderInfo is null
+        /// 
+        /// Known Input :
+        ///     * Context.HeaderInfo = null
+        /// 
+        /// Expected Output : 
+        ///     * return NextInstruction.Do
+
+-----------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        /// 
+        /// Method Desciption : If header info is exist goto next instruction than return base context else only return base context
+        /// 
+        /// Test Scenerio : If Context.HeaderInfo is not null
+        /// 
+        /// Known Input :
+        ///     * Context.HeaderInfo = new DataMappingInfo()
+        /// 
+        /// Expected Output : 
+        ///     * return NextInstruction.Do
+-----------------------------------------------------------------------------
+
+        /// Method Name : OnBeforeProcessRecordInput
+        /// 
+        /// Method Desciption : If header info is exist goto next instruction than return base context else only return base context
+        /// 
+        /// Test Scenerio : If match is not success
+        /// 
+        /// Known Input :
+        ///     * match = !success
+        /// 
+        /// Expected Output : 
+        ///     * return NextInstruction.Skip
+-----------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is success
+        ///
+        ///Known Input :
+        ///    * context = null;
+        ///    * match = at the moment pattern
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Return should return
+-----------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is success
+        ///
+        ///Known Input :
+        ///    * context = "deneme";
+        ///    * match = at the moment pattern
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Return should return
+-----------------------------------------------------------------------------
+
+

@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\TippingPointIpsRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\TippingPointIpsRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\obj\Debug\TippingPointIPSRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\obj\Debug\TippingPointIpsRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TippingPointIPSRecorder\TippingPointIPSRecorder\obj\Debug\TippingPointIpsRecorder.pdb

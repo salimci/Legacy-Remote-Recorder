@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\EventLogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\EventLogRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\obj\Debug\EventLogRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\obj\Debug\EventLogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\obj\Debug\EventLogRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\EventLogRecorder\EventLogRecorder\bin\Debug\AppParser.pdb

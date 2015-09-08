@@ -1,0 +1,367 @@
+DhcpUnifiedRecorder Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If data is null
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+	*  NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If values string array has one item
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = "2014-09-09"
+    * data = DhcpUnifiedRecorder;
+
+Expected Output :
+	*  IndexOutOfRangeException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is "M/d/yyyy H:m:s", return "yyyy/MM/dd HH:mm:ss"
+this date format
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = String.Empty
+    * values = "05/23/14", "12:10:44"
+    * data = DhcpUnifiedRecorder;
+
+Expected Output :
+	*  Return 2014/05/23 12:10:44
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is not expected, return String.Empty
+		
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = "2014/09/09", "08:54:15"
+    * data = DhcpUnifiedRecorder
+
+Expected Output :
+	*  Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context is null
+
+Known Input :
+	* context = null
+	* error = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord
+	* error = null
+
+Expected Output :
+	* RecordInputType.Unknown should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord.RecordText is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord.RecordText
+	* error = null
+
+Expected Output :
+	* RecordInputType.Unknown should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord.RecordText.Length == 0
+
+Known Input :
+	* context = RecorderContext with InputRecord.RecordText that initiate with 
+	empty string
+	* error = null
+
+Expected Output :
+	* RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputText start with '#'
+
+Known Input :
+	* context = RecorderContext with InputRecord that initiate with string 
+
+		string = "#---"
+
+	* error = null
+
+Expected Output :
+	* RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputText string begin with "#Fields:" 
+
+Known Input :
+	* context = RecorderContext with InputRecord that initiate with string 
+
+		string = "#Fields ---------"
+
+	* error = null
+
+Expected Output :
+	* RecordInputType.Header should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If not context.InputText string begin with "#Fields:", "#" and 
+not null and string is not empty  
+
+Known Input :
+	* context = RecorderContext with InputRecord that initiate with string 
+
+		string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+
+	* error = null
+
+Expected Output :
+	* RecordInputType.Record should return
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters 
+
+Test Scenario : If context is null
+
+Known Input : 
+	* context = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters 
+
+Test Scenario : If context.InputReader is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters
+
+Test Scenario : If context.InputReader.Length() < 8
+		string = "field"
+Known Input :
+
+Expected Output :
+	* ArgumentOutOfRangeException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters
+
+Test Scenario : If all cases is true
+		string = "#Fields: ---"
+Known Input : RecorderContext with InputRecord that initiate
+
+Expected Output :
+	* " ---" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario : If regex is wrong for header
+		
+Known Input : 
+	regex = "^([^\s]+)\s*$"
+
+Expected Output :
+	* expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario : If regex is true for header
+		
+Known Input : Expected regex
+
+Expected Output :
+	* return expected regex
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create field separator with regex
+
+Test Scenario : If regex is wrong for field
+		
+Known Input : 
+	regex = "^([^\s]+)\s*$"
+
+Expected Output :
+	* expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create field separator with regex
+
+Test Scenario : If regex is true for field
+		
+Known Input : Expected regex
+
+Expected Output :
+	* return expected regex
+
+--------------------------------------------------------------------------------
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario : If context is null
+		
+Known Input : 
+	* context = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario : If context.record is null
+		
+Known Input : 
+	* context = context.record = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : OnBeforeSetData
+
+Method Description : Ready for process data
+
+Test Scenario :  If context is not null and context.Record.CustomStr1 is empty
+		
+Known Input : 
+	* context = RecorderContext
+    * context.Record.CustomStr1 = "CustomStr1"
+
+Expected Output :
+	*  NextInstruction.Do should return
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderInfo
+
+Method Description : Get Header Info
+
+Test Scenario :  If context is null
+		
+Known Input : 
+	* context = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderInfo
+
+Method Description : Get Header Info
+
+Test Scenario : error is new exception
+		
+Known Input : 
+	* context = dhcpUnifiedRecorder
+    * error = new Exception()
+
+Expected Output :
+	* NextInstruction.Abort should return
+
+--------------------------------------------------------------------------------

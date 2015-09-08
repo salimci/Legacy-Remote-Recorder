@@ -1,0 +1,154 @@
+Assembly Database, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly MySql.Data, Version=5.0.8.1, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=SHA1, flags=None
+Class Log.CLogger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetLogLevel(LogLevel): PrivateScope, Public, HideBySig
+    SetLogFile(String): PrivateScope, Public, HideBySig
+    SetLogFileSize(UInt32): PrivateScope, Public, HideBySig
+    Log(LogType, LogLevel, String, Int32[]): PrivateScope, Public, HideBySig
+    LogLine(LogLevel, String): PrivateScope, Public, HideBySig
+    LogLine(): PrivateScope, Public, HideBySig
+    LogTimed(LogType, LogLevel, String, Int32[]): PrivateScope, Public, HideBySig
+    SetTimerInterval(LogType, UInt32): PrivateScope, Public, HideBySig
+    ListSortCompare(FileLogData, FileLogData): PrivateScope, Public, HideBySig
+Class DAL.Encrypter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Eyncrypt(String, String): PrivateScope, Public, Static, HideBySig
+    Decyrpt(String, String): PrivateScope, Public, Static, HideBySig
+Class Log.Logger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetLogLevel(LogLevel): PrivateScope, Public, Static, HideBySig
+    SetLogFile(String): PrivateScope, Public, Static, HideBySig
+    SetLogFileSize(UInt32): PrivateScope, Public, Static, HideBySig
+    Log(LogType, LogLevel, String, Int32[]): PrivateScope, Public, Static, HideBySig
+    LogLine(LogLevel, String): PrivateScope, Public, Static, HideBySig
+    LogLine(): PrivateScope, Public, Static, HideBySig
+    LogTimed(LogType, LogLevel, String, Int32[]): PrivateScope, Public, Static, HideBySig
+    SetTimerInterval(LogType, UInt32): PrivateScope, Public, Static, HideBySig
+    ListSortCompare(FileLogData, FileLogData): PrivateScope, Public, Static, HideBySig
+Struct Log.LogType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Log.LogType CONSOLE = 0 : Public, Static, Literal, HasDefault
+    Log.LogType EVENTLOG = 1 : Public, Static, Literal, HasDefault
+    Log.LogType FILE = 2 : Public, Static, Literal, HasDefault
+    Log.LogType DATABASE = 3 : Public, Static, Literal, HasDefault
+Struct Log.LogLevel: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Log.LogLevel NONE = 0 : Public, Static, Literal, HasDefault
+    Log.LogLevel INFORM = 1 : Public, Static, Literal, HasDefault
+    Log.LogLevel WARN = 2 : Public, Static, Literal, HasDefault
+    Log.LogLevel ERROR = 3 : Public, Static, Literal, HasDefault
+    Log.LogLevel DEBUG = 4 : Public, Static, Literal, HasDefault
+Struct Log.FileLogData: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Log.LogLevel level : Public
+    System.DateTime time : Public
+    System.String data : Public
+Class Log.ALogger: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    SetLogLevel(LogLevel): PrivateScope, Public, Static, HideBySig
+    SetLogFile(String): PrivateScope, Public, Static, HideBySig
+    SetLogFileSize(UInt32): PrivateScope, Public, Static, HideBySig
+    Log(LogType, LogLevel, String, Int32[]): PrivateScope, Public, Static, HideBySig
+    LogLine(LogLevel, String): PrivateScope, Public, Static, HideBySig
+    LogLine(): PrivateScope, Public, Static, HideBySig
+    LogTimed(LogType, LogLevel, String, Int32[]): PrivateScope, Public, Static, HideBySig
+    SetTimerInterval(LogType, UInt32): PrivateScope, Public, Static, HideBySig
+    ListSortCompare(FileLogData, FileLogData): PrivateScope, Public, Static, HideBySig
+Class DAL.Database: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Log.ALogger
+  Fields:
+    Boolean Fast : Public, Static
+    System.String registryPath : Public, Static
+  Methods:
+    CreateDatabase(): PrivateScope, Public, Static, HideBySig
+    CreateDatabase(String): PrivateScope, Public, Static, HideBySig
+    AddConnection(String, Provider, String, String, String, String): PrivateScope, Public, Static, HideBySig
+    RemoveConnection(String): PrivateScope, Public, Static, HideBySig
+    LoadStrings(): PrivateScope, Public, HideBySig
+    GetConnectionNames(): PrivateScope, Public, Static, HideBySig
+    GetConnectionProvider(String): PrivateScope, Public, Static, HideBySig
+    GetConnectionInfo(Boolean, String): PrivateScope, Public, Static, HideBySig
+    GetConnectionProvider(Boolean, String): PrivateScope, Public, Static, HideBySig
+    GetConnection(String): PrivateScope, Public, Static, HideBySig
+    GetConnection(Boolean, String): PrivateScope, Public, Static, HideBySig
+    GetCommand(String, String): PrivateScope, Public, Static, HideBySig
+    GetCommand(Boolean, String, String): PrivateScope, Public, Static, HideBySig
+    Drop(DbConnection&, DbCommand&): PrivateScope, Public, Static, HideBySig
+    Drop(DbCommand&): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, String): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(Boolean, String, String): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, String, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(Boolean, String, String, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, String, CommandBehavior, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(Boolean, String, String, CommandBehavior, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, String, CommandBehavior, Int32, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(Boolean, String, String, CommandBehavior, Int32, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, CommandBehavior, Int32, DbCommand&): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(Boolean, String, CommandBehavior, Int32, DbCommand&): PrivateScope, Public, Static, HideBySig
+    GetDataAdapter(String, String, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    GetDataAdapter(Boolean, String, String, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQuery(String, String): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQuery(Boolean, String, String): PrivateScope, Public, Static, HideBySig
+    BeginTransaction(String): PrivateScope, Public, Static, HideBySig
+    BeginTransaction(Boolean, String): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQueryWithinTransaction(String, String, DbTransaction, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQueryWithinTransaction(Boolean, String, String, DbTransaction, DbCommand&(Out)): PrivateScope, Public, Static, HideBySig
+    CommitTransaction(DbTransaction&): PrivateScope, Public, Static, HideBySig
+    RollBackTransaction(DbTransaction&): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQuery(String, String, Int32): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQuery(Boolean, String, String, Int32): PrivateScope, Public, Static, HideBySig
+    CreatePreparedStatement(String, DbCommand&(Out), String, Parameter[]): PrivateScope, Public, Static, HideBySig
+    CreatePreparedStatement(Boolean, String, DbCommand&(Out), String, Parameter[]): PrivateScope, Public, Static, HideBySig
+    AddParameters(String, DbCommand&, Parameter[]): PrivateScope, Public, Static, HideBySig
+    AddParameters(Boolean, String, DbCommand&, Parameter[]): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, DbCommand&): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(Boolean, String, DbCommand&): PrivateScope, Public, Static, HideBySig
+    ExecuteDataSet(String, DbCommand&): PrivateScope, Public, Static, HideBySig
+    ExecuteDataSet(Boolean, String, DbCommand&): PrivateScope, Public, Static, HideBySig
+    ExecuteDataSet(String, DbCommand&, Int32): PrivateScope, Public, Static, HideBySig
+    ExecuteDataSet(Boolean, String, DbCommand&, Int32): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQuery(DbCommand&): PrivateScope, Public, Static, HideBySig
+    AddProviderToRegister(Provider, String, String, String, String, String): PrivateScope, Public, Static, HideBySig
+    AddProviderToRegister(Provider, String, String, String, String, String, Int32, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+Struct DAL.Database+Provider: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Provider SQLServer = 0 : Public, Static, Literal, HasDefault
+    Provider Oracle = 1 : Public, Static, Literal, HasDefault
+    Provider MySQL = 2 : Public, Static, Literal, HasDefault
+    Provider Oracle_ODBC = 3 : Public, Static, Literal, HasDefault
+Struct DAL.Database+Types: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Provider prov : Public
+    System.String connectionString : Public
+Struct DAL.Database+Parameter: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.String, System.Data.DbType, System.Object, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, System.Object[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String name : Public
+    System.Data.DbType type : Public
+    System.Object value : Public
+    Int32 size : Public
+    Boolean isMultiple : Public

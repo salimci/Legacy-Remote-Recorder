@@ -1,0 +1,177 @@
+Trend Micro Safe Sync Unified Recorder Unit Test Cases
+-----------------------------------------------------------------------------------
+	/// Method Name : Concatinate
+        /// 
+        /// Method Desciption : Integration to fieldvalues string array data
+        /// 
+        /// Test Scenerio : If fieldvalues is null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = null 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+-----------------------------------------------------------------------------------
+        /// Method Name : Concatinate
+        /// 
+        /// Method Desciption : Integration to fieldvalues string array data
+        /// 
+        /// Test Scenerio : If fieldvalues is empty
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {string.empty} 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+-----------------------------------------------------------------------------------
+        /// Method Name : Concatinate
+        /// 
+        /// Method Desciption : Integration to fieldvalues string array data
+        /// 
+        /// Test Scenerio : If fieldvalues is not null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {"ali!","ayse?"} 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return ali!ayse?
+-----------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = null 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+-----------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is not null
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = 2014 SEP 08 14:33:58 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * Input date have been converted
+-----------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        /// 
+        /// Method Desciption : Convert to input date
+        /// 
+        /// Test Scenerio : If date is string.empty
+        /// 
+        /// Known Input :
+        ///     
+        ///		* rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = string.empty 
+        ///		* data = null
+        /// 
+        /// Expected Output : 
+        ///     * return string.empty
+-----------------------------------------------------------------------------------
+        /// Method Name : Convert2Date
+        ///
+        ///Method Description : Convert to the input date 
+        ///
+        ///Test Scenario : If date format is wrong
+        ///
+        ///Known Input :
+        ///     * rec = null 
+        ///		* field = null 
+        ///		* fieldvalues = {"09/09/14 2:55:PM"} 
+        ///		* data = null
+        ///
+        ///Expected Output :
+        ///     * return String Empty
+-----------------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        /// 
+        /// Method Desciption : Is there a header information in context 
+        /// 
+        /// Test Scenerio : If Context.HeaderInfo is null
+        /// 
+        /// Known Input :
+        ///     * Context.HeaderInfo = null
+        /// 
+        /// Expected Output : 
+        ///     * return NextInstruction.Do
+-----------------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        /// 
+        /// Method Desciption : Is there a header information in context
+        /// 
+        /// Test Scenerio : If Context.HeaderInfo is not null
+        /// 
+        /// Known Input :
+        ///     * Context.HeaderInfo = new DataMappingInfo()
+        /// 
+        /// Expected Output : 
+        ///     * return NextInstruction.Do
+-----------------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        /// 
+        /// Method Desciption : Is there a header information in context
+        /// 
+        /// Test Scenerio : If match is not success
+        /// 
+        /// Known Input :
+        ///     * match = !success
+        /// 
+        /// Expected Output : 
+        ///     * return NextInstruction.Skip
+-----------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is success
+        ///
+        ///Known Input :
+        ///    * match = at the moment pattern
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Return should return
+-----------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is success
+        ///
+        ///Known Input :
+        ///    * context = "deneme";
+        ///    * match = at the moment pattern
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Return should return
+-----------------------------------------------------------------------------------
+
+
+

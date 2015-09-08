@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\F5SyslogV_1_0_0Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\F5SyslogV_1_0_0Recorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\obj\Debug\F5SyslogV_1_0_0Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_1_0_0Recorder\F5SyslogV_1_0_0Recorder\obj\Debug\F5SyslogV_1_0_0Recorder.pdb

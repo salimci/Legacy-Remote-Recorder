@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\SquidSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\SquidSyslogUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\obj\Release\SquidSyslogUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\obj\Release\SquidSyslogUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\SquidSyslogUnifiedRecorder\SquidSyslogUnifiedRecorder\obj\Release\SquidSyslogUnifiedRecorder.csprojResolveAssemblyReference.cache

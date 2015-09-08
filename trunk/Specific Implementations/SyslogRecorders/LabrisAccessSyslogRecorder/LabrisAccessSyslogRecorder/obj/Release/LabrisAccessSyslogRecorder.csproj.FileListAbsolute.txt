@@ -1,0 +1,6 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\LabrisAccessSyslogRecorder\LabrisAccessSyslogRecorder\bin\Release\LabrisAccessSyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\LabrisAccessSyslogRecorder\LabrisAccessSyslogRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\LabrisAccessSyslogRecorder\LabrisAccessSyslogRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\LabrisAccessSyslogRecorder\LabrisAccessSyslogRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\LabrisAccessSyslogRecorder\LabrisAccessSyslogRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\LabrisAccessSyslogRecorder\LabrisAccessSyslogRecorder\obj\Release\LabrisAccessSyslogRecorder.dll

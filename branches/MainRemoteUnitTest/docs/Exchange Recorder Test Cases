@@ -1,0 +1,657 @@
+Exchange Recorder Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If data is null
+
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is "yyyy-M-d'T'H:m:s.fff'Z'", return 
+"yyyy/MM/dd HH:mm:ss" this date format
+
+Known Input :
+	* rec = RecWrapper
+    * field = String.Empty
+    * values = "2014-09-09T08:54:15.000Z"
+    * data = Ftp2012UnifiedRecorder
+
+Expected Output :
+	* Return 2014/09/09 08:54:15
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is not expected, return String.Empty
+
+Known Input : 
+    * rec = RecWrapper
+    * field = null
+    * values = "2014/09/09 08:54:15"
+    * data = Ftp2012UnifiedRecorder
+
+Expected Output :
+    * Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If recorder is null, return string.Empty
+
+Known Input :
+    * rec = null
+    * field = null
+    * values = "2014/09/09T08:54:15.000Z"
+    * data = null
+
+Expected Output :
+    * Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return given customStr1 value's first 900 bytes
+
+Test Scenario : If values[0] is null, return values[0]
+
+Known Input :
+    * rec = null
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+    * Return null
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return given customStr1 value's first 900 bytes
+
+Test Scenario : If values[0] is empty, return string.Empty
+
+Known Input :
+    * rec = null
+    * field = null
+    * values = {String.Empty}
+    * data = null
+
+Expected Output :
+    * Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return given customStr1 value's first 900 bytes
+
+Test Scenario : If values[0].legth() is smaller than 900 bytes, return string.Empty
+
+Known Input :
+    * rec = null
+    * field = String.Empty
+    * values = {"Lorem"}
+    * data = null
+
+Expected Output :
+    * Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return given customStr1 value's first 900 bytes
+
+Test Scenario : If values[0].length() is bigger than 900 bytes but smaller than 1800 bytes,
+ return string.Empty
+
+Known Input :
+    * rec = null
+    * field = String.Empty
+    * values = {"Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit "}
+    * data = null
+
+Expected Output :
+    * Return string.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return given customStr1 value's first 900 bytes
+
+Test Scenario : If values[0] is bigger than 1800 bytes, return string first 900 bytes
+
+Known Input :
+    * rec = RecWrapper
+    * field = String.Empty
+    * values = "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor
+    sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit "
+    * data = null
+
+Expected Output :
+    *  "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetu
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolo
+    r sit amet consectetur adipisicing elit Lorem ipsum dolor sitamet consec
+    tetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing 
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum 
+    dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicingelit Lorem O" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CustomStr1Splitter
+
+Method Description : Return given customStr1 value's first 900 bytes
+
+Test Scenario : If values[0].length() is bigger than 1800 bytes and recorder null
+
+Known Input :
+    * rec = RecWrapper
+    * field = String.Empty
+    * values = "Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor
+    sit amet consectetur adipisicing elit Lorem 
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+    amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+    ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+    consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing
+    elit Lorem ipsum dolor sit amet consectetur adipisicing elit "
+    * data = null
+
+Expected Output :
+    * Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Concaniate given description with - character
+
+Test Scenario : If values is null
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+    * IndexOutOfRangeException  should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Concaniate given description with - character
+
+Test Scenario : If values[0] is empty, return values[1]
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {string.Empty,"Lorem"}
+    * data = null
+
+Expected Output :
+    * "Lorem" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Concaniate given description with - character
+
+Test Scenario : If values[0] is null, return values[1]
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {null,"Lorem"}
+    * data = null
+
+Expected Output :
+    * "Lorem" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Concaniate given description with - character
+
+Test Scenario : If values[1] is empty, return values[0]
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {"Lorem", string.Empty}
+    * data = null
+
+Expected Output :
+    * "Lorem" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Concaniate given description with - character
+
+Test Scenario :  If values[1] is null, return values[0]
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {"Lorem", null}
+    * data = null
+
+Expected Output :
+    * "Lorem" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : DescriptionSplitter
+
+Method Description : Concaniate given description with - character
+
+Test Scenario :  If values[0] is not empty or null, concaniate given description
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {"Lorem", "ipsum", "dolor"}
+    * data = null
+
+Expected Output :
+    * "Lorem-ipsum" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : SetIpAddress
+
+Method Description : Determine ip address
+
+Test Scenario :  If values is null
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+    * NullReferenceException should occurence
+
+--------------------------------------------------------------------------------
+
+Method Name : SetIpAddress
+
+Method Description : Determine ip address
+
+Test Scenario :  If values is empty
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = new[] {string.Empty}
+    * data = null
+
+Expected Output :
+    * IndexOutOfRange should occurence
+
+--------------------------------------------------------------------------------
+
+Method Name : SetIpAddress
+
+Method Description : Determine ip address
+
+Test Scenario :  If values[1] is empty
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {String.Empty, String.Empty}
+    * data = null
+
+Expected Output :
+    * String.Empty should occurence
+
+--------------------------------------------------------------------------------
+
+Method Name : SetIpAddress
+
+Method Description : Determine ip address
+
+Test Scenario :  If values[1] is empty
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {String.Empty, null}
+    * data = null
+
+Expected Output :
+    *  String.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : SetIpAddress
+
+Method Description : Determine ip address
+
+Test Scenario :  If values[1] is null
+
+Known Input :
+    * rec = null
+    * field = null
+    * values = {"Lorem", null}
+    * data = null
+
+Expected Output :
+    * "Lorem" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : SetIpAddress
+
+Method Description : Determine ip address
+
+Test Scenario :  If values[1] is empty
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {"Lorem", String.Empty}
+    * data = null
+
+Expected Output :
+    * "Lorem" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : SetIpAddress
+
+Method Description : Determine ip address
+
+Test Scenario :  If values[1] is empty
+
+Known Input :
+    * rec = RecWrapper
+    * field = null
+    * values = {"Lorem", "ipsum"}
+    * data = null
+
+Expected Output :
+    * "ipsum" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context is null
+
+Known Input :
+    * context = null
+    * error = null
+
+Expected Output :
+    *  NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputRecord is null
+
+Known Input :
+    * context = RecorderContext with null InputRecord
+    * error = null
+
+Expected Output :
+    *  RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputRecord.toString().length is equal zero
+
+Known Input :
+    * context = RecorderContext with InputRecord
+    * error = null
+
+Expected Output :
+    *  RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputRecord starts with "#Lorem"
+
+Known Input :
+    * context = RecorderContext with InputRecord
+    * error = null
+
+Expected Output :
+    *  RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputRecord starts with "#Fields: "
+
+Known Input :
+    * context = RecorderContext with InputRecord
+    * error = null
+
+Expected Output :
+    *  RecordInputType.Header should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord is other posibilities
+
+Known Input :
+    * context = RecorderContext with InputRecord
+    * error = null
+
+Expected Output :
+    * RecordInputType.Record should return
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters 
+
+Test Scenario :  If context is null
+
+Known Input :
+    * context = RecorderContext with InputRecord
+
+Expected Output :
+    *  NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters 
+
+Test Scenario :  If context.InputRecord.length() is smaller than eight
+
+Known Input :
+    * context = RecorderContext with null InputRecord
+
+Expected Output :
+    *  ArgumentOutOfRangeException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Get header line except first eight characters 
+
+Test Scenario : If all cases is true
+                string = "#Fields: ---"
+
+Known Input :
+    * context = RecorderContext with InputRecord that initiate
+
+Expected Output :
+    * " ---" should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario :  If regex is wrong for header
+
+Known Input :
+    regex = "^([^\s]+)\s*$"
+
+Expected Output :
+    * expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario :  If regex is true for header
+
+Known Input : Expected regex
+
+Expected Output :
+    *  return expected regex
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create fieldfieldfieldfield separator with regex
+
+Test Scenario :  If regex is wrong for fieldfieldfield
+
+Known Input :
+    regex = "^([^\s]+)\s*$"
+
+Expected Output :
+    * expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create fieldfield separator with regex
+
+Test Scenario :  If regex is true for field
+
+Known Input : Expected regex
+
+Expected Output :
+    *  return expected regex
+
+--------------------------------------------------------------------------------

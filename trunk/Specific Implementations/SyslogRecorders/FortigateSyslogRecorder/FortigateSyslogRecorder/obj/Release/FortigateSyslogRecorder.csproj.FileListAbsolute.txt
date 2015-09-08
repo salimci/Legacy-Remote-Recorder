@@ -1,0 +1,6 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Release\FortigateSyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateSyslogRecorder\FortigateSyslogRecorder\obj\Release\FortigateSyslogRecorder.dll

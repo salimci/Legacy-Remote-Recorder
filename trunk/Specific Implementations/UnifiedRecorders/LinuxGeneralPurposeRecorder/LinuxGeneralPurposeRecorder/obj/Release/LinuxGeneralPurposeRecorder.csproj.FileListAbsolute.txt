@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\LinuxGeneralPurposeRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\LinuxGeneralPurposeRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Release\LinuxGeneralPurposeRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Release\LinuxGeneralPurposeRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\LinuxGeneralPurposeRecorder\LinuxGeneralPurposeRecorder\obj\Release\LinuxGeneralPurposeRecorder.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+Http Access log:
+src_ip - src_host - auth_user - time_stamp - "req_line" - status_code - bytes_to_client - "referer" - "user_agent"
+
+Http Access Denied Logs:
+src_ip - src_host - auth_user - time_stamp - "req_line" - "categories"
+
+Security Log:
+src_ip - src_host - auth_user - time_stamp - "object_id" - status_code - media_type - extension - media_type_status
+
+Found Viruses log:
+src_ip - src_host - auth_user - time_stamp - - "virus_name" - "file_name" - "media_type" - infected_status
+
+Audit Logs:
+time_stamp interface auth_user session src_ip "event" "policy" setting "setting_old_value" "setting_new_value" ui_location

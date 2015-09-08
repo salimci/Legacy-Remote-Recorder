@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\OracleUnifiedRecorder.dll.config
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\OracleUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\OracleUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\obj\Debug\OracleUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\obj\Debug\OracleUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\obj\Debug\OracleUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\OracleUnifiedRecorder\OracleUnifiedRecorder\bin\Debug\Vertica.Data.dll

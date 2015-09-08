@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\NginxErrorUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\NginxErrorUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\obj\Release\NginxErrorUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\obj\Release\NginxErrorUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NginxErrorUnifiedRecorder\NginxErrorUnifiedRecorder\obj\Release\NginxErrorUnifiedRecorder.pdb

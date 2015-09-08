@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabrisWebFilter_V3_Recorder", "LabrisWebFilter_V3_Recorder\LabrisWebFilter_V3_Recorder.csproj", "{097A793E-8CCB-4A1E-B7A4-6D5E38812B34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097A793E-8CCB-4A1E-B7A4-6D5E38812B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097A793E-8CCB-4A1E-B7A4-6D5E38812B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097A793E-8CCB-4A1E-B7A4-6D5E38812B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097A793E-8CCB-4A1E-B7A4-6D5E38812B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

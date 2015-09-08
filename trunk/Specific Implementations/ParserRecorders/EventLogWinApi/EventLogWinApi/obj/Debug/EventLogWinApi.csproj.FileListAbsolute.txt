@@ -1,0 +1,9 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\bin\Debug\EventLogWinApi.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\bin\Debug\EventLogWinApi.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\obj\Debug\EventLogWinApi.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\obj\Debug\EventLogWinApi.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\EventLogWinApi\EventLogWinApi\obj\Debug\EventLogWinApi.pdb

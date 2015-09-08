@@ -1,0 +1,34 @@
+Text Size Constrait Unit Test Cases
+------------------------------------------------------------------------------------
+        /// Method Name : Apply
+        ///
+        ///Method Description : The method check property, if property not null set value property
+        ///
+        ///Test Scenario :If target and context is null
+        ///
+        ///Known Input :
+        ///    * target = null
+        ///    * context = null
+        ///    * pro = new TextProperty()
+        ///
+        ///Expected Output :
+        ///    * Return should NextIInstruction.Do
+------------------------------------------------------------------------------------
+        /// Method Name : Apply
+        ///
+        ///Method Description : The method check property, if property not null set value property
+        ///
+        ///Test Scenario :If target and context is not null
+        ///
+        ///Known Input :
+        ///    * target = new RecWrapper()
+        ///    * context = "lorem ipsum"
+        ///    * pro = new TextProperty()
+        ///
+        ///Expected Output :
+        ///    * Return NextInstructionDo
+------------------------------------------------------------------------------------
+
+
+
+

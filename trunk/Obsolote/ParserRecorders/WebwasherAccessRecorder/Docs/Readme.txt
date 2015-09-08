@@ -1,0 +1,1 @@
+CFCU'da kullanýlan sistemde bazý update'ler yapýldýðýndan recorder parse yapýsýnda güncellemeler yapýlýp WebWasherAccessV6_9_3_2Recorder olarak çýkarýlýp replace edilmiþtir.

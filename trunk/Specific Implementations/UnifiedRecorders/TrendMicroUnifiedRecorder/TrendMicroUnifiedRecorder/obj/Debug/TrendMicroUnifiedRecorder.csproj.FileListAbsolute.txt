@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\TrendMicroUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\TrendMicroUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\obj\Debug\TrendMicroUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\obj\Debug\TrendMicroUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\TrendMicroUnifiedRecorder\TrendMicroUnifiedRecorder\obj\Debug\TrendMicroUnifiedRecorder.csprojResolveAssemblyReference.cache

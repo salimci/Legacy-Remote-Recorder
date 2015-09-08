@@ -1,0 +1,269 @@
+WeblogicUnifiedRecorder Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If data is null
+
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is "MMM dd, yyyy HH:mm:ss ee zzzz", return 
+"yyyy/MM/dd HH:mm:ss" this date format
+
+Known Input : 
+    * rec = RecWrapper
+    * field = String.Empty
+    * fieldvalues = "Apr 3, 2013 11:07:49 AM EEST"
+    * data = WeblogicUnifiedRecorder
+
+Expected Output :
+    * Return 2014/09/09 08:54:15
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is not expected, return String.Empty
+
+Known Input : 
+    * rec = RecWrapper
+    * field = null
+    * fieldvalues = "2014/09/09 08:54:15"
+    * data = WeblogicUnifiedRecorder
+
+Expected Output :
+    * Return String.Empty
+
+--------------------------------------------------------------------------------
+Method Name : OnFieldMatch
+
+Method Description : Matching with regex at the moment file line
+
+Test Scenario : If Match is not success
+
+Known Input :
+	* match = !success
+	
+Expected Output :
+	* NextInstruction.Skip should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnFieldMatch
+
+Method Description : Matching with regex at the moment file line
+
+Test Scenario : If OnFieldMatch is success but context does not include sourceheaderinfo
+
+Known Input :
+	* match = at the moment pattern
+	
+Expected Output :
+	* NullReferenceException should occurence
+
+--------------------------------------------------------------------------------
+
+Method Name : OnFieldMatch
+
+Method Description : Matching with regex at the moment file line
+
+Test Scenario : If OnFieldMatch is success but context is null
+
+Known Input :
+	* match = at the moment pattern
+	
+Expected Output :
+	* NullReferenceException should occurence
+
+--------------------------------------------------------------------------------
+
+Method Name : OnFieldMatch
+
+Method Description : Matching with regex at the moment file line
+
+Test Scenario : If Match is success, for wrong input
+
+Known Input :
+	* match = at the moment pattern
+	
+Expected Output :
+	* NextInstruction.Return should return
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario :  If regex is wrong for header
+
+Known Input :
+	regex = "^([^\s]+)\s*$"
+	
+Expected Output :
+	* expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateHeaderSeparator
+
+Method Description : Create header separator with regex
+
+Test Scenario :  If regex is true for header
+
+Known Input : Expected regex
+	
+Expected Output :
+	* return expected regex
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create field separator with regex
+
+Test Scenario :  If regex is wrong for field
+
+Known Input :
+	regex = "^([^\s]+)\s*$"
+	
+Expected Output :
+	* expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : CreateFieldSeparator
+
+Method Description : Create field separator with regex
+
+Test Scenario :  If regex is wrong for field
+
+Known Input :
+	regex = "^([^\s]+)\s*$"
+	
+Expected Output :
+	* expected and actual values are not equal
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Return string.Empty
+
+Test Scenario :  If context is null
+
+Known Input :
+	* context = null
+	
+Expected Output :
+	 * string.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : GetHeaderText
+
+Method Description : Return string.Empty
+
+Test Scenario :  If context is not null
+
+Known Input :
+	* context = FileLineRecorderContext(_paloAltoUrlUnifiedRecorder)
+	
+Expected Output :
+	 * string.Empty should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context is null
+
+Known Input :
+	* context = null
+    * error = null
+	
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputRecord is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord
+    * error = null
+	
+Expected Output :
+	* RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputRecord.RecordText is null
+
+Known Input :
+	* context = RecorderContext with null InputRecord.RecordText
+    * error = null
+	
+Expected Output :
+	* RecordInputType.Unknown should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputRecord is empty
+
+Known Input :
+	* context =  RecorderContext with empty InputRecord
+    * error = null
+	
+Expected Output :
+	* RecordInputType.Comment should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario :  If context.InputText string start with "#Fields:" 
+
+Known Input :
+	* context =  RecorderContext with InputRecord that initiate with string
+		string = "#Fields:---"
+    * error = null
+	
+Expected Output :
+	* RecordInputType.Header should return
+
+--------------------------------------------------------------------------------

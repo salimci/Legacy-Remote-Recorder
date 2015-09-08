@@ -1,0 +1,22 @@
+Dec 24 04:02:01 Webwasher syslogd 1.4.1: restart.
+Dec 24 04:02:01 Webwasher crond[7709]: pam_tcb(crond:session): Session closed for root
+Dec 24 04:02:02 Webwasher sshd[7720]: pam_tcb(sshd:auth): Authentication passed for natekusr from (uid=0)
+Dec 24 04:02:02 Webwasher sshd[7721]: Accepted password for natekusr from 192.168.20.6 port 64104 ssh2
+Dec 24 04:02:03 Webwasher sshd[7725]: pam_tcb(sshd:session): Session opened for natekusr by (uid=500)
+Dec 24 04:02:03 Webwasher sshd[7725]: pam_tcb(sshd:session): Session closed for natekusr
+Dec 24 04:02:03 Webwasher sshd[7727]: pam_tcb(sshd:auth): Authentication passed for natekusr from (uid=0)
+Dec 24 04:02:03 Webwasher sshd[7728]: Accepted password for natekusr from 192.168.20.6 port 64105 ssh2
+Dec 24 04:02:03 Webwasher sshd[7732]: pam_tcb(sshd:session): Session opened for natekusr by (uid=500)
+Dec 24 04:02:03 Webwasher sshd[7732]: pam_tcb(sshd:session): Session closed for natekusr
+Dec 24 04:02:03 Webwasher sshd[7734]: pam_tcb(sshd:auth): Authentication passed for natekusr from (uid=0)
+Dec 24 04:02:03 Webwasher sshd[7735]: Accepted password for natekusr from 192.168.20.6 port 64106 ssh2
+Dec 24 04:02:03 Webwasher sshd[7739]: pam_tcb(sshd:session): Session opened for natekusr by (uid=500)
+Dec 24 04:02:04 Webwasher sshd[7741]: pam_tcb(sshd:auth): Authentication passed for natekusr from (uid=0)
+Dec 24 04:02:04 Webwasher sshd[7742]: Accepted password for natekusr from 192.168.20.6 port 64107 ssh2
+Dec 24 04:02:04 Webwasher sshd[7739]: pam_tcb(sshd:session): Session closed for natekusr
+Dec 24 04:02:04 Webwasher sshd[7746]: pam_tcb(sshd:session): Session opened for natekusr by (uid=500)
+Dec 24 04:02:04 Webwasher sshd[7746]: pam_tcb(sshd:session): Session closed for natekusr
+Dec 24 04:02:04 Webwasher sshd[7748]: pam_tcb(sshd:auth): Authentication passed for natekusr from (uid=0)
+Dec 24 04:02:04 Webwasher sshd[7749]: Accepted password for natekusr from 192.168.20.6 port 64108 ssh2
+Dec 29 11:20:57 Webwasher sshd[14914]: Failed password for ROOT USER root from 192.168.20.178 port 59256 ssh2
+Dec 29 11:21:01 Webwasher sshd[14914]: Connection closed by 192.168.20.178

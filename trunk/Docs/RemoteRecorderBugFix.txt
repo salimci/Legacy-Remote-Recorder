@@ -1,0 +1,104 @@
+MEVCUT ÇALIÞAN BÝR REMOTERECORDER ÝLE ÝLGÝLÝ BÝR DÜZENLEME ÝSTENDÝÐÝNDE YAPILMASI GEREKENLER.
+==============================================================================================							
+
+1. Mevcut olan bir RemoteRecorder için herhangi bir þekilde 
+düzenleme yada hata bildirimi için yine mutlaka sorunun 
+ne olduðuna dair detaylý bir açýklama içeren SD kaydý 
+açýlmalý yada mail olarak MUTLAKA Necati ERTUÐRUL'un 
+CC'de olduðu bir mail Ar-Ge'ye iletilmelidir. Aksi 
+taktirde istek dikkate alýnmamalýdýr.
+2. Mutlaka 
+RemoteRecorder'a ait loglarýn, RemoteRecorder servis 
+loglarýnýn istenmesi (loglarýn yazýlý ortamda istenmesi önemlidir. SD kaydý üzerinden yada mail yoluyla) ve eðer mümkün ise EventViewer'daki 
+Error loglarýnýn kontrol edilip edilmediði bilgisi 
+istenmelidir.
+3. RemoteRecorder versiyon bilgisi 
+istenmelidir.
+4. Sorunun log formatý deðiþikliði, 
+dosya isim formatý deðiþikliði yada location deðiþikliði 
+gibi bir durumdan mý kaynaklandýðýna dair dataylý 
+bir bilgi istenmelidir. 
+5. RemoteRecorder'ýn tipine 
+göre ayrýca aþaðýdaki durumlarýn kontrol edilmesi 
+istenebilir.
+6. Hata yada güncelleme istenen recorder 
+için mutlaka recorderýn çalýþtýrýldýðý kurum ismi 
+mutlaka istekte bulunan servis yetkilisinden istenmelidir 
+ve bu bilgi de mutlaka kayýtlý tutulmalýdýr.
+7. Eðer 
+güncellenecek recorderda karakter encodingi belirtilmemiþ 
+ise mutlaka belirtilmelidir.
+8. Eðer güncellenecek 
+recorder Parser'dan extend edilerek yazýlmýþ ise recorder'ýn 
+sadece "ParseSpecific" fonksiyonu korunarak CustomServiceBase'den 
+extend edilerek ve timer kullanýlarak farklý bir isim 
+ile yeniden yazýlmalý ve hata belirtilen recorder, 
+SVN'de Obsolote dizini altýna konulmalýdýr.
+
+i. File Recorder için,
+
+i.1.Belirtilen locationda dosya 
+olup olmadýðý kontrol edilmelidir.
+i.2.Belirtlen 
+location lokal bir location deðilse RemoteRecorder 
+tanýmýnda kullanýlan UserName ve Password'un doðru 
+ve o klasöre eriþim yetkisinin olup olmadýðý kontrol 
+edilmelidir.
+i.3.RemoteRecorder tanýmýndaki SleepTime 
+deðeri kontrol edilmelidir eðer bu deðer çok büyükse 
+o süre boyunca recorder log almayacaktýr.
+i.4.Okunan son dosya RemoteRecorder tanýmýndaki LastFile 
+olarak doðru dosyayý update edip etmediði kontrol 
+edilmelidir. 
+
+i.5.DateTime formatý loglardan kontrol edilmelidir. 
+DateTime bilgisi olmadan yada uygun bir þekilde formatlanmadan 
+kayýtlar insert edilemez. Bu durumda hata mesajý RemoteRecorder 
+servis loglarýnda oluþur. Recorderýn kendi logunda 
+herhangi bir hata mesajý oluþmaz. RemoteRecorder servis 
+loglarýnýn mutlaka istenmesi gereklidir.
+i.6.RemoteRecorder'da 
+istenen düzenleme sadece istenen kurumda geçerli, 
+baþka herhangi bir kurumda kullanýlmasý öngörülmemiþ 
+ise RemoteRecorder'ýn isimine o kurum adý yazýlmalý 
+o þekilde dokümante edilmeli ve baþka bir kurumda 
+kullanýlmamalýdýr.
+
+
+ii. Database Recorder için,
+
+i.1.Belirtilen 
+Database, tablolarýn ve tabloda log olup olmadýðý 
+kontrol edilmelidir.
+i.2.Eðer Database, tablo ve 
+log var ise RemoteRecorder tanýmýndaki UserName ve 
+Password'un belirtilen Database' eriþim yetkisinin 
+olup olmadýðý kontrol edilmelidir. 
+i.3.Database'in 
+dýþarýdan ulaþýlabilir olup olmadýðý kontrol edilmelidir.
+i.4.Database'in farklý instance'larýnýn olup olmadýðý 
+kontrol edilmelidir. Recorder geliþtirme sürecinden 
+sonra eðer ayný database'de farklý bir instance oluþmuþ 
+ise bu durumda port belirtmek durumunda kalýnabilir. 
+Port RemoteRecorder tanýmýnda "RemoteHost" kolonundan 
+belirtilebilir. (SQL Server için.)
+i.5.SQL Server için database'in express olup olmadýðý 
+kontrol edilmelidir. Bazý durumlarda farklý bir 
+ürün log okunan database'e log insertliyor ve 
+RemoteRecorder'da bu insertlenen 
+logu okumak istiyor olabilir. Bu durumda eðer database 
+express edition ise SQL server bir süre sonra connectionlardan 
+birini kapatabilir bu durumda RemoteRecorder log okuyamaz. 
+Bu durumda SQL server'in Enterprise Edition olmasý 
+gerekebilir yada max Pooling'i kontrol edilebilir. 
+
+iii. SyslogRecorder için, 
+
+i.1.Öncelikli olarak 
+RemoteRecorder tanýmndaki belirtilen UDP portundan 
+data akýþýnýn olup olmadýðý kontrol edilmelidir.
+i.2.Eðer bir data akýþý var ve log uygun olarak ilgili kolonlara 
+map edilmemiþ yada log formatý RemoteRecorder hazýrlanýrkenki 
+süreçten sonra deðiþmiþ olabilir. Bu durumun tespitinin 
+yapýlmasý gerekir gerekli düzenlemeler RemoteRecorder 
+içinde yapýlýr.

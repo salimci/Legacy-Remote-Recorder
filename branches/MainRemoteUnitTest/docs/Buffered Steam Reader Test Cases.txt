@@ -1,0 +1,41 @@
+Buffered Steam Reader Unit Test Cases
+--------------------------------------------------------------------------
+        /// Method Name : Reset
+        ///
+        ///Method Description : Reset the buffer
+        ///
+        ///Test Scenario : _bufferedStreamReader call the Reset method 
+        ///
+        ///Known Input :
+        ///     * 
+        /// 
+        ///Expected Output :
+        ///	    * Buffer should be reset
+        /// 
+--------------------------------------------------------------------------
+        /// Method Name : Reset
+        ///
+        ///Method Description : Read the buffer
+        ///
+        ///Test Scenario : _bufferedStreamReader call the Read method
+        ///
+        ///Known Input :
+        ///     * 
+        ///Expected Output :
+        ///	    * Buffer should be read
+        /// 
+--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

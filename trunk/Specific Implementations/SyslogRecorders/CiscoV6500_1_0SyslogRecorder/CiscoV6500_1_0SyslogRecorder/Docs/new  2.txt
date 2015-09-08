@@ -1,0 +1,6 @@
+1. 10.101.30.1:514 : local7.notice :Feb 08 14:28:57 GMT: %FWSM-session-5-304001: 10.100.70.37 Accessed URL 85.111.6.19:/mesajlar/yenimesajkontrol?_=1360326537266
+2. 10.101.30.1:514 : local7.debug :Feb 08 14:31:15 GMT: %FWSM-session-7-106100: access-list vlan_GUVENLI-DMZ_out permitted udp inside_SSG-550/192.168.20.27(49418) -> vlan_GUVENLI-DMZ/SERVER_DC-NEPTUN1_10.101.30.249(53) hit-cnt 1 (first hit) [0x3e9992e1, 0x0]
+3. 10.101.30.1:514 : local7.warning :Feb 08 14:31:15 GMT: %FWSM-session-4-106023: Deny udp src vlan_ILO-BLADE:10.101.41.100/58660 dst vlan_GUVENLI-DMZ:SERVER_DC-NEPTUN2_10.101.30.250/53 by access-group "vlan_ILO-BLADE_access_in" [0x0, 0x0]
+4. 10.101.30.1:514 : local7.error :Feb 08 15:31:23 GMT: %FWSM-ip-3-313001: Denied ICMP type=8, code=0 from 10.100.254.10 on interface vlan_e-DevletDEV
+5. 10.101.30.1:514 : local7.error :Feb 08 15:31:19 GMT: %FWSM-session-3-710003: tcp access denied by ACL from 10.100.10.128/63355 to vlan_PERSONEL:10.100.8.1/80
+

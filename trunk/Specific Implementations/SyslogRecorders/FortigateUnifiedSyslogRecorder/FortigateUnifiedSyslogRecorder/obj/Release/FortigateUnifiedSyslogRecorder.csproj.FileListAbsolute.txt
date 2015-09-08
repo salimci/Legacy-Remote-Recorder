@@ -1,0 +1,11 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\FortigateUnifiedSyslogRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\FortigateUnifiedSyslogRecorder\FortigateUnifiedSyslogRecorder\obj\Release\FortigateUnifiedSyslogRecorder.dll

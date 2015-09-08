@@ -1,0 +1,13 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\DNSDebugRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\DNSDebugRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\obj\Debug\DNSDebugRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\DNSDebugRecorder\DNSDebugRecorder\obj\Debug\DNSDebugRecorder.pdb

@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\NetscalerUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\NetscalerUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\obj\Debug\NetscalerUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\obj\Debug\NetscalerUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\NetscalerUnifiedRecorder\NetscalerUnifiedRecorder\obj\Debug\NetscalerUnifiedRecorder.pdb

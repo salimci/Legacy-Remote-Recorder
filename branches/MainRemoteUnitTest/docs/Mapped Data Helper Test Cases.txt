@@ -1,0 +1,17 @@
+Mapped Data Helper Unit Test Cases
+--------------------------------------------------------------------
+        /// Method Name : ClearRecord
+        ///
+        ///Method Description :  The method clear the record
+        ///
+        ///Test Scenario :  Set value in recWrapper
+        ///
+        ///Known Input :
+        ///    *  rec = new RecWrapper()
+        ///    *  rec.ComputerName = "lorem Ipsum"
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should null
+--------------------------------------------------------------------
+

@@ -1,0 +1,1 @@
+Bu recorder sadece PTT'de kullanýlmak için geliþtirilmiþtir ve sadece Ptt'de kullanýlmaktadýr. 

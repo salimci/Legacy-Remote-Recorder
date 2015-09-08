@@ -1,0 +1,165 @@
+Ssh shell Terminal Unit Test Cases
+--------------------------------------------------------------------
+        /// Method Name : Connect
+        ///
+        ///Method Description :  The method provides connect to given port
+        ///
+        ///Test Scenario :  If error is null
+        ///
+        ///Known Input :
+        ///    * error = null
+        ///    
+        ///Expected Output :
+        ///    * Return should false
+--------------------------------------------------------------------
+        /// Method Name : Connect
+        ///
+        ///Method Description : The method provides connect to given port
+        ///
+        ///Test Scenario : If error is not null
+        ///
+        ///Known Input :
+        ///    * error = new Exception("lorem ipsum")
+        ///    * port = 655366324
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should false
+--------------------------------------------------------------------
+        /// Method Name : IsConnected
+        ///
+        ///Method Description :  The method check the connection 
+        ///
+        ///Test Scenario :  Call the IsConnected method
+        ///
+        ///Known Input :
+        ///    * No input parameter
+        ///    
+        ///Expected Output :
+        ///    Return should false
+--------------------------------------------------------------------
+        /// Method Name : CanRead
+        ///
+        ///Method Description :  The method read the stream
+        ///
+        ///Test Scenario :  Call the CanRead method
+        ///
+        ///Known Input :
+        ///    * No input parameter
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should null
+--------------------------------------------------------------------
+        /// Method Name : CanWrite
+        ///
+        ///Method Description :  The method write the stream
+        ///
+        ///Test Scenario :  Call the CanWrite method 
+        ///
+        ///Known Input :
+        ///    * No input parameter
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should null
+--------------------------------------------------------------------
+        /// Method Name : Write
+        ///
+        ///Method Description :  The method write the stream according to the parameter
+        ///
+        ///Test Scenario :  If buffer is null, offset and length are zero
+        ///
+        ///Known Input :
+        ///    * buffer = null
+        ///    * offset = 0
+        ///    * length = 0
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should length zero 
+--------------------------------------------------------------------
+        /// Method Name : Write
+        ///
+        ///Method Description : The method write the stream according to the parameter
+        ///
+        ///Test Scenario : If buffer is not null and offset and length have values 
+        ///
+        ///Known Input :
+        ///    * buffer = new byte[10]
+        ///    * offset = 10
+        ///    * length = 10
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should 10
+--------------------------------------------------------------------
+        /// Method Name : ReadByte
+        ///
+        ///Method Description :  The method read the stream by byte
+        ///
+        ///Test Scenario : Call the ReadByte method 
+        ///
+        ///Known Input :
+        ///    * No input parameter
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should null 
+--------------------------------------------------------------------
+        /// Method Name : Read
+        ///
+        ///Method Description : The method read the stream according to the parameter 
+        ///
+        ///Test Scenario : If buffer is null and offset and length are zero 
+        ///
+        ///Known Input :
+        ///    * buffer = null
+        ///    * offset = 0
+        ///    * length = 0
+        ///    
+        ///
+        ///Expected Output :
+        ///    Return should null
+--------------------------------------------------------------------
+        /// Method Name : Read
+        ///
+        ///Method Description :   The method read the stream according to the parameter
+        ///
+        ///Test Scenario :  If buffer not null and offset and length have value
+        ///
+        ///Known Input :
+        ///    * buffer = new byte[10]
+        ///    * offset = 10
+        ///    * length = 10 
+        ///
+        ///Expected Output :
+        ///    * Return should 10
+--------------------------------------------------------------------
+        /// Method Name : GetInputStream
+        ///
+        ///Method Description :  The method return the input stream
+        ///
+        ///Test Scenario :  If error is null
+        ///
+        ///Known Input :
+        ///    * error = null
+        ///    
+        ///
+        ///Expected Output :
+        ///    * Return should null
+--------------------------------------------------------------------
+        /// Method Name : GetOutputStream
+        ///
+        ///Method Description :  The method give the output stream
+        ///
+        ///Test Scenario :  If error is not null
+        ///
+        ///Known Input :
+        ///    * error = new Exception()
+        ///    
+        ///
+        ///Expected Output :
+        ///    Return the stream 
+--------------------------------------------------------------------
+

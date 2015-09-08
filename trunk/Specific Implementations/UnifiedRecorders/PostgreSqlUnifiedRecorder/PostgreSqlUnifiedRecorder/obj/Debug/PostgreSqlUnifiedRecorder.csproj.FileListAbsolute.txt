@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\PostgreSqlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\PostgreSqlUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\Npgsql.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\Mono.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\obj\Debug\PostgreSqlUnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\obj\Debug\PostgreSqlUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\PostgreSqlUnifiedRecorder\PostgreSqlUnifiedRecorder\obj\Debug\PostgreSqlUnifiedRecorder.pdb

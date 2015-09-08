@@ -1,0 +1,558 @@
+Db Recorder Base Unit Test Cases
+--------------------------------------------------------------------
+        /// Method Name : Value2External
+        ///
+        ///Method Description : Convert value to external variables
+        ///
+        ///Test Scenario : If data is null
+        ///Known Input :
+        ///     * rec = null
+        ///     * field = null
+        ///     * fieldValues = null
+        ///     * data = null
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : Value2External
+        ///
+        ///Method Description : Convert value to external variables
+        ///
+        ///Test Scenario : If data's length is smaller than third
+        ///Known Input :
+        ///     * rec = null
+        ///     * field = null
+        ///     * fieldValues = null
+        ///     * data = "lo"
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : Value2External
+        ///
+        ///Method Description : Convert value to external variables
+        ///
+        ///Test Scenario : If data is not dbRecorderContext
+        ///Known Input :
+        ///     * rec = null
+        ///     * field = null
+        ///     * fieldValues = null
+        ///     * data = not null
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : Value2External
+        ///
+        ///Method Description : Convert value to external variables
+        ///
+        ///Test Scenario : If data is dbRecorderContext
+        ///Known Input :
+        ///     * rec = null
+        ///     * field = null
+        ///     * fieldValues = null
+        ///     * data = not null
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : Value2External
+        ///
+        ///Method Description : Convert value to external variables
+        ///
+        ///Test Scenario : If all inputs are true
+        ///Known Input :
+        ///     * rec = null
+        ///     * field = null
+        ///     * fieldValues = null
+        ///     * data = not null
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : OnKeywordParsed
+        ///
+        ///Method Description : If keyword parsed, return true and increase touchCount
+        ///
+        ///Test Scenario : If keyword is null
+        ///Known Input :
+        ///     * keyword = null
+        ///     * quotedKeyword = false
+        ///     * value = null
+        ///     * quotedValue = false
+        ///     * touchCount = 0
+        ///     * error = null
+        ///Expected Output :
+        ///	    * System.ArgumentNullException should occurence
+--------------------------------------------------------------------
+        /// Method Name : OnKeywordParsed
+        ///
+        ///Method Description : If keyword parsed, return true and increase touchCount
+        ///
+        ///Test Scenario : If keyword is not null but  value null
+        ///Known Input :
+        ///     * keyword = "HOff";
+        ///     * quotedKeyword = false
+        ///     * value = null
+        ///     * quotedValue = false
+        ///     * touchCount = 2147483647
+        ///     * error = null
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : OnKeywordParsed
+        ///
+        ///Method Description : If keyword parsed, return true and increase touchCount
+        ///
+        ///Test Scenario : If keyword is HOff
+        ///Known Input :
+        ///     * keyword = "HOff";
+        ///     * quotedKeyword = false
+        ///     * value = "a|b|c"
+        ///     * quotedValue = false
+        ///     * touchCount = 0
+        ///     * error = null
+        ///Expected Output :
+        ///	    * True should return
+--------------------------------------------------------------------
+        /// Method Name : OnKeywordParsed
+        ///
+        ///Method Description : If keyword parsed, return true and increase touchCount
+        ///
+        ///Test Scenario : If keyword is FMdf
+        ///Known Input :
+        ///     * keyword = "FMdf";
+        ///     * quotedKeyword = false
+        ///     * value = "a|b|c"
+        ///     * quotedValue = false
+        ///     * touchCount = 0
+        ///     * error = null
+        ///Expected Output :
+        ///	    * True should return
+--------------------------------------------------------------------
+        /// Method Name : CreateHeaderSeparator
+        ///
+        ///Method Description : Create regex for seperating processing to header
+        ///
+        ///Test Scenario : true regex
+        ///Known Input :
+        ///    
+        ///Expected Output :
+        ///	    * ^$
+--------------------------------------------------------------------
+        /// Method Name : CreateFieldSeparator
+        ///
+        ///Method Description : Create regex for seperating processing to field
+        ///
+        ///Test Scenario : true regex
+        ///Known Input :
+        ///    
+        ///Expected Output :
+        ///	    * ^$
+--------------------------------------------------------------------
+        /// Method Name : InitContextGlobals
+        ///
+        ///Method Description : Initialize context's globals variables
+        ///
+        ///Test Scenario : If dbContext is null
+        ///Known Input :
+        ///     * dbContext = null
+        ///     * host = null
+        ///     * port = 0
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : InitContextGlobals
+        ///
+        ///Method Description : Initialize context's globals variables
+        ///
+        ///Test Scenario : If dbContext is not null but ContextKeys has no elements
+        ///Known Input :
+        ///     * dbContext = OracleRecorderContext
+        ///     * host = null
+        ///     * port = 0
+        /// 
+        ///Expected Output :
+        ///	    * KeyNotFoundException  should occurence
+--------------------------------------------------------------------
+        /// Method Name : PrepareKeywords
+        ///
+        ///Method Description : Prepare keywords with some special characters
+        ///
+        ///Test Scenario : If keywordBuffer is null
+        ///Known Input :
+        ///     * keywordBuffer = null
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : InputText2RecordField
+        ///
+        ///Method Description : Return NextInstruction.Do
+        ///
+        ///Test Scenario : Return NextInstruction.Do
+        ///Known Input :
+        ///     * keywordBuffer = null
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * Return NextInstruction.Do
+--------------------------------------------------------------------
+        /// Method Name : InputTextType
+        /// 
+        ///
+        ///Method Description : Return RecordInputType.Record
+        ///
+        ///Test Scenario : Return RecordInputType.Record
+        ///Known Input :
+        ///     * error = null
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * Return RecordInputType.Record
+--------------------------------------------------------------------
+        /// Method Name : GetHeaderText
+        ///
+        ///Method Description : Return location
+        ///
+        ///Test Scenario : Return location
+        ///Known Input :
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * Return RecordInputType.Record
+--------------------------------------------------------------------
+        /// Method Name : GetExternal
+        ///
+        ///Method Description : Get external variables from externalVariables with parameters
+        ///
+        ///Test Scenario : If dbContext is null
+        ///Known Input :
+        ///     * dbContext = null
+        ///     * varName = string.Empty
+        ///     * extension = string.Empty
+        ///     * varExtension = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : InitActiveParameters
+        ///
+        ///Method Description : Initialize active parameters
+        ///
+        ///Test Scenario : If dbContext is null
+        ///Known Input :
+        ///     * dbContext = null
+        ///     * query = string.Empty
+        ///     * queryExtension = string.Empty
+        ///     * queryString = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : InitActiveParameters
+        ///
+        ///Method Description : Initialize active parameters
+        ///
+        ///Test Scenario : If dbContext is not null but ContextKeys has no elements
+        ///Known Input :
+        ///     * dbContext = OracleRecorderContext
+        ///     * query = string.Empty
+        ///     * queryExtension = string.Empty
+        ///     * queryString = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * KeyNotFoundException  should occurence
+--------------------------------------------------------------------
+        /// Method Name : InitActiveParameters
+        ///
+        ///Method Description : Initialize active parameters
+        ///
+        ///Test Scenario : If dbContext is not null but ContextVariables has no elements
+        ///Known Input :
+        ///     * dbContext = OracleRecorderContext
+        ///     * query = string.Empty
+        ///     * queryExtension = string.Empty
+        ///     * queryString = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * KeyNotFoundException  should occurence
+--------------------------------------------------------------------
+        /// Method Name : OnBeforeSetReg
+        ///
+        ///Method Description : OnBeforeSetReg
+        ///
+        ///Test Scenario : If context is null
+        ///Known Input :
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : OnBeforeSetReg
+        ///
+        ///Method Description : OnBeforeSetReg
+        ///
+        ///Test Scenario : If context is not null
+        ///Known Input :
+        ///     * context = FileLineRecorderContext
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Do should return
+--------------------------------------------------------------------
+        /// Method Name : OnAfterSetData
+        ///
+        ///Method Description : OnAfterSetData
+        ///
+        ///Test Scenario : If context is null
+        ///Known Input :
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : OnAfterSetData
+        ///
+        ///Method Description : OnAfterSetData
+        ///
+        ///Test Scenario : If context is not DbRecorderContext
+        ///Known Input :
+        ///     * context = FileLineRecorderContext
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Abort should return
+--------------------------------------------------------------------
+        /// Method Name : OnAfterSetData
+        ///
+        ///Method Description : OnAfterSetData
+        ///
+        ///Test Scenario : If context is not DbRecorderContext
+        ///Known Input :
+        ///     * context = OracleRecorderContext
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Do should return
+--------------------------------------------------------------------
+        /// Method Name : DoLogic
+        ///
+        ///Method Description : DoLogic
+        ///
+        ///Test Scenario : If context is null
+        ///Known Input :
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Abort should return
+--------------------------------------------------------------------
+        /// Method Name : DoLogic
+        ///
+        ///Method Description : DoLogic
+        ///
+        ///Test Scenario : If DbRecorderContext is null
+        ///Known Input :
+        ///     * context = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Abort should return
+--------------------------------------------------------------------
+        /// Method Name : GetRecordPropertyDictionary
+        ///
+        ///Method Description : Get record property dictionary
+        ///
+        ///Test Scenario : If type is null
+        ///Known Input :
+        ///     * type = null
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : GetRecordPropertyDictionary
+        ///
+        ///Method Description : Get record property dictionary
+        ///
+        ///Test Scenario : If type is not null
+        ///Known Input :
+        ///     * type = TypeDelegator(typeof(RecWrapper))
+        /// 
+        ///Expected Output :
+        ///	    * NullReferenceException should occurence
+--------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : Get header info
+        ///
+        ///Test Scenario : If recorder context is null
+        ///Known Input :
+        ///     * context = null
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Abort should return
+--------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : Get header info
+        ///
+        ///Test Scenario : If headerInfo is null
+        ///Known Input :
+        ///     * context = FileLineRecorderContext
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Abort should return
+--------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : Get header info
+        ///
+        ///Test Scenario : If headerInfo is not null
+        ///Known Input :
+        ///     * context = OracleRecorderContext
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Do should return
+--------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : Get header info
+        ///
+        ///Test Scenario : If DbRecorderContext  is null
+        ///Known Input :
+        ///     * context = DbRecorderContext = null
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Abort should return
+--------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : Get header info
+        ///
+        ///Test Scenario : If dbContext.Readers  is null
+        ///Known Input :
+        ///     * context = OracleRecorderContext
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Do should return
+--------------------------------------------------------------------
+        /// Method Name : GetHeaderInfo
+        ///
+        ///Method Description : Get header info
+        ///
+        ///Test Scenario : Do header process correctly
+        ///Known Input :
+        ///     * context = OracleRecorderContext
+        ///     * error = null
+        /// 
+        ///Expected Output :
+        ///	    * NextInstruction.Do should return
+--------------------------------------------------------------------
+        /// Method Name : DisposeActiveData
+        ///
+        ///Method Description : Dispose active data
+        ///
+        ///Test Scenario : If dbContext is null
+        ///Known Input :
+        ///     * dbContext = null
+        /// 
+        ///Expected Output :
+        ///	    * False should return
+--------------------------------------------------------------------
+        /// Method Name : DisposeActiveData
+        ///
+        ///Method Description : Dispose active data
+        ///
+        ///Test Scenario : If dbContext is OracleRecorderContext but dbContext.ContextKeys has no element
+        ///Known Input :
+        ///     * dbContext = OracleRecorderContext
+        /// 
+        ///Expected Output :
+        ///	    * False should return
+--------------------------------------------------------------------
+        /// Method Name : DisposeActiveData
+        ///
+        ///Method Description : Dispose active data
+        ///
+        ///Test Scenario : If dbContext is OracleRecorderContext and dbContext.ContextKeys has element
+        ///Known Input :
+        ///     * dbContext = OracleRecorderContext
+        /// 
+        ///Expected Output :
+        ///	    * True should return
+--------------------------------------------------------------------
+        /// Method Name : DisposeActiveData
+        ///
+        ///Method Description : Dispose active data
+        ///
+        ///Test Scenario : Return true
+        ///Known Input :
+        ///     * dictionary = null
+        ///     * key = string.Empty
+        /// 
+        ///Expected Output :
+        ///	    * True should return
+--------------------------------------------------------------------
+        /// Method Name : Object2Property
+        ///
+        ///Method Description : Convert type of object to property
+        ///
+        ///Test Scenario : If data is null
+        ///Known Input :
+        ///     * rec =null
+        ///     * field = string.Empty
+        ///     * fieldValues =null
+        ///     * data = null
+        /// 
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : Object2Property
+        ///
+        ///Method Description : Convert type of object to property
+        ///
+        ///Test Scenario : If data is not null and lenth is smaller than third
+        ///Known Input :
+        ///     * rec =null
+        ///     * field = string.Empty
+        ///     * fieldValues =null
+        ///     * data = null
+        /// 
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : Object2Property
+        ///
+        ///Method Description : Convert type of object to property
+        ///
+        ///Test Scenario : If data 1 is not propertyInfo, return null
+        ///Known Input :
+        ///     * rec =null
+        ///     * field = string.Empty
+        ///     * fieldValues =null
+        ///     * data = not null
+        /// 
+        ///Expected Output :
+        ///	    * Null should return
+--------------------------------------------------------------------
+        /// Method Name : Object2Property
+        ///
+        ///Method Description : Convert type of object to property
+        ///
+        ///Test Scenario : If data 0's type is DbRecorderContext and value is null return data2
+        ///Known Input :
+        ///     * rec =null
+        ///     * field = string.Empty
+        ///     * fieldValues =null
+        ///     * data = not null
+        /// 
+        ///Expected Output :
+        ///	    * data2 should return
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------

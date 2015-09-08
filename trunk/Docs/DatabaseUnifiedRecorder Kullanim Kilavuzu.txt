@@ -1,0 +1,160 @@
+Unified Database Recorderlari Kullanimi
+========================================
+
+ Su anda sistemde tanimli bulunan Oracle, PostgreSql ve Mssql
+unified database recorderlari genel gecer database recorder
+olarak gelistirilmistir.
+
+ Bu recorderlar icin ilk genel ayarlar oncelikle database'e nasil
+ baglanacaklarinin tanimlandigi
+ 1. REMOTE_HOST: Veritabani sunucusunun adresi (IP:Port seklinde yazilirsa
+ sunucunun veritabani default portu harici servis vermesi durumunda
+ kullanilabilir. Ornegin bir MsSql database icin 10.6.1.8:19899 gibi)
+ 2. LOCATION: Baglanti kurulacak veritabani. Ilgili sorgulama ve kaynak
+ loglarin toplanacagi veritabani. Ornegin KapiGecisLogDb
+ 3. USERNAME: Veritabanina baglanti kurmakta kullanilacak kullanici adi
+ 4. PASSWORD: Veritabanina baglanacak kullanicinin sifresi
+ 
+ Bu 4 temel deger bir veritabanina baglanti kurmak icin yeterlidir. Asagida
+ anlatilacagi  gibi bu degerler olmadan da ayni degerler LASTKEYWORDS alani
+ uzerinden de verilebilir.
+ 
+  Yeni Recorderlarda tum mapping islemleri kullanici tarafindan LASTKEYWORDS
+  kullanilarak yapilir. Mapping   icin kullanilabilecek alanlar su sekildedir
+  
+  EventId        ==> Veritabanindaki EVENT_ID kolonuna denk gelir
+  RecordNum      ==> Veritabanindaki RECORD_NUMBER kolonuna denk gelir
+  EventType      ==> Veritabanindaki EVENTTYPE kolonuna denk gelir
+  EventCategory  ==> Veritabanindaki EVENTCATEGORY kolonuna denk gelir
+  Datetime       ==> Veritabanindaki DATE_TIME kolonuna denk gelir
+  Description    ==> Veritabanindaki DESCRIPTION kolonuna denk gelir
+  SourceName     ==> Veritabanindaki SOURCENAME kolonuna denk gelir
+  ComputerName   ==> Veritabanindaki COMPUTERNAME kolonuna denk gelir
+  UserName       ==> Veritabanindaki USERSID kolonuna denk gelir
+  CustomInt1     ==> Veritabanindaki CUSTOMINT1 kolonuna denk gelir
+  CustomInt2     ==> Veritabanindaki CUSTOMINT2 kolonuna denk gelir
+  CustomInt3     ==> Veritabanindaki CUSTOMINT3 kolonuna denk gelir
+  CustomInt4     ==> Veritabanindaki CUSTOMINT4 kolonuna denk gelir
+  CustomInt5     ==> Veritabanindaki CUSTOMINT5 kolonuna denk gelir
+  CustomInt6     ==> Veritabanindaki CUSTOMINT6 kolonuna denk gelir
+  CustomInt7     ==> Veritabanindaki CUSTOMINT7 kolonuna denk gelir
+  CustomInt8     ==> Veritabanindaki CUSTOMINT8 kolonuna denk gelir
+  CustomInt9     ==> Veritabanindaki CUSTOMINT9 kolonuna denk gelir
+  CustomInt10    ==> Veritabanindaki CUSTOMINT10 kolonuna denk gelir
+  CustomStr1     ==> Veritabanindaki CUSTOMSTR1 kolonuna denk gelir
+  CustomStr2     ==> Veritabanindaki CUSTOMSTR2 kolonuna denk gelir
+  CustomStr3     ==> Veritabanindaki CUSTOMSTR3 kolonuna denk gelir
+  CustomStr4     ==> Veritabanindaki CUSTOMSTR4 kolonuna denk gelir
+  CustomStr5     ==> Veritabanindaki CUSTOMSTR5 kolonuna denk gelir
+  CustomStr6     ==> Veritabanindaki CUSTOMSTR6 kolonuna denk gelir
+  CustomStr7     ==> Veritabanindaki CUSTOMSTR7 kolonuna denk gelir
+  CustomStr8     ==> Veritabanindaki CUSTOMSTR8 kolonuna denk gelir
+  CustomStr9     ==> Veritabanindaki CUSTOMSTR9 kolonuna denk gelir
+  CustomStr10     ==> Veritabanindaki CUSTOMSTR10 kolonuna denk gelir
+  
+  LASTKEYWORDS alanindaki EN ONEMLI ve EN COK IHTIYAC olan anahtar kelime
+  QUERY_ ile baslayan kelimelerdir.
+  
+  Remote Recorder LASTKEYWORDS alanini okudugunda QUERY_ ile baslayan sorgu
+  cumleciklerini ayiklar ve bunlari QUERY_'den sonraki alana gore siralayarak
+  sorgu olusturup RECORD tablosuna gondermek icin kullanir. Ornegin QUERY_1,
+  QUERY_2, QUERY_3 ...gibi birden fazla tablodan veri olusturup RECORD
+  tablosuna gondermek mumkundur.
+  
+  Ornek senaryomuzda 10.6.1.8:19785 portunda bulunan bir Mssql veritabaninda
+  bulunan [Guvenlik] veritabanindaki KapiGecisLog (Id,Ad,Soyad,GecisTarih,
+  KapiNo) gibi bir tablodan kayitlari cekerek RECORD tablosuna aktarmak
+  istedigimizi farzedelim. Bu islem icin 
+  
+  1. REMOTE_HOST alanina 10.6.1.8:19785 yazilir
+  2. LOCATION kismina Guvenlik yazilir
+  3. USERNAME ve PASSWORD alanlari doldurulur
+  4. LASTKEYWORDS alanina su sekilde bir sorgu yazildigini farzedelim.
+	
+	QUERY_1="SELECT Id as RECORDNUM, REPLACE(CONVERT(VARCHAR,GecisTarih,121),
+	'-','/') DATETIME,
+	Ad as CUSTOMSTR1,Soyad as CUSTOMSTR2, KapiNo as CUSTOMINT5
+	FROM KapiGecisLog
+	WHERE Id > @RECORDNUM_1
+	ORDER BY Id"
+	
+	unified recorder bu sorguyu gordugunde Id alanini RECORDNUM alanina,
+	GecisTarihi alanini DATETIME alanina, Ad ve Soyadi CustomStr1 ve 2'ye
+	KapiNO alanini ise CustomInt5'e map eder. Sorgu tamamen kaynak databasein
+	sorgu yapisidir.
+	
+	DIKKAT edilmesi gereken en onemli sey kayitlari nasil sirayla alabiliriz?
+	Ornek sorguda Id alanini @RECORDNUM_1 degerinden buyuk olacak sekilde alip
+	SIRALAMAYI Id alanina gore yaptik. Bunun anlami program RECORDNUM alanina
+	map edilmis alani @RECORDNUM_1 ismiyle tutar ve @RECORDNUM_1 (buradaki _1
+	aslinda QUERY_'den sonraki parcadir. Ornegin bizim sorgumuz QUERY_5="..."
+	olsaydi @RECORDUM_5 kullanmak zorunda olurduk) degeri recorder tarafindan
+	en son saklanan @RECORDNUM_1 degeri ile degistirilir. Ornegin recorder arka
+	planda bu degeri 10000 olarak tutuyorsa	yukardaki sorgu aslinda arka planda 
+	
+	QUERY_1="SELECT Id as RECORDNUM, REPLACE(CONVERT(VARCHAR,GecisTarih,121),
+	'-','/') as DATETIME,
+	Ad as CUSTOMSTR1,Soyad as CUSTOMSTR2, KapiNo as CUSTOMINT5
+	FROM KapiGecisLog
+	WHERE Id > 10000
+	ORDER BY Id"
+	
+	olacak sekle donusur ve bu sorgunun sonucu RECORD tablosuna gonderilir.
+	
+	!!!LUTFEN DIKKAT: Sorgulardaki ORDER BY cok onemlidir. Bu siraya gelen
+	kayitlarin RECORDNUM alani arka planda @RECORDNUM_.. olarak tutuldugundan
+	verileri sirali almak onemlidir. Ayni zamanda SELECT icerisinde hangi
+	alaninin RECORDNUM olacagini da belirtmek zorundayiz.
+	
+	Eger bizim siralama mantigimiza uygun bir Id alani yoksa fakat bir tarih
+	alani varsa bu durumda @RECORDDATE_...anahtar kelimesini kullanabiliriz.
+	Ornegin eger bizim KapiGecisLog tablosu Id alanlari ARTAN bir seyre sahip
+	degilse fakat GecisTarih alani artan bir deger iceriyorsa bu kez ayni
+	sorguyu 
+	
+	QUERY_1="SELECT Id as RECORDNUM, REPLACE(CONVERT(VARCHAR,GecisTarih,121),
+	'-','/') DATETIME,
+	Ad as CUSTOMSTR1,Soyad as CUSTOMSTR2, KapiNo as CUSTOMINT5
+	FROM KapiGecisLog
+	WHERE GecisTarih > @RECORDDATE_1
+	ORDER BY GecisTarih"
+	
+	yazdigimizda kayitlar GecisTarihine gore siralanir ve her bir kaydin
+	DATETIME alanina map edilmis deger @RECORDDATE_1 alaninda saklanir.
+	
+	Temel olarak bu iki @RECORDNUM ve @RECORDDATE degiskenleri yeterlidir.
+	Fakat eger farkli degerlerin de takip isleminde kullanilmasi istenirse
+	sorgu uzerinden degisken alan yaratmak mumkundur. Bu konuda istenilen
+	veriyi alamadiginizda lutfen ArGe'den destek isteyiniz.
+	
+	Degisken yaratmak su sekilde saglanabilir. QUERY_..icerisindeki sorgudan
+	cekilen degerler kolon adi @ ile baslayan her kolon degisken olarak
+	recorder tarafindan LASTKEYWORDS alaninda saklanir. Ornegin KapiNo alanini
+	biz @GATE_NUMBER_1 olarak saklamak istersek
+	
+	QUERY_1="SELECT Id as RECORDNUM, REPLACE(CONVERT(VARCHAR,GecisTarih,121),
+	'-','/') DATETIME,
+	Ad as CUSTOMSTR1,Soyad as CUSTOMSTR2, KapiNo as CUSTOMINT5,
+	KapiNo as \"@GATE_NUMBER_1\"
+	FROM KapiGecisLog
+	WHERE Id > @RECORDNUM_1
+	ORDER BY Id";
+	
+	yazilmasi durumunda @GATE_NUMBER_1 kayit islendikce ilgili KapiNo ile 
+	guncellenir. Bu degerlerin nasil kullanilacagi tamamen duruma dayali
+	oldugu icin ancak ihtiyac duydugunuzda bu degerlerin kullanilabilecegini
+	unutmayiniz.
+	
+	Son olarak program her bir query icin farkli veritabanlarina baglanip
+	veriler cekebilir. REMOTE_RECORDER tablosundaki REMOTE_HOST, LOCATION
+	gibi degerler yerine yine LASTKEYWORDS alani kullanilarak sorgularin
+	baglantilari degistirilebilir. Ornegin QUERY_1 eger 192.168.1.6:98989'daki
+	EskiGuvenlik veritabindan oldUser kullanicisi ve Password1 sifresi ile
+	baglanmak isterse LASTKEYWORDS alanina ; ile ayrilmis sekilde su tanimi
+	yapabilir
+	
+	@DATABASE_1=EskiGuvenlik; @SERVER=192.168.1.6;@USER=oldUser;
+	@PASSWORD_1=Password1;@PORT_1=98989;QUERY_1="...."
+	
+	yazdiginda recorder varsayilan deger REMOTE_HOST, LOCATION, USERNAME,
+	PASSWORD yerine bu degerleri kullanir.

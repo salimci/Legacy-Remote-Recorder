@@ -1,0 +1,46 @@
+Array Helper Unit Test Cases
+--------------------------------------------------------------------------------
+        /// Method Name : AssureLength
+        ///
+        ///Method Description : The method give the length according to the parameter 
+        ///
+        ///Test Scenario : If arrays is null with default allow null
+        ///
+        ///Known Input :
+        ///     * testArray = null
+        ///     * minLength = 0
+        ///
+        ///Expected Output :
+        ///	    * Return should false
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name : AssureLength
+        ///
+        ///Method Description : The method give the length according to the parameter
+        ///
+        ///Test Scenario : If array is null with allow null is true
+        ///
+        ///Known Input :
+        ///     * testArray = null
+        ///     * minLength = 0
+        ///     * allowNull = true
+        ///Expected Output :
+        ///	    * Return should true
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name : AssureLength
+        ///
+        ///Method Description : The method give the length according to the parameter
+        ///
+        ///Test Scenario : Check with varius length of test array
+        ///
+        ///Known Input :
+        ///     * new[] { 1, 2 }, 1
+        ///     * new[] { 1, 2 }, 2
+        ///     * new[] { 1, 2 }, 3
+        ///Expected Output :
+        ///	    * Return should true 
+        ///     * Return should true
+        ///     * Return should false
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\McAfeeIpsUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\McAfeeIpsUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\obj\Debug\McAfeeIpsUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\obj\Debug\McAfeeIpsUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\McAfeeIpsUnifiedRecorder\McAfeeIpsUnifiedRecorder\obj\Debug\McAfeeIpsUnifiedRecorder.csprojResolveAssemblyReference.cache

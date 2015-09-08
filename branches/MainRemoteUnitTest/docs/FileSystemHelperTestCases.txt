@@ -1,0 +1,222 @@
+File System Helper Unit Test Cases
+----------------------------------------------------------------------
+        /// Method Name : Compare Files Ignore Case
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : If CompareFilesIgnoreCase parameters are null
+        ///
+        ///Known Input :
+        ///         * var l = string.Empty;
+        ///         * var r = string.Empty;
+        ///Expected Output :
+        ///         * Return should zero
+----------------------------------------------------------------------
+        /// Method Name : Compare Files Ignore Case
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : If CompareFilesIgnoreCase parameters are not null
+        ///
+        ///Known Input :
+        ///         * const string l = "lorem ipsum";
+        ///         * const string r = "sit amet";
+        ///Expected Output :
+        ///         * Return should 1
+----------------------------------------------------------------------
+        /// Method Name : Compare Files No Ignore Case
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : If CompareFilesNoIgnoreCase parameters are null
+        ///
+        ///Known Input :
+        ///             * var l = string.Empty;
+        ///             * var r = string.Empty;
+        ///Expected Output :
+        ///             * return should 0
+----------------------------------------------------------------------
+        /// Method Name : Compare Files No Ignore Case
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : If CompareFilesNoIgnoreCase parameters are not null
+        ///
+        ///Known Input :
+        ///         * const string l = "lorem ipsum"
+        ///         * const string r = "sit amet"
+        ///Expected Output :
+        ///         * Return sholuld -7 
+----------------------------------------------------------------------
+        /// Method Name : CompareFilesIgnoreCase
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : If CompareFilesIgnoreCase parameters are null
+        ///
+        ///Known Input :
+        ///             * FileSystemInfo l = null;
+        ///             * FileSystemInfo r = null;
+        ///Expected Output :
+        ///             * return sholuld zero
+----------------------------------------------------------------------
+        /// Method Name : CompareFilesIgnoreCase
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : "If CompareFilesIgnoreCase parameters are not null
+        ///
+        ///Known Input :
+        ///         * FileSystemInfo l = new FileInfo("");
+        ///         * FileSystemInfo r = new FileInfo("");
+        ///Expected Output :
+        ///         * Return should 1
+----------------------------------------------------------------------
+        /// Method Name : CompareFilesNoIgnoreCase
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : If CompareFilesIgnoreCase parameters are null
+        ///
+        ///Known Input :
+        ///            * FileSystemInfo l = null;
+        ///            * FileSystemInfo r = null;
+        ///Expected Output :
+        ///            * Return should 0
+----------------------------------------------------------------------
+        /// Method Name : CompareFilesNoIgnoreCase
+        ///
+        ///Method Description : The method takes 2 parameter and call the compare file method
+        ///
+        ///Test Scenario : If CompareFilesIgnoreCase parameters are not null
+        ///
+        ///Known Input :
+        ///         * FileSystemInfo l = new FileInfo("");
+        ///         * FileSystemInfo r = new FileInfo("");
+        ///
+        ///
+        ///Expected Output :
+        ///         *    return should 1
+----------------------------------------------------------------------
+        /// Method Name : CreateDirectory
+        ///
+        ///Method Description : The method create directory
+        ///
+        ///Test Scenario : If CreateDirectory parameters are empty
+        ///
+        ///Known Input :
+        ///         * var path = ""
+        ///         * Exception error = null
+        ///
+        ///
+        ///Expected Output :
+        ///         * Return should true
+----------------------------------------------------------------------
+        /// Method Name : CreateDirectory
+        ///
+        ///Method Description : The method create directory
+        ///
+        ///Test Scenario : If CreateDirectory parameter is wrong
+        ///
+        ///Known Input :
+        ///         * var path = @"C:\Users\yunus.cogurcu\Desktop\tst\a"
+        ///         * Exception error = null
+        ///
+        ///
+        ///Expected Output :
+        ///         * return should false
+----------------------------------------------------------------------
+        /// Method Name : CreateDirectory
+        ///
+        ///Method Description : The method create directory
+        ///
+        ///Test Scenario : If CreateDirectory parameters are null
+        ///
+        ///Known Input :
+        ///         * string path = null;
+        ///         * Exception error;
+        ///
+        ///Expected Output :
+        ///         * return should false
+----------------------------------------------------------------------
+        /// Method Name : CreateDirectoryOf
+        ///
+        ///Method Description : The method create directory from file
+        ///
+        ///Test Scenario : If CreateDirectoryOf parameters are not null
+        ///
+        ///Known Input :
+        ///         * var file = @"C:\Users\yunus.cogurcu\Desktop\tst\b";
+        ///         * Exception error;
+        ///
+        ///
+        ///Expected Output :
+        ///         * Return should true
+----------------------------------------------------------------------
+        /// Method Name : CreateDirectoryOf
+        ///
+        ///Method Description : The method create directory from file
+        ///
+        ///Test Scenario : If CreateDirectoryOf parameters are null
+        ///
+        ///Known Input :
+        ///         * string file = null
+        ///         * Exception error = null
+        ///
+        ///Expected Output :
+        ///    Return should false
+----------------------------------------------------------------------
+        /// Method Name : CreateFileOf
+        ///
+        ///Method Description : The method create directory from file
+        ///
+        ///Test Scenario : If CreateFileOf parameters are not null
+        ///
+        ///Known Input :
+        ///         * var file = @"C:\Users\yunus.cogurcu\Desktop\tst\b";
+        ///         * Exception error;
+        ///
+        ///Expected Output :
+        ///         * Return should true
+----------------------------------------------------------------------
+        /// Method Name : FileNameOf
+        ///
+        ///Method Description : The method set the filename
+        ///
+        ///Test Scenario : If FileNameOf parameters are null
+        ///
+        ///Known Input :
+        ///         * string fullName = null;
+        ///         * string separator = null;
+        ///
+        ///Expected Output :
+        ///         * Return sholuld null
+----------------------------------------------------------------------
+        /// Method Name : FileNameOf
+        ///
+        ///Method Description : The method set the filename
+        ///
+        ///Test Scenario : If FileNameOf parameters are not null
+        ///
+        ///Known Input :
+        ///         * const string fullName = "lorem ipsum";
+        ///         * string separator = null;
+        ///
+        ///Expected Output :
+        ///         * Return should lorem ipsum
+----------------------------------------------------------------------
+        /// Method Name : FileNameOf
+        ///
+        ///Method Description : The method set the filename
+        ///
+        ///Test Scenario : If FileNameOf parameters are not null
+        ///
+        ///Known Input :
+        ///             * string fullName = "lorem ipsum.";
+        ///             * string separator = ".";
+        ///
+        ///
+        ///Expected Output :
+        ///             * Return should lorem ipsum 
+----------------------------------------------------------------------
+

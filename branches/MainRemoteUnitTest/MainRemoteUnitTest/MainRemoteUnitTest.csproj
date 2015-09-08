@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C81DCCA-B340-49D2-9EB6-9DB5605379C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Natek.Recorders.Remote.Test</RootNamespace>
+    <AssemblyName>MainRemoteUnitTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccessControlV_1_1_1Recorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\AccessControlV_1_1_1Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="AgentChecker">
+      <HintPath>..\..\..\trunk\Libraries\Base\AgentChecker.dll</HintPath>
+    </Reference>
+    <Reference Include="ApacheAccessUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\ApacheAccessUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="AppParser">
+      <HintPath>..\..\..\trunk\Libraries\Base\AppParser.dll</HintPath>
+    </Reference>
+    <Reference Include="ArubaUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\ArubaUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="ConnectionLibrary">
+      <HintPath>..\..\..\trunk\Libraries\Base\ConnectionLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CoslatUrlUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\CoslatUrlUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptTechUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\CryptTechUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomTools">
+      <HintPath>..\..\..\trunk\Libraries\Base\CustomTools.dll</HintPath>
+    </Reference>
+    <Reference Include="CyberroamUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\CyberroamUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Database">
+      <HintPath>..\..\..\trunk\Libraries\Base\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="DHCPRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\DHCPRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="DhcpReserveRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\DhcpReserveRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="DhcpUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\DhcpUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="DiffieHellman">
+      <HintPath>..\..\..\trunk\Libraries\Base\DiffieHellman.dll</HintPath>
+    </Reference>
+    <Reference Include="DNSDebugRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\DNSDebugRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="DNS_FileRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\DNS_FileRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="EmcStorageRepUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\EmcStorageRepUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="EventLogRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\EventLogRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="EventLogWinApi">
+      <HintPath>..\..\..\trunk\Libraries\Base\EventLogWinApi.dll</HintPath>
+    </Reference>
+    <Reference Include="EventLogWinApiTestApp">
+      <HintPath>..\..\..\trunk\Libraries\Base\EventLogWinApiTestApp.exe</HintPath>
+    </Reference>
+    <Reference Include="Exchange2007Recorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\Exchange2007Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="ExchangeUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\ExchangeUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="FortigateSyslogRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\FortigateSyslogRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="FortigateUnifiedSyslogRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\FortigateUnifiedSyslogRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeRadiusUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Specific Implementations\UnifiedRecorders\FreeRadiusUnifiedRecorder\FreeRadiusUnifiedRecorder\bin\Debug\FreeRadiusUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Ftp2012UnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\Ftp2012UnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Helpers">
+      <HintPath>..\..\..\trunk\Libraries\Base\Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="HotspotRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\HotspotRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="iBekciUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Specific Implementations\UnifiedRecorders\iBekciUnifiedRecorder\iBekciUnifiedRecorder\bin\Debug\iBekciUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\trunk\Libraries\Base\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IisFtpUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\IisFtpUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="IisUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\IisUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="IISV_7_1_1Recorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\IISV_7_1_1Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="JuniperSslVpnUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\JuniperSslVpnUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="JuniperSyslogV6UnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\JuniperSyslogV6UnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="LabrisAdministrativeUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\LabrisAdministrativeUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="libUtility">
+      <HintPath>..\..\..\trunk\Libraries\Base\libUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="LinuxGeneralPurposeRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\LinuxGeneralPurposeRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="LinuxHistoryRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\LinuxHistoryRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="LogMgr">
+      <HintPath>..\..\..\trunk\Libraries\Base\LogMgr.dll</HintPath>
+    </Reference>
+    <Reference Include="McAfeeIpsUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\McAfeeIpsUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="MerakMailUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\MerakMailUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\trunk\Libraries\Base\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="MsfirewallUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\MsfirewallUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="MssqlErrorUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\MssqlErrorUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="MsSqlUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\MsSqlUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\trunk\Libraries\Base\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MysqlUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\MysqlUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NatekAccessControlUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\NatekAccessControlUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NetRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\NetRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NetscalerUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\NetscalerUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NginxAccessUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\NginxAccessUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NginxErrorUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\NginxErrorUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\..\..\trunk\Libraries\Base\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="Nt2008EventLogFileV_2Recorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\Nt2008EventLogFileV_2Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NtEventlog2008Recorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\NtEventlog2008Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NtEventLog2008TRV1_1_1_Recorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\NtEventLog2008TRV1_1_1_Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NtEventlogRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\NtEventlogRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="NtEventlogRecorderInstaller">
+      <HintPath>..\..\..\trunk\Libraries\Base\NtEventlogRecorderInstaller.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Oc4jUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Specific Implementations\UnifiedRecorders\Oc4jUnifiedRecorder\Oc4jUnifiedRecorder\bin\Debug\Oc4jUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="OracleUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\OracleUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Mentalis.Security">
+      <HintPath>..\..\..\trunk\Libraries\Base\Org.Mentalis.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="PaloAltoUrlUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\PaloAltoUrlUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Parser">
+      <HintPath>..\..\..\trunk\Libraries\Base\Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="ParserStub">
+      <HintPath>..\..\..\trunk\Libraries\Base\ParserStub.dll</HintPath>
+    </Reference>
+    <Reference Include="PfSenseUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\PfSenseUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="RecorderBase">
+      <HintPath>..\..\..\trunk\Libraries\Base\RecorderBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox">
+      <HintPath>..\..\..\trunk\Libraries\Base\SecureBlackbox.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHClient">
+      <HintPath>..\..\..\trunk\Libraries\Base\SecureBlackbox.SSHClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHCommon">
+      <HintPath>..\..\..\trunk\Libraries\Base\SecureBlackbox.SSHCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpSSH">
+      <HintPath>..\..\..\trunk\Libraries\Base\SharpSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="SymantecBrightmailUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\SymantecBrightmailUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="SyslogRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Base\SyslogRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TippingPointIpsRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\TippingPointIpsRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="TMGUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Specific Implementations\UnifiedRecorders\TMGUnifiedRecorder\TMGUnifiedRecorder\bin\Debug\TMGUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="TrendMicroSafeSyncUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\TrendMicroSafeSyncUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="TrendMicroUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\TrendMicroUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="TrendMicroUrlUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\TrendMicroUrlUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="UbuntuAuthUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Specific Implementations\UnifiedRecorders\UbuntuAuthUnifiedRecorder\UbuntuAuthUnifiedRecorder\bin\Debug\UbuntuAuthUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WamppServerErrorUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WamppServerErrorUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WampServerUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WampServerUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WatchGuardFirewallUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WatchGuardFirewallUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WatchGuardUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WatchGuardUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WeblogicUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Specific Implementations\UnifiedRecorders\WeblogicUnifiedRecorder\WeblogicUnifiedRecorder\bin\Debug\WeblogicUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WebsenseDlpUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WebsenseDlpUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WebwasherAuditRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WebwasherAuditRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WebwasherAuditUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WebwasherAuditUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WebwasherUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WebwasherUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsShareLogUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\WindowsShareLogUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="XferUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\XferUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="ZimbraUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\ZimbraUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="ZyxelZywallUsgUnifiedRecorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\ZyxelZywallUsgUnifiedRecorder.dll</HintPath>
+    </Reference>
+    <Reference Include="ZyxelZywalLUSG_1000_V1_1_0_Web_Recorder">
+      <HintPath>..\..\..\trunk\Libraries\Specific Implementations\ZyxelZywalLUSG_1000_V1_1_0_Web_Recorder.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="AccountValidatorUnitTestFixture.cs" />
+    <Compile Include="ApacheAccessUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="ArrayHelperUnitTestFixture.cs" />
+    <Compile Include="ArubaUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="BufferedLineReaderUnitTestFixture.cs" />
+    <Compile Include="BufferedSteamReaderUnitTestFixture.cs" />
+    <Compile Include="ConfigHelperUnitTestFixture.cs" />
+    <Compile Include="ConstraintCollectionUnitTestFixture.cs" />
+    <Compile Include="CoslatUrlUnifiedRecorderUnitTest.cs" />
+    <Compile Include="CryptTechUnifiedRecorderUnitTest.cs" />
+    <Compile Include="DateCompareHelperUnitTestFixture.cs" />
+    <Compile Include="DbHelperUnitTestFixture.cs" />
+    <Compile Include="DbRecorderBaseUnitTest.cs" />
+    <Compile Include="DhcpUnifiedRecorderUnitTest.cs" />
+    <Compile Include="DisposeHelperUnitTestFixture.cs" />
+    <Compile Include="DisposablePatternUnitTest.cs" />
+    <Compile Include="EmcStorageRepUnifiedRecorderUnitTest.cs" />
+    <Compile Include="ExceptionHelperUnitTest.cs" />
+    <Compile Include="ExchangeUnifiedRecorderUnitTest.cs" />
+    <Compile Include="FileLineRecorderUnitTest.cs" />
+    <Compile Include="FileSystemHelperUnitTestFixture.cs" />
+    <Compile Include="FreeRadiusUnifiedRecorderUnitTest.cs" />
+    <Compile Include="Ftp2012UnifiedRecorderUnitTest.cs" />
+    <Compile Include="HttpHelperUnitTestFixture.cs" />
+    <Compile Include="iBekciUnifiedRecorderUnitTest.cs" />
+    <Compile Include="IisFtpUnifiedRecorderUnitTest.cs" />
+    <Compile Include="IisUnifiedRecorderUnitTest.cs" />
+    <Compile Include="LabrisAdministrativeUnifiedRecorderUnitTest.cs" />
+    <Compile Include="LinuxGeneralPurposeRecorderUnitTestFixture.cs" />
+    <Compile Include="LinuxHistoryUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="LogHelperUnitTestFixture.cs" />
+    <Compile Include="MappedDataHelperUnitTestFixture.cs" />
+    <Compile Include="MsFirewallUnifiedRecorderUnitTest.cs" />
+    <Compile Include="MssqlErrorUnifiedRecorderUnitTest.cs" />
+    <Compile Include="MysqlUnifiedRecorderUnitTest.cs" />
+    <Compile Include="NatekAccessControlUnifiedRecorderUnitTest.cs" />
+    <Compile Include="NetscalerUnifiedRecorderUnitTest.cs" />
+    <Compile Include="NginxAccessUnifiedRecorderUnitTest.cs" />
+    <Compile Include="NginxErrorUnifiedRecorderUnitTest.cs" />
+    <Compile Include="Oc4jUnifiedRecorderUnitTest.cs" />
+    <Compile Include="PaloAltoUrlUnifiedRecorderUnitTest.cs" />
+    <Compile Include="PfSenseUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecorderBaseUnitTest.cs" />
+    <Compile Include="RecorderFileSystemInfoLocalUnitTest.cs" />
+    <Compile Include="RecWrapperUnitTestFixture.cs" />
+    <Compile Include="SsdlHelperUnitTest.cs" />
+    <Compile Include="StreamExpectUnitTestFixture.cs" />
+    <Compile Include="StringHelperUnitTest.cs" />
+    <Compile Include="SymantecBrightmailUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="SyslogRecorderBaseUnitTest.cs" />
+    <Compile Include="TextRecordUnitTest.cs" />
+    <Compile Include="TimestampProviderUnitTestFixture.cs" />
+    <Compile Include="TmgUnifiedRecorderUnitTest.cs" />
+    <Compile Include="TrendMicroUnifiedRecorderUnitTest.cs" />
+    <Compile Include="TrendMicroUrlUnifiedRecorderUnitTest.cs" />
+    <Compile Include="UbuntuAuthUnifiedRecorderUnitTest.cs" />
+    <Compile Include="WampServerErrorUnifiedRecorderTestFixture.cs" />
+    <Compile Include="WampServerUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="WeblogicUnifiedRecorderUnitTest.cs" />
+    <Compile Include="WebsenseDlpUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="WebWasherAuditUnifiedRecorderUnitTest.cs" />
+    <Compile Include="WebwasherUnifiedRecorderUnitTest.cs" />
+    <Compile Include="WindowsShareLogUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="XferUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="ZimbraAuthenticationUnifiedRecorderUnitTestFixture.cs" />
+    <Compile Include="ZyxelZywallUsgUnifiedRecorderUnitTestFixture.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTestHelpers\UnitTestHelpers.csproj">
+      <Project>{c7a06750-0773-4d65-a550-2222a13d383a}</Project>
+      <Name>UnitTestHelpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

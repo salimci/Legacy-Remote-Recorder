@@ -1,0 +1,82 @@
+   Aruba Unified Recorder Unit Test Cases
+---------------------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        ///
+        ///Method Description : The method check is there a header
+        ///
+        ///Test Scenario : If context.HeaderInfo is null
+        ///
+        ///Known Input :
+        ///    * context.HeaderInfo = null
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnBeforeProcessRecordInput
+        ///
+        ///Method Description : The method check is there a header
+        ///
+        ///Test Scenario : If context.HeaderInfo is not null
+        ///
+        ///Known Input :
+        ///    * context.HeaderInfo = DataMappingInfo
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Do should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is not success
+        ///
+        ///Known Input :
+        ///    * match = !success
+        ///    * field = null
+        ///    * context = syslogcontext
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Skip should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If Match is success
+        ///
+        ///Known Input :
+        ///    * match = at the moment pattern
+        ///    * field = null
+        ///    * context = syslogcontext
+        ///
+        ///Expected Output :
+        ///    * NextInstruction.Return should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If match is null for input
+        ///
+        ///Known Input :
+        ///    * match = null
+        ///    * field = null
+        ///    * context = syslogcontext
+        ///Expected Output :
+        ///    * NextInstruction.Skip should return
+---------------------------------------------------------------------------------------
+        /// Method Name : OnFieldMatch
+        ///
+        ///Method Description : Matching with regex at the moment file line
+        ///
+        ///Test Scenario : If match is null for pattern
+        ///
+        ///Known Input :
+        ///    * match = null
+        ///    * field = null
+        ///    * context = syslogcontext
+        /// 
+        ///Expected Output :
+        ///    * NextInstruction.Skip should return
+---------------------------------------------------------------------------------------
+

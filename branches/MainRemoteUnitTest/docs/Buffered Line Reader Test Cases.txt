@@ -1,0 +1,48 @@
+Buffered Line Reader Unit Test Cases
+-------------------------------------------------------------------------------
+        /// Method Name : Reset
+        ///
+        ///Method Description : The method reset the buffer
+        /// 
+        ///Test Scenario : If test string and buffered line reader iare not null
+        ///
+        ///Known Input :
+        ///     * testString = "lorem ipsum"
+        ///     * bytes = ConverterHelper.GetBytes(testString)
+        ///     * bufferedLineReader = new BufferedLineReader(new MemoryStream(bytes))
+        ///Expected Output :
+        ///	    * Reset the buffer
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name : ReadLine
+        ///
+        ///Method Description : The method read the buffer 
+        ///
+        ///Test Scenario : If test string and buffered line reader are not null
+        ///
+        ///Known Input :
+        ///     *    const string testString = "lorem ipsum";
+        ///     *    bytes = ConverterHelper.GetBytes(testString);
+        ///     *    bufferedLineReader = new BufferedLineReader(new MemoryStream(bytes));
+        ///    
+        ///Expected Output :
+        ///	    * Buffer should read 
+        /// 
+--------------------------------------------------------------------------------
+        /// Method Name :  ReadLine
+        ///
+        ///Method Description : The method read the buffer 
+        ///
+        ///Test Scenario : Read the buffer with slash r
+        ///
+        ///Known Input :
+        ///     * var bytes = ConverterHelper.GetBytes(testString)
+        ///     * bytes[9] = (int) '\r'
+        ///     * bytes[10] = (int) '\n'
+        ///     * bufferedLineReader = new BufferedLineReader(new MemoryStream(bytes))
+        /// 
+        ///Expected Output :
+        ///	    * Buffer should read 
+        /// 
+--------------------------------------------------------------------------------
+

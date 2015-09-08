@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\IisFtpUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\IisFtpUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\obj\Release\IisFtpUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\obj\Release\IisFtpUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\IisFtpUnifiedRecorder\IisFtpUnifiedRecorder\obj\Release\IisFtpUnifiedRecorder.csprojResolveAssemblyReference.cache

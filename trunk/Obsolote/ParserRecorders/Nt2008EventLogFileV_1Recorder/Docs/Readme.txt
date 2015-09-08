@@ -1,0 +1,1 @@
+Nt2008EventLogFileV_1Recorder arþiv dosyalarýný okuyacak þekilde geliþtirilmiþtir ancak bazý kurumlarda fazla sayýda makineden log okunmasý gerektiði için recorder'a güncel security dosyalarýný okuyabilme yeteneði eklenip Nt2008EventLogFileV_2Recorder olarak yeni versiyonu çýkarýlmýþ ve replace edilmiþtir.

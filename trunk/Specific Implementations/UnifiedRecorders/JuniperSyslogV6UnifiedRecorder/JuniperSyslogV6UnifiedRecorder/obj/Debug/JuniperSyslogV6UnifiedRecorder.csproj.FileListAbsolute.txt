@@ -1,0 +1,37 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\JuniperSyslogV6UnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\JuniperSyslogV6UnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\obj\Debug\JuniperSyslogV6UnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\obj\Debug\JuniperSyslogV6UnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\obj\Debug\JuniperSyslogV6UnifiedRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\JuniperSyslogV6UnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\JuniperSyslogV6UnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\AppParser.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\AppParser.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\obj\Debug\JuniperSyslogV6UnifiedRecorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\obj\Debug\JuniperSyslogV6UnifiedRecorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\UnifiedRecorders\JuniperSyslogV6UnifiedRecorder\JuniperSyslogV6UnifiedRecorder\obj\Debug\JuniperSyslogV6UnifiedRecorder.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\WatchGuardUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\WatchGuardUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\Helpers.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\bin\Debug\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\obj\Debug\WatchGuardUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\obj\Debug\WatchGuardUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WatchGuardUnifiedRecorder\WatchGuardUnifiedRecorder\obj\Debug\WatchGuardUnifiedRecorder.csprojResolveAssemblyReference.cache

@@ -1,0 +1,622 @@
+  MySql.Data.MySqlClient.Source.Resources.resources - Embedded, ContainedInManifestFile, 
+Assembly MySql.Data, Version=5.0.8.1, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Configuration.Install, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class MySql.Data.MySqlClient.MySqlCommand: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbCommand
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, MySql.Data.MySqlClient.MySqlConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, MySql.Data.MySqlClient.MySqlConnection, MySql.Data.MySqlClient.MySqlTransaction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    Int64 LastInsertedId 'get ' : 
+    System.String CommandText 'get set' : 
+    Int32 CommandTimeout 'get set' : 
+    System.Data.CommandType CommandType 'get set' : 
+    Boolean IsPrepared 'get ' : 
+    MySql.Data.MySqlClient.MySqlConnection Connection 'get set' : 
+    MySql.Data.MySqlClient.MySqlParameterCollection Parameters 'get ' : 
+    MySql.Data.MySqlClient.MySqlTransaction Transaction 'get set' : 
+    Boolean DesignTimeVisible 'get set' : 
+    System.Data.UpdateRowSource UpdatedRowSource 'get set' : 
+  Methods:
+    get_LastInsertedId(): PrivateScope, Public, HideBySig, SpecialName
+    get_CommandText(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CommandText(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CommandTimeout(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CommandTimeout(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CommandType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CommandType(CommandType): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsPrepared(): PrivateScope, Public, HideBySig, SpecialName
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    set_Connection(MySqlConnection): PrivateScope, Public, HideBySig, SpecialName
+    get_Parameters(): PrivateScope, Public, HideBySig, SpecialName
+    get_Transaction(): PrivateScope, Public, HideBySig, SpecialName
+    set_Transaction(MySqlTransaction): PrivateScope, Public, HideBySig, SpecialName
+    Cancel(): PrivateScope, Public, Virtual, HideBySig
+    CreateParameter(): PrivateScope, Public, HideBySig
+    ExecuteNonQuery(): PrivateScope, Public, Virtual, HideBySig
+    ExecuteReader(): PrivateScope, Public, HideBySig
+    ExecuteReader(CommandBehavior): PrivateScope, Public, HideBySig
+    ExecuteScalar(): PrivateScope, Public, Virtual, HideBySig
+    Prepare(): PrivateScope, Public, Virtual, HideBySig
+    BeginExecuteReader(): PrivateScope, Public, HideBySig
+    BeginExecuteReader(CommandBehavior): PrivateScope, Public, HideBySig
+    EndExecuteReader(IAsyncResult): PrivateScope, Public, HideBySig
+    BeginExecuteNonQuery(AsyncCallback, Object): PrivateScope, Public, HideBySig
+    BeginExecuteNonQuery(): PrivateScope, Public, HideBySig
+    EndExecuteNonQuery(IAsyncResult): PrivateScope, Public, HideBySig
+    get_DesignTimeVisible(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_DesignTimeVisible(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_UpdatedRowSource(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_UpdatedRowSource(UpdateRowSource): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.MySqlCommandBuilder: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbCommandBuilder
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(MySql.Data.MySqlClient.MySqlDataAdapter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    MySql.Data.MySqlClient.MySqlDataAdapter DataAdapter 'get set' : 
+    Boolean ReturnGeneratedIdentifiers 'get set' : 
+  Methods:
+    get_DataAdapter(): PrivateScope, Public, HideBySig, SpecialName
+    set_DataAdapter(MySqlDataAdapter): PrivateScope, Public, HideBySig, SpecialName
+    get_ReturnGeneratedIdentifiers(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReturnGeneratedIdentifiers(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    DeriveParameters(MySqlCommand): PrivateScope, Public, Static, HideBySig
+    GetDeleteCommand(): PrivateScope, Public, HideBySig
+    GetUpdateCommand(): PrivateScope, Public, HideBySig
+    GetInsertCommand(): PrivateScope, Public, HideBySig
+    RefreshSchema(): PrivateScope, Public, Virtual, HideBySig
+Class MySql.Data.MySqlClient.MySqlConnection: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbConnection
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    Int32 ServerThread 'get ' : 
+    System.String DataSource 'get ' : 
+    Int32 ConnectionTimeout 'get ' : 
+    System.String Database 'get ' : 
+    Boolean UseCompression 'get ' : 
+    System.Data.ConnectionState State 'get ' : 
+    System.String ServerVersion 'get ' : 
+    System.String ConnectionString 'get set' : 
+  Events:
+    MySql.Data.MySqlClient.MySqlInfoMessageEventHandler InfoMessage: 
+  Methods:
+    add_InfoMessage(MySqlInfoMessageEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_InfoMessage(MySqlInfoMessageEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_ServerThread(): PrivateScope, Public, HideBySig, SpecialName
+    get_DataSource(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ConnectionTimeout(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Database(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_UseCompression(): PrivateScope, Public, HideBySig, SpecialName
+    get_State(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ServerVersion(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ConnectionString(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ConnectionString(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    EnlistTransaction(Transaction): PrivateScope, Public, Virtual, HideBySig
+    BeginTransaction(): PrivateScope, Public, HideBySig
+    BeginTransaction(IsolationLevel): PrivateScope, Public, HideBySig
+    ChangeDatabase(String): PrivateScope, Public, Virtual, HideBySig
+    Ping(): PrivateScope, Public, HideBySig
+    Open(): PrivateScope, Public, Virtual, HideBySig
+    CreateCommand(): PrivateScope, Public, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    GetSchema(): PrivateScope, Public, Virtual, HideBySig
+    GetSchema(String): PrivateScope, Public, Virtual, HideBySig
+    GetSchema(String, String[]): PrivateScope, Public, Virtual, HideBySig
+Class MySql.Data.MySqlClient.MySqlInfoMessageEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, MySqlInfoMessageEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, MySqlInfoMessageEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class MySql.Data.MySqlClient.MySqlInfoMessageEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MySql.Data.MySqlClient.MySqlError[] errors : Public
+Class MySql.Data.MySqlClient.MySqlDataAdapter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbDataAdapter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(MySql.Data.MySqlClient.MySqlCommand): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, MySql.Data.MySqlClient.MySqlConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    MySql.Data.MySqlClient.MySqlCommand DeleteCommand 'get set' : 
+    MySql.Data.MySqlClient.MySqlCommand InsertCommand 'get set' : 
+    MySql.Data.MySqlClient.MySqlCommand SelectCommand 'get set' : 
+    MySql.Data.MySqlClient.MySqlCommand UpdateCommand 'get set' : 
+  Events:
+    MySql.Data.MySqlClient.MySqlRowUpdatingEventHandler RowUpdating: 
+    MySql.Data.MySqlClient.MySqlRowUpdatedEventHandler RowUpdated: 
+  Methods:
+    add_RowUpdating(MySqlRowUpdatingEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_RowUpdating(MySqlRowUpdatingEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_RowUpdated(MySqlRowUpdatedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_RowUpdated(MySqlRowUpdatedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_DeleteCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_DeleteCommand(MySqlCommand): PrivateScope, Public, HideBySig, SpecialName
+    get_InsertCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_InsertCommand(MySqlCommand): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectCommand(MySqlCommand): PrivateScope, Public, HideBySig, SpecialName
+    get_UpdateCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_UpdateCommand(MySqlCommand): PrivateScope, Public, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.MySqlRowUpdatingEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, MySqlRowUpdatingEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, MySqlRowUpdatingEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class MySql.Data.MySqlClient.MySqlRowUpdatedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, MySqlRowUpdatedEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, MySqlRowUpdatedEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class MySql.Data.MySqlClient.MySqlRowUpdatingEventArgs: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.RowUpdatingEventArgs
+    Void .ctor(System.Data.DataRow, System.Data.IDbCommand, System.Data.StatementType, System.Data.Common.DataTableMapping): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    MySql.Data.MySqlClient.MySqlCommand Command 'get set' : 
+  Methods:
+    get_Command(): PrivateScope, Public, HideBySig, SpecialName
+    set_Command(MySqlCommand): PrivateScope, Public, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.MySqlRowUpdatedEventArgs: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.RowUpdatedEventArgs
+    Void .ctor(System.Data.DataRow, System.Data.IDbCommand, System.Data.StatementType, System.Data.Common.DataTableMapping): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    MySql.Data.MySqlClient.MySqlCommand Command 'get ' : 
+  Methods:
+    get_Command(): PrivateScope, Public, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.MySqlDataReader: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbDataReader
+  Properties:
+    Int32 Depth 'get ' : 
+    Int32 FieldCount 'get ' : 
+    Boolean HasRows 'get ' : 
+    Boolean IsClosed 'get ' : 
+    Int32 RecordsAffected 'get ' : 
+    System.Object Item [Int32] 'get ' : 
+    System.Object Item [System.String] 'get ' : 
+  Methods:
+    get_Depth(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_FieldCount(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_HasRows(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsClosed(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RecordsAffected(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    GetBoolean(String): PrivateScope, Public, HideBySig
+    GetBoolean(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetByte(String): PrivateScope, Public, HideBySig
+    GetByte(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetBytes(Int32, Int64, Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    GetChar(String): PrivateScope, Public, HideBySig
+    GetChar(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetChars(Int32, Int64, Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    GetDataTypeName(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetMySqlDateTime(String): PrivateScope, Public, HideBySig
+    GetMySqlDateTime(Int32): PrivateScope, Public, HideBySig
+    GetDateTime(String): PrivateScope, Public, HideBySig
+    GetDateTime(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetDecimal(String): PrivateScope, Public, HideBySig
+    GetDecimal(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetDouble(String): PrivateScope, Public, HideBySig
+    GetDouble(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetFieldType(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetFloat(String): PrivateScope, Public, HideBySig
+    GetFloat(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetGuid(String): PrivateScope, Public, HideBySig
+    GetGuid(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetInt16(String): PrivateScope, Public, HideBySig
+    GetInt16(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetInt32(String): PrivateScope, Public, HideBySig
+    GetInt32(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetInt64(String): PrivateScope, Public, HideBySig
+    GetInt64(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetName(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetOrdinal(String): PrivateScope, Public, Virtual, HideBySig
+    GetSchemaTable(): PrivateScope, Public, Virtual, HideBySig
+    GetString(String): PrivateScope, Public, HideBySig
+    GetString(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetTimeSpan(String): PrivateScope, Public, HideBySig
+    GetTimeSpan(Int32): PrivateScope, Public, HideBySig
+    GetValue(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetValues(Object[]): PrivateScope, Public, Virtual, HideBySig
+    GetUInt16(String): PrivateScope, Public, HideBySig
+    GetUInt16(Int32): PrivateScope, Public, HideBySig
+    GetUInt32(String): PrivateScope, Public, HideBySig
+    GetUInt32(Int32): PrivateScope, Public, HideBySig
+    GetUInt64(String): PrivateScope, Public, HideBySig
+    GetUInt64(Int32): PrivateScope, Public, HideBySig
+    IsDBNull(Int32): PrivateScope, Public, Virtual, HideBySig
+    NextResult(): PrivateScope, Public, Virtual, HideBySig
+    Read(): PrivateScope, Public, Virtual, HideBySig
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig
+Class MySql.Data.MySqlClient.MySqlException: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Data.Common.DbException
+  Properties:
+    Int32 Number 'get ' : 
+  Methods:
+    get_Number(): PrivateScope, Public, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.CustomInstaller: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Configuration.Install.Installer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Install(IDictionary): PrivateScope, Public, Virtual, HideBySig
+    Uninstall(IDictionary): PrivateScope, Public, Virtual, HideBySig
+Class MySql.Data.MySqlClient.MySqlClientFactory: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Data.Common.DbProviderFactory
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MySql.Data.MySqlClient.MySqlClientFactory Instance : Public, Static, InitOnly
+  Properties:
+    Boolean CanCreateDataSourceEnumerator 'get ' : 
+  Methods:
+    CreateCommandBuilder(): PrivateScope, Public, Virtual, HideBySig
+    CreateCommand(): PrivateScope, Public, Virtual, HideBySig
+    CreateConnection(): PrivateScope, Public, Virtual, HideBySig
+    CreateDataAdapter(): PrivateScope, Public, Virtual, HideBySig
+    CreateParameter(): PrivateScope, Public, Virtual, HideBySig
+    CreateConnectionStringBuilder(): PrivateScope, Public, Virtual, HideBySig
+    get_CanCreateDataSourceEnumerator(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.MySqlConnectionStringBuilder: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Data.Common.DbConnectionStringBuilder
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Server 'get set' : 
+    System.String Database 'get set' : 
+    MySql.Data.MySqlClient.MySqlConnectionProtocol ConnectionProtocol 'get set' : 
+    System.String PipeName 'get set' : 
+    Boolean UseCompression 'get set' : 
+    Boolean AllowBatch 'get set' : 
+    Boolean Logging 'get set' : 
+    System.String SharedMemoryName 'get set' : 
+    Boolean UseOldSyntax 'get set' : 
+    MySql.Data.MySqlClient.MySqlDriverType DriverType 'get set' : 
+    UInt32 Port 'get set' : 
+    UInt32 ConnectionTimeout 'get set' : 
+    System.String UserID 'get set' : 
+    System.String Password 'get set' : 
+    Boolean PersistSecurityInfo 'get set' : 
+    Boolean AllowZeroDateTime 'get set' : 
+    Boolean ConvertZeroDateTime 'get set' : 
+    System.String CharacterSet 'get set' : 
+    Boolean UseUsageAdvisor 'get set' : 
+    UInt32 ProcedureCacheSize 'get set' : 
+    Boolean UsePerformanceMonitor 'get set' : 
+    Boolean IgnorePrepare 'get set' : 
+    Boolean UseProcedureBodies 'get set' : 
+    UInt32 ConnectionLifeTime 'get set' : 
+    Boolean Pooling 'get set' : 
+    UInt32 MinimumPoolSize 'get set' : 
+    UInt32 MaximumPoolSize 'get set' : 
+    Boolean ConnectionReset 'get set' : 
+    System.Object Item [System.String] 'get set' : 
+  Methods:
+    get_Server(): PrivateScope, Public, HideBySig, SpecialName
+    set_Server(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Database(): PrivateScope, Public, HideBySig, SpecialName
+    set_Database(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionProtocol(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionProtocol(MySqlConnectionProtocol): PrivateScope, Public, HideBySig, SpecialName
+    get_PipeName(): PrivateScope, Public, HideBySig, SpecialName
+    set_PipeName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UseCompression(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCompression(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowBatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowBatch(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Logging(): PrivateScope, Public, HideBySig, SpecialName
+    set_Logging(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_SharedMemoryName(): PrivateScope, Public, HideBySig, SpecialName
+    set_SharedMemoryName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UseOldSyntax(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseOldSyntax(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DriverType(): PrivateScope, Public, HideBySig, SpecialName
+    set_DriverType(MySqlDriverType): PrivateScope, Public, HideBySig, SpecialName
+    get_Port(): PrivateScope, Public, HideBySig, SpecialName
+    set_Port(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionTimeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionTimeout(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_UserID(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PersistSecurityInfo(): PrivateScope, Public, HideBySig, SpecialName
+    set_PersistSecurityInfo(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowZeroDateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowZeroDateTime(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ConvertZeroDateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConvertZeroDateTime(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CharacterSet(): PrivateScope, Public, HideBySig, SpecialName
+    set_CharacterSet(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UseUsageAdvisor(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseUsageAdvisor(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ProcedureCacheSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProcedureCacheSize(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_UsePerformanceMonitor(): PrivateScope, Public, HideBySig, SpecialName
+    set_UsePerformanceMonitor(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_IgnorePrepare(): PrivateScope, Public, HideBySig, SpecialName
+    set_IgnorePrepare(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseProcedureBodies(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseProcedureBodies(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionLifeTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionLifeTime(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_Pooling(): PrivateScope, Public, HideBySig, SpecialName
+    set_Pooling(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_MinimumPoolSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_MinimumPoolSize(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_MaximumPoolSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaximumPoolSize(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionReset(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionReset(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    GetConnectionString(Boolean): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, Virtual, HideBySig
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Item(String, Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Remove(String): PrivateScope, Public, Virtual, HideBySig
+    TryGetValue(String, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+Struct MySql.Data.MySqlClient.MySqlDbType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MySql.Data.MySqlClient.MySqlDbType Decimal = 0 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Byte = 1 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Int16 = 2 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Int24 = 9 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Int32 = 3 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Int64 = 8 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Float = 4 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Double = 5 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Timestamp = 7 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Date = 10 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Time = 11 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Datetime = 12 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Year = 13 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Newdate = 14 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType VarString = 15 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Bit = 16 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType NewDecimal = 246 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Enum = 247 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Set = 248 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType TinyBlob = 249 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType MediumBlob = 250 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType LongBlob = 251 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Blob = 252 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType VarChar = 253 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType String = 254 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Geometry = 255 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType UByte = 501 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType UInt16 = 502 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType UInt24 = 509 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType UInt32 = 503 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType UInt64 = 508 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Binary = 600 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType VarBinary = 601 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType TinyText = 749 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType MediumText = 750 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType LongText = 751 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDbType Text = 752 : Public, Static, Literal, HasDefault
+Struct MySql.Data.MySqlClient.MySqlConnectionProtocol: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MySql.Data.MySqlClient.MySqlConnectionProtocol Sockets = 0 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlConnectionProtocol NamedPipe = 1 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlConnectionProtocol UnixSocket = 2 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlConnectionProtocol SharedMemory = 3 : Public, Static, Literal, HasDefault
+Struct MySql.Data.MySqlClient.MySqlDriverType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MySql.Data.MySqlClient.MySqlDriverType Native = 0 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDriverType Client = 1 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlDriverType Embedded = 2 : Public, Static, Literal, HasDefault
+Class MySql.Data.MySqlClient.MySqlError: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Level 'get ' : 
+    Int32 Code 'get ' : 
+    System.String Message 'get ' : 
+  Methods:
+    get_Level(): PrivateScope, Public, HideBySig, SpecialName
+    get_Code(): PrivateScope, Public, HideBySig, SpecialName
+    get_Message(): PrivateScope, Public, HideBySig, SpecialName
+Struct MySql.Data.MySqlClient.MySqlErrorCode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MySql.Data.MySqlClient.MySqlErrorCode DuplicateKey = 1022 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode KeyNotFound = 1032 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode UnableToConnectToHost = 1042 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode DuplicateKeyName = 1061 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode DuplicateKeyEntry = 1062 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode HostNotPrivileged = 1130 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode AnonymousUser = 1131 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode PasswordNotAllowed = 1132 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode PasswordNoMatch = 1133 : Public, Static, Literal, HasDefault
+    MySql.Data.MySqlClient.MySqlErrorCode PacketTooLarge = 1153 : Public, Static, Literal, HasDefault
+Class MySql.Data.MySqlClient.MySqlHelper: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Methods:
+    ExecuteNonQuery(MySqlConnection, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQuery(String, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+    ExecuteDataRow(String, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+    ExecuteDataset(String, String): PrivateScope, Public, Static, HideBySig
+    ExecuteDataset(String, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+    ExecuteDataset(MySqlConnection, String): PrivateScope, Public, Static, HideBySig
+    ExecuteDataset(MySqlConnection, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+    UpdateDataSet(String, String, DataSet, String): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, String): PrivateScope, Public, Static, HideBySig
+    ExecuteReader(String, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+    ExecuteScalar(String, String): PrivateScope, Public, Static, HideBySig
+    ExecuteScalar(String, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+    ExecuteScalar(MySqlConnection, String): PrivateScope, Public, Static, HideBySig
+    ExecuteScalar(MySqlConnection, String, MySqlParameter[]): PrivateScope, Public, Static, HideBySig
+Class MySql.Data.MySqlClient.MySqlParameter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbParameter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, MySql.Data.MySqlClient.MySqlDbType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, MySql.Data.MySqlClient.MySqlDbType, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, MySql.Data.MySqlClient.MySqlDbType, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, MySql.Data.MySqlClient.MySqlDbType, Int32, System.Data.ParameterDirection, Boolean, Byte, Byte, System.String, System.Data.DataRowVersion, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.Data.DbType DbType 'get set' : 
+    System.Data.ParameterDirection Direction 'get set' : 
+    Boolean IsNullable 'get set' : 
+    MySql.Data.MySqlClient.MySqlDbType MySqlDbType 'get set' : 
+    System.String ParameterName 'get set' : 
+    Byte Precision 'get set' : 
+    Byte Scale 'get set' : 
+    Int32 Size 'get set' : 
+    System.String SourceColumn 'get set' : 
+    System.Data.DataRowVersion SourceVersion 'get set' : 
+    System.Object Value 'get set' : 
+    Boolean SourceColumnNullMapping 'get set' : 
+  Methods:
+    get_DbType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_DbType(DbType): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Direction(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Direction(ParameterDirection): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsNullable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_IsNullable(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MySqlDbType(): PrivateScope, Public, HideBySig, SpecialName
+    set_MySqlDbType(MySqlDbType): PrivateScope, Public, HideBySig, SpecialName
+    get_ParameterName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ParameterName(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Precision(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Precision(Byte): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Scale(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Scale(Byte): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Size(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Size(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_SourceColumn(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_SourceColumn(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_SourceVersion(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_SourceVersion(DataRowVersion): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Value(Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ResetDbType(): PrivateScope, Public, Virtual, HideBySig
+    get_SourceColumnNullMapping(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_SourceColumnNullMapping(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.MySqlParameterCollection: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbParameterCollection
+  Properties:
+    MySql.Data.MySqlClient.MySqlParameter Item [Int32] 'get set' : 
+    MySql.Data.MySqlClient.MySqlParameter Item [System.String] 'get set' : 
+    Int32 Count 'get ' : 
+    Boolean IsFixedSize 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    Boolean IsSynchronized 'get ' : 
+    System.Object SyncRoot 'get ' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, MySqlParameter): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(String, MySqlParameter): PrivateScope, Public, HideBySig, SpecialName
+    Add(MySqlParameter): PrivateScope, Public, HideBySig
+    Add(String, Object): PrivateScope, Public, HideBySig (Obsolete)
+    AddWithValue(String, Object): PrivateScope, Public, HideBySig
+    Add(String, MySqlDbType): PrivateScope, Public, HideBySig
+    Add(String, MySqlDbType, Int32): PrivateScope, Public, HideBySig
+    Add(String, MySqlDbType, Int32, String): PrivateScope, Public, HideBySig
+    AddRange(Array): PrivateScope, Public, Virtual, HideBySig
+    Add(Object): PrivateScope, Public, Virtual, HideBySig
+    Clear(): PrivateScope, Public, Virtual, HideBySig
+    Contains(String): PrivateScope, Public, Virtual, HideBySig
+    Contains(Object): PrivateScope, Public, Virtual, HideBySig
+    CopyTo(Array, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig
+    IndexOf(String): PrivateScope, Public, Virtual, HideBySig
+    IndexOf(Object): PrivateScope, Public, Virtual, HideBySig
+    Insert(Int32, Object): PrivateScope, Public, Virtual, HideBySig
+    get_IsFixedSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsSynchronized(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Remove(Object): PrivateScope, Public, Virtual, HideBySig
+    RemoveAt(String): PrivateScope, Public, Virtual, HideBySig
+    RemoveAt(Int32): PrivateScope, Public, Virtual, HideBySig
+    get_SyncRoot(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class MySql.Data.MySqlClient.MySqlTransaction: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbTransaction
+  Properties:
+    MySql.Data.MySqlClient.MySqlConnection Connection 'get ' : 
+    System.Data.IsolationLevel IsolationLevel 'get ' : 
+  Methods:
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsolationLevel(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Commit(): PrivateScope, Public, Virtual, HideBySig
+    Rollback(): PrivateScope, Public, Virtual, HideBySig
+Class MySql.Data.Types.MySqlConversionException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct MySql.Data.Types.MySqlDateTime: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.DateTime): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(MySql.Data.Types.MySqlDateTime): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    MySql.Data.Types.IMySqlValue
+    System.IConvertible
+    System.IComparable
+  Properties:
+    Boolean IsValidDateTime 'get ' : 
+    Int32 Year 'get set' : 
+    Int32 Month 'get set' : 
+    Int32 Day  'get set' : 
+    Int32 Hour 'get set' : 
+    Int32 Minute 'get set' : 
+    Int32 Second 'get set' : 
+    Int32 Millisecond 'get set' : 
+    Boolean IsNull 'get ' : 
+    System.DateTime Value 'get ' : 
+  Methods:
+    get_IsValidDateTime(): PrivateScope, Public, HideBySig, SpecialName
+    get_Year(): PrivateScope, Public, HideBySig, SpecialName
+    set_Year(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Month(): PrivateScope, Public, HideBySig, SpecialName
+    set_Month(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Day(): PrivateScope, Public, HideBySig, SpecialName
+    set_Day(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Hour(): PrivateScope, Public, HideBySig, SpecialName
+    set_Hour(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Minute(): PrivateScope, Public, HideBySig, SpecialName
+    set_Minute(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Second(): PrivateScope, Public, HideBySig, SpecialName
+    set_Second(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Millisecond(): PrivateScope, Public, HideBySig, SpecialName
+    set_Millisecond(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_IsNull(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    GetDateTime(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    op_Explicit(MySqlDateTime): PrivateScope, Public, Static, HideBySig, SpecialName

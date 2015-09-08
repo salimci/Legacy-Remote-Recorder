@@ -1,0 +1,1 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekMdmApacheRecorder\NatekMdmApacheRecorder\obj\Debug\NatekMdmApacheRecorder.csprojResolveAssemblyReference.cache

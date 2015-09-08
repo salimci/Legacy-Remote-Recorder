@@ -1,0 +1,104 @@
+Log Helper Unit Test Cases
+----------------------------------------------------------------------
+	/// Method Name : Log
+        ///
+        ///Method Description : The method according to the logtype write header and message where 2 parameters this method
+        ///
+        ///Test Scenario : If Log parameters are null
+        ///
+        ///Known Input :
+        ///             const LogType logtype = new LogType()
+        ///             const LogLevel loglevel = new LogLevel()
+        ///             string header = null
+        ///             string message = null
+        ///
+        ///
+        ///Expected Output :
+        ///             * No Return
+----------------------------------------------------------------------
+        /// Method Name : Log
+        ///
+        ///Method Description : The method according to the logtype write header and message where 2 parameters this method
+        ///
+        ///Test Scenario : If Log parameters are not null
+        ///
+        ///Known Input :
+        ///            const LogType logtype = new LogType();
+        ///            LogType.EVENTLOG.Equals(logtype);
+        ///            const LogLevel loglevel = new LogLevel();
+        ///            LogLevel.NONE.Equals(loglevel);
+        ///            var header = "lorem ipsum";
+        ///            var message = "sit amet";
+        ///
+        ///
+        ///Expected Output :
+        ///              * No Return   
+----------------------------------------------------------------------
+        /// Method Name : Log
+        ///
+        ///Method Description : The method according to the Clogger write header and message where 2 parameters this method
+        ///
+        ///Test Scenario : If Log parameters are null
+        ///
+        ///Known Input :
+        ///            * const CLogger logger = null;
+        ///            * const LogType logtype = new LogType();
+        ///            * const LogLevel loglevel = new LogLevel();
+        ///            * string header = null;
+        ///            * string message = null;
+        ///
+        ///
+        ///Expected Output :
+        ///                 * No Return
+----------------------------------------------------------------------
+        /// Method Name : Log
+        ///
+        ///Method Description : The method according to the Clogger write header and message where 2 parameters this method
+        ///
+        ///Test Scenario : If Log parameters are not null
+        ///
+        ///Known Input :
+        ///          * const CLogger logger = null;
+        ///          * const LogType logtype = new LogType();
+        ///          * const LogLevel loglevel = new LogLevel();
+        ///          * var header = "lorem ipsum";
+        ///          * var message = "sit amet";
+        ///
+        ///
+        ///Expected Output :
+        ///                 * No Return
+----------------------------------------------------------------------
+        /// Method Name : Log
+        ///
+        ///Method Description : The method according to the Clogger write header and message where 2 parameters this method and extra logtype parameter
+        ///
+        ///Test Scenario : If Log parameters are null
+        ///
+        ///Known Input :
+        ///             const CLogger logger = null;
+        ///             const LogType logtype = new LogType();
+        ///             const LogLevel loglevel = new LogLevel();
+        ///             string header = null;
+        ///             string message = null;
+        ///
+        ///
+        ///Expected Output :
+        ///                 * No Return
+----------------------------------------------------------------------
+        /// Method Name : Log
+        ///
+        ///Method Description : The method according to the Clogger write header and message where 2 parameters this method and extra logtype parameter
+        ///
+        ///Test Scenario : If Log parameters are not null
+        ///
+        ///Known Input :
+        ///             const CLogger logger = null;
+        ///             const LogType logtype = new LogType();
+        ///             const LogLevel loglevel = new LogLevel();
+        ///             var header = "lorem ipsum";
+        ///             var message = "sit amet";
+        ///
+        ///
+        ///Expected Output :
+        ///                 * No Return
+----------------------------------------------------------------------

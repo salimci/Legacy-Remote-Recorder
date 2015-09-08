@@ -1,0 +1,18 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\F5SyslogV_8900_0_0Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\F5SyslogV_8900_0_0Recorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\obj\Debug\F5SyslogV_8900_0_0Recorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\obj\Debug\F5SyslogV_8900_0_0Recorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\F5SyslogV_8900_0_0Recorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\F5SyslogV_8900_0_0Recorder.pdb
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\Database.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\obj\Debug\F5SyslogV_8900_0_0Recorder.dll
+O:\Projects\Dev\Git-Repo\Legacy Remote Recorder\trunk\Specific Implementations\SyslogRecorders\F5SyslogV_8900_0_0Recorder\F5SyslogV_8900_0_0Recorder\obj\Debug\F5SyslogV_8900_0_0Recorder.pdb

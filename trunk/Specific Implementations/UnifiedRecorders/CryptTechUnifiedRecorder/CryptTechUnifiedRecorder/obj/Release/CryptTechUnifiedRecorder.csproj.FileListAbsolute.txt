@@ -1,0 +1,16 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\CryptTechUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\CryptTechUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\AppParser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\obj\Release\CryptTechUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\obj\Release\CryptTechUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\CryptTechUnifiedRecorder\CryptTechUnifiedRecorder\obj\Release\CryptTechUnifiedRecorder.csprojResolveAssemblyReference.cache

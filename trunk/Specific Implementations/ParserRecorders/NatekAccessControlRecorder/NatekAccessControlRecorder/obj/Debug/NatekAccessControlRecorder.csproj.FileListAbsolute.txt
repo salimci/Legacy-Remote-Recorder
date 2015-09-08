@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\NatekAccessControlRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\NatekAccessControlRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\obj\Debug\NatekAccessControlRecorder.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\obj\Debug\NatekAccessControlRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\ParserRecorders\NatekAccessControlRecorder\NatekAccessControlRecorder\obj\Debug\NatekAccessControlRecorder.pdb

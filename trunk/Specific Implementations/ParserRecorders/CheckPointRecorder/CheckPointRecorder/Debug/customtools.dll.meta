@@ -1,0 +1,108 @@
+Assembly CustomTools, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.ServiceProcess, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class CustomTools.CustomServiceBase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ServiceProcess.ServiceBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetConfigData(Int32, String, String, String, String, String, Boolean, Int32, String, String, String, Int32, Int32, String, Int32, String, String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Init(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Start(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateList(Dictionary`2, Dictionary`2): PrivateScope, Public, HideBySig
+    GetInstanceService(String): PrivateScope, Public, HideBySig
+    GetInstanceListBase(): PrivateScope, Public, HideBySig
+    GetInstanceBase(String): PrivateScope, Public, HideBySig
+    SetData(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetData(String, String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetReg(Int32, String, String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetReg(Int32, String, String, String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetLog(Int32, String, String, DateTime): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CustomTools.CustomBase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetConfigData(Int32, String, String, String, String, String, Boolean, Int32, String, String, String, Int32, Int32, String, Int32, String, String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Init(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Start(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateList(Dictionary`2, Dictionary`2): PrivateScope, Public, HideBySig
+    GetInstanceListService(): PrivateScope, Public, HideBySig
+    GetInstanceService(String): PrivateScope, Public, HideBySig
+    GetInstanceListBase(): PrivateScope, Public, HideBySig
+    GetInstanceBase(String): PrivateScope, Public, HideBySig
+    SetData(Rec): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetData(String, String, Rec): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetLog(Int32, String, String, DateTime): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetReg(Int32, String, String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetReg(Int32, String, String, String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct CustomTools.CustomBase+Rec: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int64 EventId : Public
+    Int32 Recordnum : Public
+    System.String EventType : Public
+    System.String EventCategory : Public
+    System.String Datetime : Public
+    System.String Description : Public
+    System.String SourceName : Public
+    System.String ComputerName : Public
+    System.String UserName : Public
+    System.String LogName : Public
+    Int32 CustomInt1 : Public
+    Int32 CustomInt2 : Public
+    Int32 CustomInt3 : Public
+    Int32 CustomInt4 : Public
+    Int32 CustomInt5 : Public
+    Int64 CustomInt6 : Public
+    Int64 CustomInt7 : Public
+    Int64 CustomInt8 : Public
+    Int64 CustomInt9 : Public
+    Int64 CustomInt10 : Public
+    System.String CustomStr1 : Public
+    System.String CustomStr2 : Public
+    System.String CustomStr3 : Public
+    System.String CustomStr4 : Public
+    System.String CustomStr5 : Public
+    System.String CustomStr6 : Public
+    System.String CustomStr7 : Public
+    System.String CustomStr8 : Public
+    System.String CustomStr9 : Public
+    System.String CustomStr10 : Public
+Struct CustomTools.CustomBase+Recv: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Dal : Public
+    System.String Virtualhost : Public
+    Int64 EventId : Public
+    Int32 Recordnum : Public
+    System.String EventType : Public
+    System.String EventCategory : Public
+    System.String Datetime : Public
+    System.String Description : Public
+    System.String SourceName : Public
+    System.String ComputerName : Public
+    System.String UserName : Public
+    System.String LogName : Public
+    Int32 CustomInt1 : Public
+    Int32 CustomInt2 : Public
+    Int32 CustomInt3 : Public
+    Int32 CustomInt4 : Public
+    Int32 CustomInt5 : Public
+    Int64 CustomInt6 : Public
+    Int64 CustomInt7 : Public
+    Int64 CustomInt8 : Public
+    Int64 CustomInt9 : Public
+    Int64 CustomInt10 : Public
+    System.String CustomStr1 : Public
+    System.String CustomStr2 : Public
+    System.String CustomStr3 : Public
+    System.String CustomStr4 : Public
+    System.String CustomStr5 : Public
+    System.String CustomStr6 : Public
+    System.String CustomStr7 : Public
+    System.String CustomStr8 : Public
+    System.String CustomStr9 : Public
+    System.String CustomStr10 : Public

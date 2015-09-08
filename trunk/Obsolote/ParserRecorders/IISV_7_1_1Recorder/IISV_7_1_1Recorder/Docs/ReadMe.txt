@@ -1,0 +1,1 @@
+IIS7 Recorder yeni tasarlanan timerlý yapý kullanýlarak record parse yapýsý deðiþtirilmeden yeniden düzenlenmiþtir. Ayrýca TSE'de IIS'in üstüne Citrix kurulduðu için log fileName formatý deðiþmiþ ayrýca bu tip dosyalarýda okuyacak hale getirilmiþtir.

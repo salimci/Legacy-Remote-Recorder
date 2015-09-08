@@ -1,0 +1,25 @@
+primary key
+filtername
+datetime
+kullanýcý adý
+makine adý
+stored procudure den gelen deðer bas
+
+
+
+
+            public String EventCateg;
+            public String DateTime;
+            public String Description;
+            public String SrcName;
+            public String CompName;
+            public String UserName;
+            public String CusStr2;
+            public String PreIma; //CusStr3
+            public String PostIma; //CusStr4
+            public String CusStr5;
+
+
+
+actiontype 1
+stat 2

@@ -1,0 +1,45 @@
+NATEK SC REMOTE RECORDER SETUP HAZIRLANMASI
+============================================
+ Natek SC Remote Recorder icin setup hazirlarken lutfen asagidaki adimlari
+izleyiniz.
+
+	########################### ÖNEMLİ #######################################
+	***  Lütfen işlemlere başlamadan önce Latest DLL altındaki son dllleri ***
+	*** Recorder_SetupFiles altında kopyalarak Recorder_SetupFiles dizinini***
+	*** commit ediniz.                                                     ***
+	########################### ^^^^^^ #######################################
+	
+	1. nbinst01 makinasinda E:\NATEKSC\NATEK SC REMOTE RECORDER\FILES\SETUP
+	dizinine gidiniz.
+	2. Bu dizin altinda bulunan svn'e bagli Recorders dizinine sag tiklayarak
+	TortoiseSVN uzerinden Update aliniz.
+	3. E:\NATEKSC\NATEK SC REMOTE RECORDER\SETUP dizini altindaki
+	"NATEK SC Remote Recorder Setup.aip" Advanced Installer dosyasini acin.
+	4. 2. adimda guncellenmis olan Recorder dll'lerine EKLEMELER/CIKARMALAR
+	yapilmis olabilecegi icin oncelikle projenin Files bolumunden bin dizinini
+	secin. bin dizini ekranina sag tiklayin ve Add Files'a tiklayin
+	5. Add Files ile gelen File Dialog'tan
+		E:\NATEKSC\NATEK SC REMOTE RECORDER\FILES\SETUP\Recorders
+	dizini altindaki tum DLL'leri secin ve ekleyin (Bu islem ile tum yeni
+	dll'ler setupa dahil edilmis olur)
+	6. Eger silinmis dll'ler varsa bunlar Files bolumunde ? ile gosterilir.
+	Bunlari Files bolumunden silin (Gozunuzden kacan silinmis dosyalar olursa
+	Build sirasinda Advanced Installer sizi uyaracaktir. Cikan uyari ekranindaki
+	dosyalara cift tiklayarak Files bolumunde secilmesini saglayin ya da bu
+	dosyayi Files bolumunde kendiniz bularak silin)
+	7. Advanced Installer ekraninda Product Details'e giderek buradaki Product Version
+	degerinin Build sayisini 1 artirin. Ornegin 5.4.2 ise 5.4.3 gibi.
+	8. Projeyi kaydedin. Versiyon guncellemesi yaptiginiz icin Advanced Installer
+	size guncelleme nedenini soracaktir. Buradan MAJOR UPGRADE secin.
+	9. Build edin. Build basarili ise 
+	E:\NATEKSC\NATEK SC REMOTE RECORDER\SETUP\NATEK SC Remote Recorder Setup-SetupFiles
+	dizini altinda "NATEK SC Remote Recorder Setup.exe" setup dosyasi olusacaktir.
+	10. Bu yeni setup dosyasinin tarihini kontrol edin. Guncel oldugundan emin olun.
+	11. Servis Grubu ile ortak kullanilan
+	https://nbfs01.natek.intra:8443/svn/NATEKAPPLICATIONS/NATEK SC SUITE/V5
+	adresindeki setup dosyasini bu guncel dosya ile degistirin ve eklemek istedikleriniz varsa
+	degisimle ilgili bilgileri yine bu svn dizini altindaki "Release Notes.txt" dosyasina kaydedin.
+	12. https://nbfs01.natek.intra:8443/svn/NATEKAPPLICATIONS/NATEK SC SUITE/V5 bagladiginiz dizini
+	COMMIT edin.
+	13. Artik setup dosyaniz Servis Grubu tarafindan kullanilabilir. Yeni dosya hakkinda servis
+	grubunu bilgilendirin

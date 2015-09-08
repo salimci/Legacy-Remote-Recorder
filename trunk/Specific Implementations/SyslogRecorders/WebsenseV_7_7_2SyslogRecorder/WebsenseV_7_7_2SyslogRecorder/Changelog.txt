@@ -1,0 +1,5 @@
+2014-02-04	Serkan ALIMCI	serkan.alimci@natek.com.tr
+
+* WebsenseV_7_7_2SyslogRecorder : Namespace has been changed. Dirty comments
+and unused codes has been cleaned. Old buggy functions has been replaced by
+regex field matching.

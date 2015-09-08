@@ -1,0 +1,1 @@
+Ted Üniversitesi için geliþtirilmiþtir. Log yapýsý üniversiteye özel olduðu için baþka bir kurumda kullanýlmamaktadýr.

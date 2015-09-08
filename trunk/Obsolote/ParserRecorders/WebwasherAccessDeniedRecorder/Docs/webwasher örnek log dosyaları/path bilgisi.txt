@@ -1,0 +1,17 @@
+access.log -> webfilter allowed (web filter izin verilen)
+access_denied -> webfilter denied  (web filter yasaklanan)
+
+audit.log -> web arayuz deðiþiklik (configirasyon)
+
+security.log -> web filter güvenlik loglarý
+
+messages -> iþletim sistemi güvenlik loglarý
+
+
+access,access_denied,audit,security.log,foundvirus.log  /opt/webwasher-csm/logs
+
+messages ->/var/log
+
+
+
+

@@ -1,0 +1,15 @@
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\WebsenseDlpUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\WebsenseDlpUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\Helpers.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\RecorderBase.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\bin\Release\RecorderBase.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\obj\Release\WebsenseDlpUnifiedRecorder.dll
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\obj\Release\WebsenseDlpUnifiedRecorder.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Specific Implementations\UnifiedRecorders\WebsenseDlpUnifiedRecorder\WebsenseDlpUnifiedRecorder\obj\Release\WebsenseDlpUnifiedRecorder.csprojResolveAssemblyReference.cache

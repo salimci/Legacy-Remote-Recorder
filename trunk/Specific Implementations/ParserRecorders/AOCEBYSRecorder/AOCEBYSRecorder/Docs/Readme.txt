@@ -1,0 +1,1 @@
+AOCEBYS recorder AOC için geliþtirilmiþtir ancak remoterecorder tanýmý yapýlýrken Location'a sorgu yazýlarak kullanýlmaktadýr ve uygun olan tüm sql tablolarýndan log okuyabilir.

@@ -1,0 +1,14 @@
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\Parser.pdb
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\CustomTools.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\Database.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\ICSharpCode.SharpZipLib.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\LogMgr.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\MySql.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\SharpSSH.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\Vertica.Data.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\DiffieHellman.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\bin\Debug\Org.Mentalis.Security.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\obj\Debug\Parser.csprojResolveAssemblyReference.cache
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\obj\Debug\Parser.dll
+O:\Projects\Dev\Remote Recorders\trunk\Base\Parser\Parser\obj\Debug\Parser.pdb

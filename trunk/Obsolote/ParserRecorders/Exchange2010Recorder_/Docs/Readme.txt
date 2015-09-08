@@ -1,0 +1,1 @@
+Test amaçlý geliþtirilmiþ olup kullanýlmamaktadýr.

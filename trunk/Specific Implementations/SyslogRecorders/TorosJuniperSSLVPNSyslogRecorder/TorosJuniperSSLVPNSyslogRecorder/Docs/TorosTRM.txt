@@ -1,0 +1,16 @@
+172.34.1.6:514 : local0.info Juniper: 2002-04-01 16:00:38 - ive - [127.0.0.1] System()[] - Number of concurrent users logged in to the device: 0
+172.34.1.6:514 : local0.info Juniper: 2002-04-01 16:00:38 - ive - [127.0.0.1] System()[] - Number of JCP connections: 0
+172.34.1.6:514 : local0.info Juniper: 2002-04-01 16:00:38 - ive - [127.0.0.1] System()[] - Number of NCP connections: 0
+172.34.1.6:514 : local0.info Juniper: 2002-04-06 12:26:26 - ive - [127.0.0.1] System()[] - User Accounts modified. Removed username TOROSTRM\pinary from authentication server Toros Domain Controller.
+172.34.1.6:514 : local0.info Juniper: 2002-04-07 17:20:38 - ive - [88.248.108.185] TOROSTRM\kemal(Users Realm)[Baan Role, Lotus Role, Standard Role, Maximo Role] - User Accounts modified. Added  with username torostrm\kemal to authentication server Toros Domain Controller.
+172.34.1.6:514 : local0.info Juniper: 2002-04-06 01:20:05 - ive - [92.44.20.7] TOROSTRM\ozkan(Users Realm)[Baan Role] - Login succeeded for TOROSTRM\ozkan/Users Realm (session:00000000) from 92.44.20.7.
+172.34.1.6:514 : local0.info Juniper: 2002-04-06 11:55:27 - ive - [5.46.88.63] TOROSTRM\pinary(Users Realm)[] - Login failed using auth server Toros Domain Controller (Samba).  Reason: Failed
+172.34.1.6:514 : local0.info Juniper: 2002-04-07 17:46:04 - ive - [176.88.159.6] kemal(Users Realm)[] - Login failed using auth server Toros Domain Controller (Samba).  Reason: Short Password
+172.34.1.6:514 : local0.info Juniper: 2002-04-07 18:06:29 - ive - [95.13.23.148] TOROSTRM\suat(Users Realm)[Baan Role, Lotus Role, TM1 Role] - Session timed out for TOROSTRM\suat/Users Realm (session:00000000) due to inactivity (last access at 17:55:09 2002/04/07). Idle session identified during routine system scan.
+172.34.1.6:514 : local0.info Juniper: 2002-04-04 02:04:02 - ive - [92.45.222.100] TOROSTRM\ozkan(Users Realm)[Baan Role] - WebRequest ok : Host: 172.34.1.63, Request: GET /webui/servlet/login HTTP/1.1
+172.34.1.6:514 : local0.info Juniper: 2002-04-04 02:04:02 - ive - [92.45.222.100] TOROSTRM\ozkan(Users Realm)[Baan Role] - WebRequest completed, GET to http://172.34.1.63:80//webui/servlet/login from 172.34.1.63 result=200 sent=33 received=1647 in 0 seconds
+172.34.1.6:514 : local0.info Juniper: 2013-12-05 14:59:37 - ive - [88.255.185.1] TOROSTRM\elif(Users Realm)[Baan Role, Maximo Role, TM1 Role] - User Accounts modified. Added  with username torostrm\elif to authentication server Toros Domain Controller.
+172.34.1.6:514 : local0.info Juniper: 2013-12-05 14:51:44 - ive - [88.248.108.185] TOROSTRM\yeliz(Users Realm)[Baan Role] - User Accounts modified. Added  with username torostrm\yeliz to authentication server Toros Domain Controller.
+172.34.1.6:514 : local0.info Juniper: 2013-12-05 15:16:14 - ive - [88.248.108.185] TOROSTRM\yeliz(Users Realm)[Baan Role] - Session timed out for TOROSTRM\yeliz/Users Realm (session:00000000) due to inactivity (last access at 15:00:12 2013/12/05). Idle session identified during routine system scan.
+172.34.1.6:514 : local0.info Juniper: 2013-12-05 14:53:29 - ive - [88.248.108.185] TOROSTRM\yeliz(Users Realm)[Baan Role] - Logout from 88.248.108.185 (session:00000000)
+172.34.1.6:514 : local0.info Juniper: 2013-12-05 14:52:00 - ive - [88.248.108.185] TOROSTRM\yeliz(Users Realm)[Baan Role] - Logout from 88.248.108.185 (session:00000000)

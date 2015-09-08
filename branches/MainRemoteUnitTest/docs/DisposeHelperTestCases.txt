@@ -1,0 +1,59 @@
+Dispose Helper Unit Test Cases
+----------------------------------------------------------------------
+        /// Method Name : Close
+        ///
+        ///Method Description : The method dispose the pointer
+        ///
+        ///Test Scenario : If pointer is null
+        ///
+        ///Known Input :
+        ///         *  IntPtr[] pointer = null
+        ///Expected Output :
+        ///         * no return
+----------------------------------------------------------------------
+        /// Method Name : Close
+        ///
+        ///Method Description : The method dispose the pointer
+        ///
+        ///Test Scenario : If pointer is not null
+        ///
+        ///Known Input :
+        ///         *  var pointer = new IntPtr[10];
+        ///Expected Output :
+        ///         * no return
+----------------------------------------------------------------------
+        /// Method Name : Close
+        ///
+        ///Method Description : The method dispose parameter disposable 
+        ///
+        ///Test Scenario : If disposables is null
+        ///
+        ///Known Input :
+        ///         *   IDisposable disposables = null
+        ///Expected Output :
+        ///         *   no return
+----------------------------------------------------------------------
+        /// Method Name :  Close
+        ///
+        ///Method Description : The method dispose parameter disposable 
+        ///
+        ///Test Scenario : If disposables is not null
+        ///
+        ///Known Input :
+        ///         * var disposables = new IDisposable[100];
+        ///Expected Output :
+        ///         *   no return
+----------------------------------------------------------------------
+        /// Method Name : CloseHandle
+        ///
+        ///Method Description : The method is close method handle 
+        ///
+        ///Test Scenario : If disposables is not null
+        ///
+        ///Known Input :
+        ///         *  var pointer = new IntPtr(10)
+        ///
+        ///Expected Output :
+        ///         *   No return
+----------------------------------------------------------------------
+

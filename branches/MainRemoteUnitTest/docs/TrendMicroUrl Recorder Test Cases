@@ -1,0 +1,182 @@
+TrendMicroUrl Recorder Test Cases
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If data is null
+
+Known Input : 
+	* rec = RecWrapper
+    * field = null
+    * values = null
+    * data = null
+
+Expected Output :
+	* NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is "yyyy/MM/dd HH:mm:ss", return 
+"yyyy/MM/dd HH:mm:ss" this date format
+
+Known Input : 
+    * rec = RecWrapper
+    * field = String.Empty
+    * fieldvalues = "2014/09/09 08:54:15"
+    * data = TrendMicroUrlUnifiedRecorder
+
+Expected Output :
+    * Return 2014/09/09 08:54:15
+
+--------------------------------------------------------------------------------
+
+Method Name : Convert2Date
+
+Method Description : Return given date time values as converted database format
+
+Test Scenario : If date time format is not expected, return String.Empty
+
+Known Input : 
+    * rec = RecWrapper
+    * field = null
+    * fieldvalues = "2014-09-09 08:54:15"
+    * data = TrendMicroUrlUnifiedRecorder
+
+Expected Output :
+    * Return String.Empty
+
+--------------------------------------------------------------------------------
+
+Method Name : OnArgParsed
+
+Method Description : Arguman can parsable
+
+Test Scenario : If keyword is not 'DF'
+        
+Known Input : 
+    * keyword = 'd'
+    * quotedKeyword = False
+    * value = String.Empty
+    * quotedValue = False
+    * touchCount = 0
+    * exception = null
+
+Expected Output :
+    * True should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnArgParsed
+
+Method Description : Arguman can parsable
+
+Test Scenario : If keyword is 'DF'
+        
+Known Input : 
+    * keyword = 'DF'
+    * quotedKeyword = False
+    * value = String.Empty
+    * quotedValue = False
+    * touchCount = 0
+    * exception = null
+
+Expected Output :
+    * True should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context is null
+
+Known Input :
+    * context = null
+    * error = null
+
+Expected Output :
+    * NullReferenceException should occure
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord is null
+
+Known Input :
+    * context = RecorderContext with null InputRecord
+    * error = null
+
+Expected Output :
+    * RecordInputType.Unknown should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord.RecordText is null
+
+Known Input :
+    * context = RecorderContext with null InputRecord.RecordText
+    * error = null
+
+Expected Output :
+    * RecordInputType.Unknown should return
+
+--------------------------------------------------------------------------------
+
+Method Name : InputTextType
+
+Method Description : Determined the input record type
+
+Test Scenario : If context.InputRecord.RecordText.Length == 0
+
+Known Input :
+    * context = RecorderContext with InputRecord.RecordText that initiate with 
+    empty string
+    * error = null
+
+Expected Output :
+    * RecordInputType.Record should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnFieldMatch
+
+Method Description : Matching with regex at the moment file line
+
+Test Scenario : If context is null
+
+Known Input : 
+    * match = at the moment pattern
+
+Expected Output :
+    * NextInstruction.Abort should return
+
+--------------------------------------------------------------------------------
+
+Method Name : OnFieldMatch
+
+Method Description : Matching with regex at the moment file line
+
+Test Scenario : If source is empty
+
+Known Input : 
+    * match = at the moment pattern
+
+Expected Output :
+    * NextInstruction.Abort should return
+
+--------------------------------------------------------------------------------

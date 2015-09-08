@@ -1,0 +1,15 @@
+RecWrapper Unit Test Cases
+--------------------------------------------------------------------
+        /// Method Name : RecWrapper
+        ///
+        ///Method Description :  The method consists of properties(get-set) and ensure the set or get record
+        ///
+        ///Test Scenario :  Create your own type of object to assign values
+        ///
+        ///Known Input :
+        ///       * No input parameter  
+        ///
+        ///Expected Output :
+        ///    * No return
+--------------------------------------------------------------------
+

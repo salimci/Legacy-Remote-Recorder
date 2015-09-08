@@ -1,0 +1,24 @@
+2014-01-2014	Serkan ALIMCI	serkan.alimci@natek.com.tr
+
+* ZimbraMailSyslogV_1_0_0Recorder.cs : For processing zimbra syslog messages
+regular expression support has been added to parse fields.
+
+* ZimbraMailSyslogV_1_0_0Recorder.cs (GetEncodings) : This function
+is not needed and deleted, all references updated.
+
+* ZimbraMailSyslogV_1_0_0Recorder.cs (GetMatchValue): For a given match
+and FROM index it tries to find the first matched group till to given either TO
+index or end of groups count and if it finds and success it returns match value
+else given DEFAULT value
+
+* ZimbraMailSyslogV_1_0_0Recorder.cs (DecodeLine) : For a given syslog record
+parses the line and decodes the parts accorging to encoding info in the line.
+Currently, Q(Quoted Printable) and B (Base64) are supported
+
+* ZimbraMailSyslogV_1_0_0Recorder.cs (GetEncoding) : This function tries to
+return Encoding with the same name in .net, but if it fails to find one
+tries to find codepage part and returns accordingly.
+
+* ZimbraMailSyslogV_1_0_0Recorder.cs (slog_SyslogEvent) : Parsing is done
+according to new regular expression support and also 900 byte description
+check has been added.
